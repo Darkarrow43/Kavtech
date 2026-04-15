@@ -1,0 +1,28 @@
+Name Gas Container
+ShortName blowtorchammo
+Model None
+Colour 255 255 255
+Icon GasContainer
+Description Used for BlowTorch
+FallSpeed 0
+MaxStackSize 1
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 500
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 50
+DamageVsPlayer 15
+DamageVsVehicles 60
+DamageVsPlanes 50
+Fuse 2
+FlakParticles 10
+SetEntitiesOnFire True
+HitBoxSize 0.5
+SmokeTrail True
+TrailParticles true
+TrailParticleType flansmod.fmflame
+HasLight True
+FlareParticleCount 1
+DebrisParticleCount 1
+IsEOD True
+
+MaxSupplyClips 1

@@ -1,0 +1,19 @@
+Name LS06 Suppressor
+ShortName ls06
+Icon LS06Silencer
+Description §a降低15%散布_§a降低5%垂直后坐力_§a消音_§c降低10%子弹速度_§c降低5%开镜速度
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+SpreadMultiplier 0.85
+RecoilMultiplier 0.95
+BulletSpeedMultiplier 0.9
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.05
+Model Octagon_Weapons.PBS_Silencer762mm
+ModelScale 0.1
+Texture Skin_Gun_PBS_Silencer762mm
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None

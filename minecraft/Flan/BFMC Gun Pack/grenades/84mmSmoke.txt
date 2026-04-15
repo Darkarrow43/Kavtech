@@ -1,0 +1,61 @@
+////Name and icon
+Name 84mm Smoke Grenade
+ShortName 84mmsmoke
+Icon 84mmSmoke
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 3
+////Visuals
+Model mw.RoundGrenade
+Texture gl3
+TrailParticles true
+TrailParticleType cloud
+ExplodeParticles 500
+ExplodeParticleType cloud
+SmokeTime 300
+SmokeParticles newcloud
+//SmokeParticleType <particleType>
+//Syntax is SmokeEffect <ID> <Duration> <Amplifier>
+//IDs are 	1:MoveSpeed		2:MoveSlowdown		3:DigSpeed			4:DigSlowdown		5:DamageBoost	6:Heal			7:Harm		8:Jump			9:Confusion		10:Regeneration
+//			11:Resistance	12:FireResistance	13:WaterBreathing	14:Invisibility		15:Blindness	16:NightVision	17:Hunger	18:Weakness		19:Poison		20:Wither
+SmokeRadius 6
+SpinWhenThrown true
+////Throwing
+CanThrow false
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact true
+Bounciness 0
+HitEntityDamage 200
+ThrowSpeed 9.5
+FallSpeed 0.75
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+////Detonation conditions
+VehicleProximityTrigger 3.0
+LivingProximityTrigger 1.5
+Fuse 0
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 2
+ExplosionDamageVsLiving 1.1
+ExplosionDamageVsPlayer 1.1
+ExplosionDamageVsPlane 1.0
+ExplosionDamageVsVehicle 1.0
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+DetonateSound order_smoke
+////Misc
+CanBeDestructByAPS true
+SmokeParticleCount 15
+SmokeParticleRadius 50
+SmokeParticleHeight 35

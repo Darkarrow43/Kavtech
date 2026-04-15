@@ -1,0 +1,68 @@
+Name MK20 SSR
+ShortName mk20ssr
+//The ammo this gun uses (shortName)
+Ammo 762x5120rdmag
+Icon MK20SSR
+Description Type Designated Marksman Rifle_Use 7.62x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 45
+Recoil 1000
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.009
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+//Damage in half hearts
+Damage 9
+RunPosTime 7
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Spread 1.5
+AimingSpreadConstant 0.1
+AimTimeConstant 0.668
+//Time in ticks between rounds
+ShootDelay 3
+ShootSound mk20_f
+ReloadSound mk20_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+ModelScale 1.15
+
+Model BFMCpack.MK20SSR
+Texture MK20SSR
+BulletSpeed 27
+
+3rdModel ransya.M21
+3rdTexture 3rd/M21
+3rdModelScale 0.3
+
+AllowAllAttachments true
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

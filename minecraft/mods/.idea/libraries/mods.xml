@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/angelica-1.0.0-beta68.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spark-1.10.19-forge1710.jar!/" />
+      <root url="jar://$PROJECT_DIR$/buildcraft-7.1.27-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RTG-1.1.4-GTNH.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XaerosWorldMap_1.14.1.33_Forge_1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/adventurebackpack-1.3.9-GTNH.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BetterPing-1.7.10-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/etfuturum-2.6.2.19-GTNH-daily.jar!/" />
+      <root url="jar://$PROJECT_DIR$/worldedit-v0.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/modularui2-2.2.16-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bogosorter-1.2.51-GTNH.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CraftTweaker-1.7.10-3.1.0-legacy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FastLeafDecay-1.7.10-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gtnh-web-map-0.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wdmla-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gtnhlib-0.8.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/buildcraft-compat-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Flan's Mod Ultimate Stability Edition-1.60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chunk-Pregenerator-1.7.10-4.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CarbonConfig-1.7.10-1.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/falsepatternlib-mc1.7.10-1.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ArchitectureCraft-1.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/buildcraft-7.1.27-builders.jar!/" />
+      <root url="jar://$PROJECT_DIR$/VillageNames-1.7.10-4.4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ClimateControl-0.10.0-GTNH.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HBM-NTM-.1.0.27_X5526_H261.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GraveStone Mod 0.7.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CodeChickenCore-1.4.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/archaicfix-0.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morpheus-1.7.10-1.6.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/+unimixins-all-1.7.10-0.1.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controlling-1.7.10-1.0.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MineTweakerRecipeMaker-1.7.10-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ServerUtilities-shitpiss5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NotEnoughItems-2.8.39-GTNH.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lwjgl3ify-2.1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/shaderfixer-4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xaeros_Minimap_21.10.44_Forge_1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ATG-1.7.10-0.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hodgepodge-2.7.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lanupnp-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

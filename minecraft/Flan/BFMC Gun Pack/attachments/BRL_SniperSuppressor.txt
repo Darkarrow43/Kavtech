@@ -1,0 +1,19 @@
+Name Sniper Suppressor
+Description §a降低30%散布_§a降低10%垂直后坐力_§a消音_§c降低25%子弹速度
+ShortName snipersuppressor
+Icon snipersuppressor
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.7
+RecoilMultiplier 0.9
+BulletSpeedMultiplier 0.75
+ReloadTimeMultiplier 1.0
+Model Octagon_Weapons.Silencer408_Mod_0
+ModelScale 0.1
+Texture Skin_Gun_Silencer408_Mod_0
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None

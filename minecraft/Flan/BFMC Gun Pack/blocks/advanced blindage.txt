@@ -1,0 +1,10 @@
+Name advanced blindage
+ShortName advancedblindage
+Colour 255 255 255
+TopTexture advancedblindage
+SideTexture advancedblindage
+BottomTexture advancedblindage
+Material sand
+Hardness 2
+Resistance 4
+BreakableByPlayer true

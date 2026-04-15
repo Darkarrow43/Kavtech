@@ -1,0 +1,14 @@
+Name Sapper
+ShortName ISISSapper
+AddItem SKS
+AddItem makarov
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem SKSammo 10
+AddItem makarovAmmo 4
+SkinOverride MEClean
+Hat genericturban
+Chest insurgentRobeDDBU

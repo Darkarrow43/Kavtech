@@ -1,0 +1,11 @@
+Name Stone
+ShortName breakablestone
+//Icon Adrenaline
+Colour 255 255 255
+TopTexture stone
+SideTexture stone
+BottomTexture stone
+Material rock
+Hardness 3
+Resistance 3
+BreakableByPlayer true

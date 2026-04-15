@@ -1,0 +1,67 @@
+Name NSG-85
+ShortName nsg85
+//The ammo this gun uses (shortName)
+Ammo 762x5410rdmag
+Icon NSG-85
+Description Type Designated Marksman Rifle_Use 7.62x54mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 60
+Recoil 1000
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.03
+RandomRecoilRange 1.5
+DecreaseRecoil 2
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 2
+RecoilShakeDistance 0.8
+//后座回复
+CounterRecoilForce 0.03
+CounterRecoilForceSneaking 0.008
+
+Damage 14.5
+Spread 3
+AimingSpreadConstant 0.02
+AimTimeConstant 0.68
+ShootDelay 4
+ShootSound qbu85_f
+ReloadSound qbu85_r
+ReloadSoundRange 5
+GunSoundRange 100
+RunPosTime 10
+RunCrouchTime 6
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 25
+Mode SemiAuto
+//Default Scope Settings
+Scope None
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model Settings
+Model BFMCpack.NSG85
+ModelScale 1.15
+Texture NSG85
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

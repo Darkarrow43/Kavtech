@@ -1,0 +1,10 @@
+Name white_terracotta
+ShortName white_terracotta_118
+Colour 255 255 255
+TopTexture white_terracotta
+SideTexture white_terracotta
+BottomTexture white_terracotta
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

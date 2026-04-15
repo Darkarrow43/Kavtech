@@ -1,0 +1,14 @@
+Name Full Choke
+ShortName fullchoke
+Icon FullChoke
+Description §a减少20%散布_§c减少30%子弹速度_§c降低10%开镜速度_§f适配霰弹枪
+Silencer false
+AttachmentType barrel
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.8
+BulletSpeedMultiplier 0.7
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.1
+Model svz.NoStock
+Texture none

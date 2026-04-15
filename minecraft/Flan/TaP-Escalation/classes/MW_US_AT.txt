@@ -1,0 +1,11 @@
+Name Anti-Tank
+ShortName mUSAengineer
+AddItem M4A1
+AddItem at4 
+AddItem at4
+AddItem m18
+AddItem m9
+AddItem 5564530Tracer 3
+AddItem at4AmmoEvolved 2
+AddItem m9Ammo 4
+SkinOverride WhiteGuyBrown

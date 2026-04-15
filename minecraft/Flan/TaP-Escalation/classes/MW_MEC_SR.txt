@@ -1,0 +1,13 @@
+Name Sniper
+ShortName mMECrecon
+AddItem L115A3
+AddItem hipower
+AddItem AWMAmmo 4
+AddItem BHPammo 4
+AddItem claymore
+AddItem c4Remote 1
+Hat boonieHatMEC
+Chest MECBody
+Legs MECVest
+
+SkinOverride MEMustache

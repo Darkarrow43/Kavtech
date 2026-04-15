@@ -1,0 +1,9 @@
+Name TestBlock_fence
+ShortName testblock_fence
+//Icon Adrenaline
+Colour 255 255 255
+Texture test
+Material iron
+Hardness 10
+Resistance 10
+BlockType fence

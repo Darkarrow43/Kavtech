@@ -1,0 +1,498 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;cross_type0-13:0TRANS,1AP,2ARM,3 57MMAP,4 57MMHE,5HE,6HEAT,7IRM,8LOSM,9SARH,10STAFF,11TVM,12ZUNI,13MORTAR,14 AHEAD
+;weapon_group_type: 0:HE/IRM;1:HE/LOSM;2:AP/LOSM;3:MORTAR/HE;4:57MMAP/57MMHE;5:AP/LOSM;6:HE/LOSM;7:AP/SARH;8:57MMAP/STAFF;9:AP/TVM;10HE/LOSM;11纯AP/TVM;12 AHEAD/IRM
+
+
+;==================== 武器组0: HE/IRM/TRANS ====================
+;非瞄准状态
+;HE
+If = (weapon_group_type==0)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==0)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==0)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;HE
+If = (weapon_group_type==0)&&(cross_type==5)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==0)&&(cross_type==7)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==0)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;==================== 武器组1: HE/LOSM/TRANS ====================
+;非瞄准状态
+;HE
+If = (weapon_group_type==1)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==1)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==1)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;HE
+If = (weapon_group_type==1)&&(cross_type==5)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==1)&&(cross_type==8)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==1)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;==================== 武器组2: AP/LOSM/TRANS ====================
+;非瞄准状态
+;AP
+If = (weapon_group_type==2)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==2)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==2)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;AP
+If = (weapon_group_type==2)&&(cross_type==1)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==2)&&(cross_type==8)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==2)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组3: MORTAR/HE/TRANS ====================
+;非瞄准状态
+;MORTAR
+If = (weapon_group_type==3)&&(cross_type==13)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_MORTAR_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;HE
+If = (weapon_group_type==3)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_MORTAR_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==3)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_MORTAR_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;MORTAR
+If = (weapon_group_type==3)&&(cross_type==13)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_MORTAR_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;HE
+If = (weapon_group_type==3)&&(cross_type==5)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_MORTAR_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==3)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_MORTAR_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组4: 57MMAP/57MMHE ====================
+;非瞄准状态
+;57MMAP
+If = (weapon_group_type==4)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_57MMAP_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+;57MMHE
+If = (weapon_group_type==4)&&(cross_type==4)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_57MMAP_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_AHEAD_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+
+
+;瞄准状态
+;57MMAP
+If = (weapon_group_type==4)&&(cross_type==3)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_57MMAP_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+;57MMHE
+If = (weapon_group_type==4)&&(cross_type==4)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_57MMAP_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_AHEAD_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+
+
+;==================== 武器组5: AP/LOSM/TRANS ====================
+;非瞄准状态
+;AP
+If = (weapon_group_type==5)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==5)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==5)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;AP
+If = (weapon_group_type==5)&&(cross_type==1)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==5)&&(cross_type==8)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==5)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组6: HE/LOSM/TRANS ====================
+;非瞄准状态
+;HE
+If = (weapon_group_type==6)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==6)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==6)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;HE
+If = (weapon_group_type==6)&&(cross_type==5)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==6)&&(cross_type==8)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==6)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组7: AP/SARH/TRANS ====================
+;非瞄准状态
+;AP
+If = (weapon_group_type==7)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;SARH
+If = (weapon_group_type==7)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==7)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;AP
+If = (weapon_group_type==7)&&(cross_type==1)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;SARH
+If = (weapon_group_type==7)&&(cross_type==9)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==7)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_SARH_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组8: 57MMAP/STAFF/TRANS ====================
+;非瞄准状态
+;57MMAP
+If = (weapon_group_type==8)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_57MMAP_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_STAFF_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+;STAFF
+If = (weapon_group_type==8)&&(cross_type==10)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_57MMAP_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_STAFF_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+
+
+;瞄准状态
+;57MMAP
+If = (weapon_group_type==8)&&(cross_type==3)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_57MMAP_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_STAFF_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+;STAFF
+If = (weapon_group_type==8)&&(cross_type==10)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_57MMAP_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_STAFF_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+
+
+;==================== 武器组9: AP/TVM/TRANS ====================
+;非瞄准状态
+;AP
+If = (weapon_group_type==9)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==9)&&(cross_type==11)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==9)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;AP
+If = (weapon_group_type==9)&&(cross_type==1)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==9)&&(cross_type==11)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==9)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+
+
+;cross_type0-13:0TRANS,1AP,2ARM,3 57MMAP,4 57MMHE,5HE,6HEAT,7IRM,8LOSM,9SARH,10STAFF,11TVM,12ZUNI,13MORTAR
+;weapon_group_type: 0:HE/IRM;1:HE/ZUNI;2:AP/LOSM;3:MORTAR/HE;4:ONLY 57MMAP/57MMHE;5:AP/LOSM;6:HE/LOSM;7:AP/SARH;8:ONLY 57MMAP/STAFF;9:AP/TVM
+;10 only HE/LOSM;11 only AP/TVM
+
+;==================== 武器组10: HE/LOSM ====================
+;非瞄准状态
+;HE
+If = (weapon_group_type==10)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+;LOSM
+If = (weapon_group_type==10)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+
+
+;瞄准状态
+;HE
+If = (weapon_group_type==10)&&(cross_type==5)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+;LOSM
+If = (weapon_group_type==10)&&(cross_type==8)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_HE_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_LOSM_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+
+;==================== 武器组11: AP/TVM ====================
+;非瞄准状态
+;AP
+If = (weapon_group_type==11)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==11)&&(cross_type==11)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+
+
+
+;瞄准状态
+;AP
+If = (weapon_group_type==11)&&(cross_type==1)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+;TVM
+If = (weapon_group_type==11)&&(cross_type==11)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AP_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TVM_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+
+endif
+
+;==================== 武器组12: AHEAD/IRM/TRANS ====================
+;非瞄准状态
+;AHEAD
+If = (weapon_group_type==12)&&(cross_type==14)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AHEAD_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==12)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==12)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;瞄准状态
+;AHEAD
+If = (weapon_group_type==12)&&(cross_type==14)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AHEAD_SELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==12)&&(cross_type==7)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_SELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_NOTSELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif
+;TRANS
+If = (weapon_group_type==12)&&(cross_type==0)&&(cam_zoom>1)
+DrawTexture = IFV_AMMO_AHEAD_NOTSELECT, (285*(width/960))-stick_x*5, (-87.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_IRM_NOTSELECT, (285*(width/960))-stick_x*5, (-52.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+DrawTexture = IFV_AMMO_TRANS_SELECT, (285*(width/960))-stick_x*5, (-17.5*(height/500))-stick_y*1+pitch*1, (70*(width/960)), (35*(height/500)), 0,0,256,128,0
+endif

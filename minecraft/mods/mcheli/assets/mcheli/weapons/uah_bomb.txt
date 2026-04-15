@@ -1,0 +1,14 @@
+DisplayName = UAH Bomb
+Type = Bomb
+Sound = explMine
+SoundVolume = 10
+Power = 600
+Acceleration = 0.1
+Explosion = 7
+ExplosionInWater = 1
+Flaming = true
+Sight = None
+Delay = 1
+Destruct = true
+DamageFactor=player£¬5.0
+Item =  1,flansmod:timingbomb

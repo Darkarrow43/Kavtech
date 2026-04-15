@@ -1,0 +1,49 @@
+Name .50BMG 30rds Mag
+ShortName 50cal30rdmag
+Model cvts.MGBullet
+Texture MGBulletRed
+Description Used for HMG
+//Colour of icon and model
+Colour 255 255 255
+Icon 50Cal30rdmag
+//How affected by gravity the bullet is
+FallSpeed 3
+//The maximum stack size
+MaxStackSize 1
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 30
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 1
+DamageVsVehicles 2.2
+DamageVsPlanes 2.2
+//Size of explosion caused
+Explosion 0
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact False
+Fuse 0
+FlakParticles 8
+FlakParticlesCrack 20
+FlakParticlesDiff 0.2
+FlakParticleType cloud
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.1
+HitSound flyby
+HitSoundIron hit_metal_50
+HitSoundRange 5
+HitSoundEnable true
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+//Penetration 6
+SmokeTrail True
+TrailParticles True
+Haslight True
+TrailParticleType flansmod.fmtracerred
+WeaponType Shell
+DragInAir 0.98
+
+ShootHeadMultiplier 2.5
+ShootArmMultiplier 0.8
+ShootLegMultiplier 0.8

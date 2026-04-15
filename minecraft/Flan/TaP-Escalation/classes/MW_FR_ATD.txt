@@ -1,0 +1,17 @@
+Name Anti-Tank
+ShortName franceATD
+AddItem famasf1
+AddItem m9
+AddItem at4 
+AddItem at4
+AddItem m18
+AddItem famasAmmo 4
+AddItem at4AmmoEvolved 2
+AddItem m9Ammo 4
+SkinOverride WhiteGuyBrown
+
+
+Hat spectraFranceDesert
+Chest franceModernD
+Legs smbFelin
+Shoes eyePro

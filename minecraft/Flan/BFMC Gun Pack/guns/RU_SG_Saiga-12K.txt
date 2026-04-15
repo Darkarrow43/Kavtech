@@ -1,0 +1,76 @@
+Name SAIGA-12K
+ShortName s12k
+//The ammo this gun uses (shortName)
+Ammo 12gauge8rdmag
+Ammo 12gauge10rdmag
+Ammo 12gaugefrag8rdmag
+Ammo 12gaugeslug8rdmag
+Ammo 12gaugebirdshot8rdmag
+Ammo 12gaugeflc8rdmag
+Ammo 12gaugeincendiary8rdmag
+Icon S12K
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Shotgun_Use 12 Gauge Magazine
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 6.5
+RecoilDistance 0.1
+RecoilDistanceHipFire 0.4
+RandomRecoilRange 1
+DecreaseRecoil 2
+RandomRecoilYawRange 1.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.5
+Damage 4.5
+RunPosTime 7
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Accuracy 0.9
+MinAccuracy 13
+AimingSpreadConstant 0.85
+//Time in ticks between rounds
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+ShootDelay 6
+ShootSound dbv12_f
+ReloadSound s12k_r
+ReloadSoundRange 5
+GunSoundRange 100
+AimTimeConstant 0.66
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 22
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+Model BFMCpack.Saiga12K
+ModelScale 0.1
+Texture Saiga12K
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_1 BFMCpack/animations/AR_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 0
+UseCircleCrosshair true
+
+CanAIUse false
+
+animGunOffsetX = -7
+animGunOffset = -0.85

@@ -1,0 +1,16 @@
+filename = 'Morpheus-1.7.10-1.6.21.jar'
+name = 'Morpheus'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b6f94b849d8a4a106f4aca32a9d1ede9b55cc5c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2280761
+project-id = 69118

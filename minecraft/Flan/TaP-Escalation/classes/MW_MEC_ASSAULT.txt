@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName mMECassault
+AddItem g3
+AddItem hipower
+AddItem m67 1
+AddItem m18
+AddItem battleRifle 5
+AddItem BHPammo 4
+AddItem mwMedKit 1
+SkinOverride MEClean

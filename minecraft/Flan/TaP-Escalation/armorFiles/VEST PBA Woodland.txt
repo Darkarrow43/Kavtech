@@ -1,0 +1,15 @@
+Name Personal Body Armor (CADPAT)
+ShortName PBAWoodland
+Icon PBAcadpat
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.CanadaModernVest
+ArmourTexture SkinCanadianElite
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 400
+backArmor 400
+Durability 50
+ModelScale 1.05
+Description Canadian Body Armour_Year: 2002?_CADPAT

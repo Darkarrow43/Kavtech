@@ -1,0 +1,62 @@
+Name M249
+ShortName m249
+//The ammo this gun uses (shortName)
+Ammo 556x45200rdbox
+Ammo 556x45200rdapbox
+Icon M249
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Light Machine Gun_Use 5.56x45mm SAW Bullet Box
+ReloadTime 100
+TacticalReloadTime 115
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+RecoilDistance 0.02
+RecoilAngle 0.2
+RandomRecoilRange 0.5
+DecreaseRecoil 1.0
+RandomRecoilYawRange 1.2
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.3
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 6
+RunPosTime 15
+RunCrouchTime 5
+AimTimeConstant 0.71
+CanHipFireWhileSprinting False
+//The higher this value, the more the bullets spread
+Accuracy 1
+AimingSpreadConstant 0.25
+//Time in ticks between rounds
+RoundsPerMin 800
+ShootSound m249_f
+ReloadSound m249_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto
+//Bullet speed, default 3.0
+BulletSpeed 35
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+Texture M249
+Model BFMCpack.M249
+ModelScale 1.0
+MoveSpeedModifier 0.9
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments false
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3

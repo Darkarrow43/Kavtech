@@ -1,0 +1,26 @@
+Name Suppressor[DMR]
+ShortName dmrsilencer
+Icon SVUSilencer
+Description §a降低20%散布_§a降低10%后坐力_§a消音_§c降低10%子弹速度_§c降低15%威力_§f适配DMR
+AttachmentType barrel
+
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+DamageMultiplier 0.85
+SpreadMultiplier 0.8
+RecoilMultiplier 0.9
+RecoilYawMultiplier 0.9
+BulletSpeedMultiplier 0.9
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model DarkZone.SVUSilencer
+Texture SVUSilencer
+ModelScale 1.0
+
+RecipeOutput 1
+Recipe W cloth F fiberglass

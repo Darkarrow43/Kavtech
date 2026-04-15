@@ -1,0 +1,18 @@
+Name Russian Ground Forces (Desert)
+ShortName RUSModernD
+//TextColour can be one of Black, Blue, Green, Aqua, Red, Purple, Orange, LGrey, Grey, LBlue, LGreen, LAqua, Red, Pink, Yellow, White
+//This is used for player names and such
+TextColour Green
+//TeamColour is a more specific colour for banners, flags and spawn points. It is specified by Red, Green and Blue, each ranging from 0 to 255
+TeamColour 13 132 0
+//Specify the armour this team should spawn with
+Hat 6B47DigiBeige
+Chest russiaEMRVKBOBeige
+Legs 6b45Beige
+
+AddClass mRUSassaultD
+AddClass mRUSreconD
+AddClass mRUSapper
+AddClass mRUSSGD
+AddClass mRUSengineer
+AddClass mRUSsupport

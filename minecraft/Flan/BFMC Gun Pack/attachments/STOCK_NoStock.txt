@@ -1,0 +1,15 @@
+Name No Stock
+ShortName nostock
+Description §a增加12%移动速度_§c增加30%散布_增加30%垂直后坐力_增加30%水平后坐力
+Icon NoStock
+AttachmentType stock
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.3
+RecoilMultiplier 1.3
+RecoilYawMultiplier 1.3
+BulletSpeedMultiplier 1.0
+MovementSpeedMultiplier 1.12
+Model svz.NoStock
+Texture none

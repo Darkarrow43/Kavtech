@@ -1,0 +1,14 @@
+Name Marine Corps Combat Utility Uniform (MARPAT Woodland)
+ShortName usmcbodyW
+Icon MARPATWOODLAND
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USMCBody
+ArmourTexture SkinUSMCModernWoodland
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description American Battle Dress_Year: 2002_MARPAT Woodland
+bodyArmor 100
+armArmor 100
+ModelScale 1.05

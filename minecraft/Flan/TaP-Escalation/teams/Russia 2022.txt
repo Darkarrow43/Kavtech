@@ -1,0 +1,21 @@
+Name Holy Liberators
+ShortName ukraineInvasionRU
+//TextColour can be one of Black, Blue, Green, Aqua, Red, Purple, Orange, LGrey, Grey, LBlue, LGreen, LAqua, Red, Pink, Yellow, White
+//This is used for player names and such
+TextColour Green
+//TeamColour is a more specific colour for banners, flags and spawn points. It is specified by Red, Green and Blue, each ranging from 0 to 255
+TeamColour 13 132 0
+//Specify the armour this team should spawn with
+Hat 6B47
+Chest russiaEMRVKBO
+Legs 6b45
+
+AddClass mRUSassault
+AddClass mRUSrecon
+AddClass mRUSapper
+AddClass mRUSSG
+AddClass mRUSengineer
+AddClass mRUSsupport
+AddClass mRUSSus
+AddClass chechenWarrior
+AddClass DPRRifle

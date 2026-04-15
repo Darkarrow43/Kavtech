@@ -1,0 +1,10 @@
+Name granite
+ShortName granite
+Colour 255 255 255
+TopTexture granite
+SideTexture granite
+BottomTexture granite
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

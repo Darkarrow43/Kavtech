@@ -1,0 +1,10 @@
+Name 6B47 Aramid Fiber Helmet - EMR Cover
+ShortName 6B47
+Icon Icon6b47DigiFlora
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.6B47Cover
+ArmourTexture Skin6b47Cover
+Description Russian Combat Helmet_Year: 2011_EMR Summer
+headArmor 200

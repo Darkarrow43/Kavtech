@@ -1,0 +1,10 @@
+Name polished_andesite
+ShortName polished_andesite
+Colour 255 255 255
+TopTexture polished_andesite
+SideTexture polished_andesite
+BottomTexture polished_andesite
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

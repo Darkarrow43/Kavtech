@@ -1,0 +1,82 @@
+DisplayName = FMTV
+MaxHp = 150
+Speed = 0.55
+Sound = m3_eng
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -50
+MaxRotationPitch = 8
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 1
+CameraPosition = 0.5507,  3.2842, 0.1528
+CameraRotationSpeed = 35
+MaxFuel         = 1000
+FuelConsumption = 1
+StepHeight = 1.5
+DefaultFreelook = false
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+HideEntity = false
+ThirdPersonDist = 8
+
+SubmergedDamageHeight = 4
+
+HUD = none
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+; 重心Z座標設定
+WeightedCenterZ = 0.0
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
+
+AddSeat =  0.6563, 1.1269, 2.6020
+AddSeat = -0.6563, 1.3269, 2.6020
+
+AddSeat =  0.9290, 1.5047, 0.4857
+AddSeat =  0.9290, 1.5047, -0.4949
+AddSeat =  0.9290, 1.5047, -1.8712
+AddSeat =  0.9290, 1.5047, -3.1130
+
+AddSeat =  -0.9290, 1.5047, 0.4857
+AddSeat =  -0.9290, 1.5047, -0.4949
+AddSeat =  -0.9290, 1.5047, -1.8712
+AddSeat =  -0.9290, 1.5047, -3.1130
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 7
+;後退可能にする
+EnableBack = true
+
+AddPartHatch = 0.0485, 0.3247, -3.0983, 1, 0, 0, -105
+
+PivotTurnThrottle = 0.3
+AddCrawlerTrack = false, 0.22, 0.0009, -0.3189/0.00, -0.3189/3.1569, 0.3813/4.0995, 0.9496/3.7747, 1.0990/3.4624, 1.1800/-3.6065, 0.9122/-4.0570, 0.4804/-4.0798, -0.3189/-3.1212
+TrackRollerRot = 25
+
+AddPartWheel = 1.0804, 0.3151, 2.2324, 30
+AddPartWheel = -1.1360, 0.3176, 2.2337, 30
+AddPartWheel = -0.0669, 0.3090, -1.4674
+AddPartWheel = -0.0828, 0.3072, -2.9807
+
+BoundingBox =  0.0, 1.0, 2.0,   3.0, 2.0,   1
+BoundingBox =  0.0, 1.0, -1.0,   3.0, 2.0,   1.1
+BoundingBox =  0.0, 1.0, -2.3,   3.0, 2.0,   1.1
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+engineshutdownthres = 5
+
+NameOnModernAARadar = +
+NameOnEarlyAARadar = +
+NameOnModernASRadar = +
+NameOnEarlyASRadar = +
+RadarType = Early_AS

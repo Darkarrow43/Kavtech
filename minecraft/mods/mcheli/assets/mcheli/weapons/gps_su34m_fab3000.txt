@@ -1,0 +1,75 @@
+DisplayName = FAB-3000 UMPK [GPS]
+
+Type = ASmissile
+Power = 1000
+Acceleration = 0.1
+Explosion = 25
+Explosionblock=8
+Flaming = false
+Sight = MoveSight
+ModelBullet = FAB3000UMPK
+Sound = missile_11_snd
+Delay = 50
+ReloadTime = 10
+Round = 2
+
+locktime=0
+
+
+
+DisplayMortarDistance = true
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+
+DisableSmoke = True
+
+effectYield=4
+
+
+EnableOffAxis = false
+
+LockTime = 1
+TurningFactor = 0.1
+IsGPSMissile = true
+MaxDegreeOfMissile = 180
+RigidityTime = 40
+
+SpeedFactor = -0.005
+SpeedFactorStartTick = 1
+SpeedFactorEndTick = 151
+
+SpeedDependsAircraft =true
+
+
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=2
+ExplosionDamageVsTank=4
+ExplosionDamageVsPlane=4
+ExplosionDamageVsHeli=4
+ExplosionDamageVsVehicle=4
+
+
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+crosstype=11
+ExplosionDamageVsLiving=0.4
+ExplosionDamageVsPlayer=0.4
+ExplosionDamageVsTank=6
+ExplosionDamageVsPlane=6
+ExplosionDamageVsHeli=6
+ExplosionDamageVsVehicle=1
+Gravity = -0.001
+ExplosionDamageVsShip=4
+effectYield=10
+
+EnableOffAxis = false

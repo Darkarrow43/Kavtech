@@ -1,0 +1,15 @@
+Name Type 06 SF Body Armor
+ShortName type06Vest
+Icon ChinaMVest
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.PLAVestModern
+ArmourTexture SkinPLAType07
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 400
+backArmor 400
+Durability 50
+ModelScale 1.05
+Description Chinese Body Armour_Year: 2006_Type 07

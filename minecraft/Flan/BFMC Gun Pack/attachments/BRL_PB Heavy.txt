@@ -1,0 +1,27 @@
+Name PB Heavy
+Description §a降低15%散布_§a降低15%后坐力_§a消音_§c降低10%子弹速度_§c降低10%开镜速度_§c降低10%威力
+ShortName pbsuppressor
+Icon PB
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+
+MeleeDamageMultiplier 1.0
+DamageMultiplier 0.9
+SpreadMultiplier 0.85
+RecoilMultiplier 0.85
+RecoilAngleMultiplier 1
+RecoilDistanceMultiplier 1.0
+RecoilYawMultiplier 0.85
+BulletSpeedMultiplier 0.9
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.1
+
+Model Octagon_Weapons.Silencer408_Mod_0
+ModelScale 0.08
+Texture PB
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+paintjob PB PB_1
+paintjob PB PB_2

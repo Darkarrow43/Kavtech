@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName franceRifleman
+AddItem famasf1
+AddItem m9
+AddItem m67 
+AddItem m18
+AddItem famasAmmo 7
+AddItem m9Ammo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyBrown

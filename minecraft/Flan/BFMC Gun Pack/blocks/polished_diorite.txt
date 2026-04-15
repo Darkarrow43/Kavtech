@@ -1,0 +1,10 @@
+Name polished_diorite
+ShortName polished_diorite
+Colour 255 255 255
+TopTexture polished_diorite
+SideTexture polished_diorite
+BottomTexture polished_diorite
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

@@ -1,0 +1,14 @@
+Name Engineer
+ShortName mMECAT
+AddItem g3A4
+AddItem hipower
+AddItem rpg26
+AddItem rpg26
+AddItem battleRifle 5
+AddItem rpg26Rocket 2
+AddItem BHPammo 4
+Hat PASGTMEC
+Chest MECBody
+Legs MECVest
+
+SkinOverride MEBeard2

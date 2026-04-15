@@ -1,0 +1,72 @@
+Name MCX SPEAR
+ShortName mcx
+//The ammo this gun uses (shortName)
+Ammo 68x5130rdmag
+Icon MCX
+Description Type Assault Rifle_Use 6.8x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.2
+RandomRecoilRange 0.4
+RandomRecoilYawRange 0.5
+DecreaseRecoil 1.0
+DecreaseRecoilYaw 1.25
+RecoilShakeDistance 0.35
+//Damage in half hearts
+Damage 8
+RunPosTime 4
+RunCrouchTime 4
+AimTimeConstant 0.63
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.5
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+RoundsPerMin 700
+ShootSound scarh_f
+ReloadSound scarh_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 33
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+Model BFMCpack.MCX
+ModelScale 0.1
+Texture MCX
+
+3rdModel ransya.SCARL
+3rdTexture 3rd/SCARH
+3rdModelScale 0.3
+
+UseGLTFAnimation true
+GLTFAnimation scarh BFMCpack/animations/SCARH.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation scarh
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

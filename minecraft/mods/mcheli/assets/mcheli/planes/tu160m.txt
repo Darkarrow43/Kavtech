@@ -1,0 +1,122 @@
+﻿DisplayName = Tu-160M Super Blackjack
+AddDisplayName =  zh_CN, 图-160M 超级海盗旗
+AddDisplayName =  en_US, Tu-160M Super Blackjack
+ItemID = 30714
+MaxHp = 2000
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 0.9
+FlareType = 2
+VariableSweepWing = true
+MaxFuel         = 2000
+FuelConsumption = 1
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 33
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+
+Sound = bone
+ArmorMinDamage = 35
+SmoothShading = true
+ThrottleUpDown = 0.2
+MobilityYaw = 0.3
+MobilityPitch = 0.2
+MobilityRoll = 0.2
+CameraPosition = 0.00, 3.5, 2.0
+radartype = modern_as
+radartype = modern_aa
+enablebvr = true
+HUD = JET, JET_gunner, JET_gunner, JET_gunner
+hasMaintenance=true
+MaintenceUsetime=60
+MaintenceWaittime=300
+
+enablerwr = true
+HasChaff = true
+ChaffUseTime = 200
+ChaffWaitTime = 300
+
+NameOnModernAARadar = TU160
+NameOnEarlyAARadar = Bomber
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+AddSeat = 0.66, 5.4,  5.76
+AddgunnerSeat = -0.66, 5.3,  5.76,true
+
+
+AddPartSteeringWheel =  0.0,9.65,-47.1,  1, 0, 0.0,   10
+AddPartSteeringWheel =  0.0,9.65,-47.1,  1, 0, 0.0,   -10
+
+AddPartLG =  0.00, 4.9,  0.0,  1,0,0, 90
+AddPartLG =  -1.08, 4.04,  -1.0,  0,0,1, 110
+AddPartLG =  1.08, 4.04,  -1.0,  0,0,-1, 110
+AddPartLG =  -3.8568, 4.2294,  -30.0,  0,0,1, 90
+AddPartLG =  3.8568, 4.2294,  -30.0,  0,0,-1, 90
+AddPartLG =  3.0242, 4.65,  -30.0,  0,0,0, 98
+AddPartLG =  -3.0242, 4.65,  -30.0,  0,0,0, 98
+AddPartLG =  -1.4226, 4.0436,  -30.0,  0,0,-1, 90
+AddPartLG =  1.4226, 4.0436,  -30.0,  0,0,1, 90
+
+
+
+
+
+AddPartWing =  8.6423, 4.0, -19.9646,  0,1,0, 40
+AddPartWing =  -8.6423, 4.0, -19.9646,  0,-1,0, 40
+
+
+
+
+
+
+AddWeapon = dummy_bay_closed, 0.0, 4.0, 5.0,  0.0, 0.0
+
+
+AddWeapon = gps_tu160m_kh101, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
+AddWeapon = gps_tu160m_kh101, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
+
+
+
+
+
+
+;==========================================================
+
+AddPartWeaponBay = gps_tu160m_kh101, -1.3338, 4.0209, -13.0, 0, 0, -1, 90
+AddPartWeaponBay = gps_tu160m_kh101, 1.3338, 4.0209, -13.0, 0, 0, 1, 90
+AddPartWeaponBay = gps_tu160m_kh101,-1.3, 4.228, -13.0, 0, 0, 1, -90
+AddPartWeaponBay = gps_tu160m_kh101, 1.3, 4.228, -13.0, 0, 0, 1, 90
+
+
+
+
+
+BoundingBox =  0.00, 5.6, 6.0,  3.0, 3.4
+BoundingBox =  0.00, 5.6, 3.0,  3.0, 3.4
+BoundingBox =  0.00, 5.6, -1.3,  5.0, 3.4
+
+BoundingBox =  0.00, 5.40, -6.8,  7.0, 3.0
+BoundingBox =  0.00, 5.40,-17.0,  14.0, 3.0
+BoundingBox =  0.00, 5.40,-29.0,  10.0, 3.0
+
+BoundingBox =  0.00, 6.0,-37.0,  6.0, 3.0
+BoundingBox =  0.00, 6.7,-41.50,  4.0, 4.5
+BoundingBox =  0.00, 7.7,-45.50,  3.0, 5.5
+BoundingBox =  0.00, 10.0,-48.0,  2.5, 9.0
+BoundingBox =  0.00, 10.0,-50.5,  2.5, 9.0
+
+BoundingBox = -6.5, 3.50, -26.0,  4.0, 3.0, 1.5
+BoundingBox = -6.5, 3.50, -30.0,  4.0, 3.0, 1.5
+BoundingBox = -6.5, 3.50, -34.0,  4.0, 3.0, 1.5
+BoundingBox = 6.5, 3.50, -26.0,  4.0, 3.0, 1.5
+BoundingBox = 6.5, 3.50, -30.0,  4.0, 3.0, 1.5
+BoundingBox = 6.5, 3.50, -34.0,  4.0, 3.0, 1.5
+
+BoundingBox = 5, 9.8, -49.0,  7, 0.5,1.5
+BoundingBox = -5, 9.8, -49.0,  7, 0.5,1.5
+BoundingBox = 14, 4.50, -28.0,  12, 1.0
+BoundingBox = -14, 4.50, -28.0,  12, 1.0

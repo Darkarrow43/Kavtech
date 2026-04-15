@@ -1,0 +1,70 @@
+Name GROZA-1
+ShortName groza
+//The ammo this gun uses (shortName)
+Ammo 762x3930rdmag
+Icon Groza
+Description Type Assault Rifle_Use 7.62x39mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+TacticalReloadTime 45
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RecoilDistance 0.08
+RandomRecoilRange 0.5
+DecreaseRecoil 0.5
+RandomRecoilYawRange 1.0
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.4
+//Damage in half hearts
+Damage 7.5
+RunPosTime 3
+RunCrouchTime 4
+AimTimeConstant 0.53
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+//Modifiers
+MoveSpeedModifier 1.05
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.5
+//Time in ticks between rounds
+RoundsPerMin 660
+ShootSound groza_f
+ReloadSound groza_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+BulletSpeed 30
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+Texture GROZA-1
+Model BFMCpack.Groza1
+ModelScale 1.0
+
+3rdModel ransya.OTs14
+3rdModelScale 0.3
+3rdTexture 3rd/OTs14
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_2 BFMCpack/animations/AR_BP_Reload_2.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments false
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

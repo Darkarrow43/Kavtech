@@ -1,0 +1,60 @@
+////Name and icon
+Name 40mm LVG
+ShortName 40mmlvg
+Icon 40mmLVG
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 3
+////Visuals
+Model mw.RoundGrenade
+Texture gl2
+TrailParticles true
+TrailParticleType cloud
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+CanThrow False
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+TickToExplodeAfterImpact 30
+Bounciness 0.6
+HitEntityDamage 20
+ThrowSpeed 7
+FallSpeed 1.5
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.2
+Sticky false
+////Detonation conditions
+VehicleProximityTrigger 0.0
+LivingProximityTrigger 0.75
+ExplosionDamageVsLiving 2.5
+ExplosionDamageVsPlayer 2.5
+ExplosionDamageVsVehicle 1.0
+Fuse 1000
+DetonateWhenShot true
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 2.2
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+DetonateSound 40mm_grenade
+////Misc
+MeleeDamage
+HitSound 40mm_grenade
+HitSoundRange 100
+HitSoundEnable true
+EntityHitSoundEnable true
+CanBeDestructByAPS true
+
+MaxSupplyClips 5

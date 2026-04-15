@@ -1,0 +1,60 @@
+Name M9
+ShortName m9
+Ammo 9x1915rdmag
+Icon M9
+Colour 255 255 255
+ItemID 23841
+Description Type Piston_Use 9x19mm Ammo
+ReloadTime 40
+TacticalReloadTime 30
+Recoil 2
+RandomRecoilRange 0.1
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.2
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.5
+NumBullets 1
+Damage 6.5
+RunPosTime 2
+RunCrouchTime 2
+Accuracy 0.5
+AimingSpreadConstant 0.5
+AimTimeConstant 0.45
+ShootDelay 2
+ShootSound m9_f
+ReloadSound m9_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 20
+Scope None
+MoveSpeedModifier 1.1
+ZoomLevel 1.0
+FOVZoomLevel 1.2
+Deployable False
+DeployedModel None
+
+ModelScale 1.0
+Model BFMCpack.M9
+Texture 92FS
+
+3rdModel ransya.G17
+3rdModelScale 0.2
+3rdTexture 3rd/G17
+
+UseGLTFAnimation true
+GLTFAnimation hg_reload_1 BFMCpack/animations/HG_Reload_1.json
+
+AllowAllAttachments true
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+CanAIUse false

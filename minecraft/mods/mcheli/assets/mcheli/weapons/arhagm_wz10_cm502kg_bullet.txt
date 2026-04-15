@@ -1,0 +1,61 @@
+DisplayName = CM502KG [SAL / ARH - AGM]
+Type = ATMissile
+Power = 500
+Acceleration = 0.0
+Explosion = 4
+explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 0
+ModeNum = 1
+Sound = sa-2_snd
+SoundVolume = 10
+RidableOnly = true
+ModelBullet = KH39
+LockTime = 0
+Round = 4
+reloadtime = 10
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1.5
+DamageFactor = tank, 2
+
+RigidityTime = 0
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+
+
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 600
+MaxDegreeOfMissile = 45
+ActiveRadar = true
+EnableOffAxis = false
+SpeedFactor = 0.01
+SpeedFactorStartTick = 30
+SpeedFactorEndTick = 75
+SpeedDependsAircraft = true
+turningFactor = 0.15
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=false
+enableChunkLoader = true
+crosstype=11
+
+DamageFactor = living, 1
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=1
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=false

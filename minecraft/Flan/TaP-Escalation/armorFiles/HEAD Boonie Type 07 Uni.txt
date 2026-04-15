@@ -1,0 +1,10 @@
+Name Boonie Hat (Type 07 Universal)
+ShortName boonieHat07U
+Icon IconBoonieType07
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieType08
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

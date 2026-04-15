@@ -1,0 +1,20 @@
+Name Compact Laser
+ShortName laser
+Icon glxlaserTD
+Description §a降低15%散布_§c增加10%后坐力_§c敌人可见的镭射
+AttachmentType grip
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.85
+RecoilMultiplier 1.1
+RecoilYawMultiplier 1.1
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+IsLaserPointer True
+ZoomLevel 1.0
+FOVZoomLevel 2.0
+ZoomOverlay
+Model BFMCpack.LaserComp
+Texture LaserComp
+ModelScale 0.04

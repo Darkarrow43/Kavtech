@@ -1,0 +1,52 @@
+Name PzF 3-IT Rocket
+ShortName pzf3itammo
+Model Octagon_Weapons.PG7VS
+Texture PG7V
+//Colour of icon and model
+Colour 255 255 255
+Icon pzf3itammo
+Description Used for PzF 3-IT
+//How affected by gravity the bullet is
+FallSpeed 0.5
+//The maximum stack size
+MaxStackSize 2
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 1
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 650
+DamageVsVehicles 650
+DamageVsPlane 650
+//Size of explosion caused
+Explosion 3
+ExplosionPower 4
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact True
+Fuse 200
+FlakParticles 300
+FlakParticlesCrack 200
+FlakParticlesDiff 0.8
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.1
+HitSound flakx
+HitSoundRange 500
+HitSoundEnable true
+ExplosionDamageVsLiving 0.6
+ExplosionDamageVsPlayer 0.6
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+//Penetrates False
+SmokeTrail True
+TrailParticles true
+TrailParticleType flansmod.fmsmoke
+HasLight False
+DebrisParticleCount 2
+DragInAir 0.975
+CanBeDestructByAPS true
+
+PenetratingBlockMaxNum 0
+MaxSupplyClips 3
+
+enableCameraFollow true

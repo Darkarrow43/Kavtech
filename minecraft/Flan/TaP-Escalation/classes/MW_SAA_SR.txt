@@ -1,0 +1,12 @@
+Name Sniper
+ShortName SAArecon
+AddItem dragunov
+AddItem makarov
+AddItem claymore
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem dragunovAmmo 5
+AddItem makarovAmmo 4
+SkinOverride MEBeard2
+
+

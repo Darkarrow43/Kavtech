@@ -1,0 +1,68 @@
+Name AVT-40
+ShortName avt40
+//The ammo this gun uses (shortName)
+Ammo 762x5410rdmag
+Icon AVT40
+Description Type Designated Marksman Rifle_Use 7.62x54mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 80
+TacticalReloadTime 65
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1000
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.009
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+Damage 15
+RunPosTime 7
+RunCrouchTime 5
+Accuracy 0.75
+SingleShootSpreadModifier 0.3
+AimingSpreadConstant 0.5
+AimTimeConstant 0.63
+ShootDelay 2
+ShootSound svu_f
+ReloadSound sks_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto FullAuto
+BulletSpeed 35
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model Settings
+
+//模型
+Model BFMCpack.AVT40
+ModelScale 0.3
+Texture AVT40
+
+
+//Attachment Settings
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3

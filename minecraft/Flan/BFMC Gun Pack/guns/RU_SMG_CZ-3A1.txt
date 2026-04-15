@@ -1,0 +1,67 @@
+Name CZ-3A1
+ShortName cz3a1
+//The ammo this gun uses (shortName)
+Ammo 9x1930rdmag
+Icon CZ3A1
+Description Type Submachine Gun_Use 9x19mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 45
+TacticalReloadTime 30
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1.6
+RecoilDistance 0.02
+RecoilAngle -1
+DecreaseRecoil 0.9
+RandomRecoilRange 0.1
+RandomRecoilYawRange 0.3
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.3
+Damage 5.5
+RunPosTime 3
+RunCrouchTime 2
+//The higher this value, the more the bullets spread
+Accuracy 0.35000000000000003
+AimingSpreadConstant 0.85
+MinSpread 5
+AimTimeConstant 0.5
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound skorpion_f
+ReloadSound cz805_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 26
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+Model BFMCpack.CZ3A1
+ModelScale 0.1
+Texture CZ3A1
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation smg_reload_2 BFMCpack/animations/SMG_Reload_2.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3

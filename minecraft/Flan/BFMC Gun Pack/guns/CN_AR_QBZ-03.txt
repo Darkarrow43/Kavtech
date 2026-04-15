@@ -1,0 +1,76 @@
+Name QBZ-03
+ShortName qbz03
+//The ammo this gun uses (shortName)
+Ammo 58x4230rdmag
+Icon QBZ-03
+Description Type Assault Rifle_Use 5.8x42mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 57
+TacticalReloadTime 40
+Recoil 2.0
+RandomRecoilRange 0.5
+DecreaseRecoil 0.7
+RandomRecoilYawRange 0.8
+DecreaseRecoilYaw 1.5
+RecoilShakeDistance 0.3
+RunPosTime 4.5
+RunCrouchTime 4
+//Damage in half hearts
+Damage 7
+AimTimeConstant 0.62
+//The higher this value, the more the bullets spread
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0.5
+//Time in ticks between rounds
+RoundsPerMin 625
+ShootSound qbz03_f
+ReloadSound ak74m_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 35
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+
+Model MT.AK74M
+ModelScale 1.0
+Texture AK74M
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_3 BFMCpack/animations/AR_Reload_3.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

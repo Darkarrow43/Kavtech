@@ -1,0 +1,53 @@
+Name G53
+ShortName g53
+//The ammo this gun uses (shortName)
+Ammo 556x4530rdmag
+Icon HK53
+Description Type Carbine Rifle_Use 5.56x45mm Ammo
+Colour 255 255 255
+ReloadTime 50
+Recoil 3
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 2
+Damage 7
+//The higher this value, the more the bullets spread
+Accuracy 0.75
+AimingSpreadConstant 0.4
+AimTimeConstant 0.52
+//Time in ticks between rounds
+RoundsPerMin 680
+ShootSound akm_f
+ReloadSound m4a1_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+BulletSpeed 15
+ModelScale 1.0
+Model lolipk.HK33K
+Texture HK53
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowAllAttachments True
+AllowBarrelAttachments true
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+AllowGadgetAttachments False
+AllowSlideAttachments False
+AllowPumpAttachments false
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 0
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire

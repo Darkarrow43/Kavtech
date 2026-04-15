@@ -1,0 +1,14 @@
+Name Peoples Liberation Army Type 07 Uniform
+ShortName chinaModernBody
+Icon CNType07
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.PLABodyModern
+ArmourTexture SkinPLAType07
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+armArmor 100
+ModelScale 1.05
+Description Chinese Battle Dress_Year: 2007_Type 07 Universal

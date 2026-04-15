@@ -1,0 +1,22 @@
+Name ACOG TA-31[4x]
+ShortName acogta31
+Icon ACOGTA31
+Description ¡ìa±¶ÂÊx4
+AttachmentType sights
+
+Silencer false
+
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 2.5
+FOVZoomLevel 1.2
+ZoomOverlay ACOGTA31
+
+Model DarkZone.ACOGTA31
+Texture ACOGTA31
+ModelScale 1.

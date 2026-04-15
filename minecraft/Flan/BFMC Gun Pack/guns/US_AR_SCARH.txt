@@ -1,0 +1,71 @@
+Name SCAR-H
+ShortName scarh
+//The ammo this gun uses (shortName)
+Ammo 762x5120rdmag
+Icon ScarH
+Description Type Assault Rifle_Use 7.62x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+RecoilDistance 0.1
+RecoilDistanceHipFire 0.5
+Recoil 3
+RandomRecoilRange 0.8
+DecreaseRecoil 1.2
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 1.8
+RecoilShakeDistance 0.5
+Damage 9
+RunPosTime 4.5
+RunCrouchTime 4
+Accuracy 0.4
+AimingSpreadConstant 0.35
+RoundsPerMin 600
+ShootSound scarh_f
+ReloadSound scarh_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 30
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.SCARH
+ModelScale 1.15
+Texture MK17MOD0
+
+3rdModel ransya.SCARL
+3rdTexture 3rd/SCARH
+3rdModelScale 0.3
+
+UseGLTFAnimation true
+GLTFAnimation scarh BFMCpack/animations/SCARH.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation scarh
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

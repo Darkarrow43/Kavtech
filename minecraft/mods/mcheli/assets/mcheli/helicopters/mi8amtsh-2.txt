@@ -1,0 +1,94 @@
+DisplayName = Mi-8AMTSh 80mm only [Russia]
+MaxHp = 350
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.5
+SoundPitch = 2.0
+Sound = w3wa-sokol
+FlareType = 3
+onGroundPitch = 2.5
+FloatOffset = -0.9
+ThirdPersonDist = 20
+
+AddTexture = mi8amtsh-2_2
+Soundvolume = 10
+
+; M = Military(軍用機).  M = Multi-Mission(多目的機)
+Category = M.M
+
+HUD = heli, heli, heli_gnr, heli_gnr, heli_gnr, none, none, none, none, none, none, none, none, none, none
+
+MaxFuel         = 1200
+FuelConsumption = 0.8
+
+AddRotor= 1,90,  0.00,   3.7437, -3.0216,   0.0, -1.0, 0.0, true
+AddRotor= 1,0,   0.7171, 4.5311, -15.8588, -1.0,  0.0, 0.0, false
+
+AddSeat =  0.5584, 0.65, 0.9721
+AddSeat = -0.5584, 0.75, 0.9721
+
+AddGunnerSeat =  0.78,   0.75, -0.3470,  0.78, 1.8056, -0.3470
+AddGunnerSeat = -0.78,   0.75, -0.3470, -0.78, 1.8056, -0.3470
+AddGunnerSeat =  0.0,    0.75, -6.1607,  0.0,  1.8056, -6.1607
+
+AddSeat =  0.9689, 0.75, -1.1820
+AddSeat =  0.9689, 0.75, -1.9678
+AddSeat =  0.9689, 0.75, -2.8808
+AddSeat =  0.9689, 0.75, -3.5839
+AddSeat =  0.9689, 0.75, -4.5747
+
+AddSeat = -0.9689, 0.75, -1.9678
+AddSeat = -0.9689, 0.75, -2.8808
+AddSeat = -0.9689, 0.75, -3.5839
+AddSeat = -0.9689, 0.75, -4.5747
+
+AddWeapon = b8v20,  2.2199, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -2.2199, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20,  2.8720, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -2.8720, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20,  3.4318, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -3.4318, 1.1034, -2.4216, 0.0, 0.0
+
+AddWeapon = mg_mi8_762_l,  1.0982, 1.4926, -0.3429,   0.0, 0.0, false, 3,-90, -50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_l, false, true, false,  1.0982, 1.4577, -0.3222
+AddPartWeapon    = mg_mi8_762_l, false, true, true,   1.0982, 1.4926, -0.3222
+
+AddWeapon = mg_mi8_762_r, -1.1672, 1.4926, -0.3463,   0.0, 0.0, false, 4, 90, -50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_r, false, true, false, -1.1672, 1.4577, -0.3463
+AddPartWeapon    = mg_mi8_762_r, false, true, true,  -1.1672, 1.4926, -0.3463
+
+AddWeapon = mg_mi8_762_b,  0.0,    1.4371, -6.7015,   0.0, 0.0, false, 5, 180,-50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_b, false, true, false,  0.0,    1.4022, -6.7015
+AddPartWeapon    = mg_mi8_762_b, false, true, true,   0.0,    1.4371, -6.7015
+
+BoundingBox =  0.0, 1.5,  2.0,  1.5, 1.5
+BoundingBox =  0.0, 1.5,  0.0,  2.5, 2.5
+BoundingBox =  0.0, 1.5, -3.0,  3.5, 3.5
+BoundingBox =  0.0, 1.5, -6.0,  2.5, 2.5
+BoundingBox =  0.0, 4.5, -3.0,  5.0, 1.0, 2.0
+BoundingBox =  0.0, 4.5, -15.0, 2.0, 2.0, 2.0
+BoundingBox =  0.0, 4.0, -15.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -14.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -13.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -12.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -11.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -10.0, 1.0, 1.0
+BoundingBox =  0.0, 3.0, -9.0,  1.0, 1.0
+BoundingBox =  0.0, 3.0, -8.0,  1.0, 1.0
+BoundingBox =  0.0, 3.0, -7.0,  1.0, 1.0
+
+RadarType = EARLY_AS
+NameOnModernAARadar = MH60
+NameOnEarlyAARadar = MH60
+NameOnModernASRadar = MH60
+NameOnEarlyASRadar = MH60
+enablerwr = true
+
+AddPartSteeringWheel =   0.5555,  0.6351,  1.3488,  0, 0, 1,   -20
+AddPartSteeringWheel =  -0.5555,  0.6351,  1.3488,  0, 0, 1,   -20
+
+AddPartSteeringWheel =   0,  0,  0,  0, 0, 0,   0
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200

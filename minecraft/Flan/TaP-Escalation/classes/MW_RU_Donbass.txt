@@ -1,0 +1,13 @@
+Name DPR Rifleman
+ShortName DPRRifle
+AddItem AK74M
+AddItem mp443
+AddItem rgd5 2
+AddItem rdg2 1
+AddItem 7n10 6
+AddItem mp443Ammo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyBlondBald
+Hat 6B27naked
+Chest gopnikMilitia
+Legs 6B3TM

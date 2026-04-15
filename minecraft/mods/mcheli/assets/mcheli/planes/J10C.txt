@@ -1,0 +1,132 @@
+﻿DisplayName = J-10CP
+AddDisplayName = zh_CN,歼-10CP (黑蜘蛛中队)
+AddDisplayName = en_US,J-10CP
+MaxHp = 350
+ArmorMinDamage = 12
+
+AddPartwing =  0.00, 1.826, -3.46,  -1,0,0,  -20
+SweepWingSpeed = 0.9
+
+
+Speed = 2.1
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD = JET, su34_gnr
+
+ThirdPersonDist = 25
+
+MobilityYaw = 1
+ThrottleUpDown = 2
+MobilityRoll = 2
+MobilityPitch = 1
+
+CameraPosition = 0.0, 0.0, 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.18,  7.154
+
+
+
+AddPartNozzle =  0.0, 2.13, -8.046, -1,0,0
+AddPartWeaponMissile = JET_J10_AAM_ARM,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =JET_J10_AAM_ARM,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = JET_J10_ROCKET_ARM,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =JET_J10_ROCKET_ARM,   false, false, false,  -0.297,  0.518, -8.699
+
+
+
+
+
+
+
+
+AddPartLG    =  0.00,  2.053,  4.852,    -1, 0, 0,  -140
+AddPartLGRev =  0.5002,  1.014,  4.196,    0, 0, 1,  100
+AddPartLGRev =  -0.5002,  1.014,  4.196,    0, 0, 1,  -100
+
+AddPartLG =  -0.4,  1.885,  -0.2234,    0, 0, 0.0,  -90
+AddPartLGRev =  -0.8657,  1.584,  0.1718,    0, 0, 1,  -80
+
+
+AddPartLG =  0.4,  1.885,  -0.2234,    0, 0, 0.0,  -90
+AddPartLGRev =  0.8657,  1.584,  0.1718,    0, 0, 1,  80
+
+
+AddPartSteeringWheel =  0,2.526,5.032, 1, 0, 0.0,   -30
+AddPartSteeringWheel =  0,2.526,5.032, 1, 0, 0.0,   30
+AddPartSteeringWheel =  2.518,1.820,-3.514, 1, 0, 0.0,   -30
+AddPartSteeringWheel =  -2.518,1.820,-3.514, 1, 0, 0.0,   30
+AddPartSteeringWheel =  0.007591, 3.782, -6.659, 0.0, -1.0, 0.337, 10
+AddPartSteeringWheel =  -0.006109, 2.256, 7.651, 0.0, 0.0, -1, 15
+
+AddPartThrottle =  0.4548, 2.303, 7.625,  1,0,0.00, 40
+
+
+
+
+
+
+
+NameOnModernAARadar = J10C
+NameOnEarlyAARadar = J10
+NameOnModernASRadar = JET
+NameOnEarlyASRadar = ?
+RadarType = MODERN_AA
+
+
+AddWeapon = JET_J10_23MM_AA,  0.63, 0.9084,  4.269,  0.0,  -0.1
+AddWeapon = JET_J10_AAM_ARM,     6.232,  1.758, -7.699,  0,0.0
+AddWeapon = JET_J10_AAM_ARM,     -6.232,  1.758, -7.699,  0,0.0
+AddWeapon = JET_J10_ROCKET_ARM,     1.232,  1.758, -7.699,  0,0.0
+AddWeapon = JET_J10_ROCKET_ARM,     -1.232,  1.758, -7.699,  0,0.0
+
+
+
+
+AddPartCanopy =  0.00, 3.526, 5.684,  -1,0,0,  50
+AddPartCanopy =  0.00, 3.526, 5.684,  -1,0,0,  00
+BoundingBox =  0.00, 2.40, 6.5,  3.0, 2.0
+BoundingBox =  0.00, 1.90, 3.0,  4.9, 2.2
+BoundingBox =  0.00, 1.90, -2.80, 5.0, 2.2
+BoundingBox =  0.00, 1.90, -5.50, 4.0, 2.2
+BoundingBox = -4.2, 2.20, -2.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -2.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -5.3,  3.5, 2.0,1.2
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+motionfactor=0.965
+
+HasChaff = true
+ChaffUseTime =50
+ChaffWaitTime = 200
+
+hasMaintenance=true
+
+
+
+engineShutdownThreshold = 0
+
+explosionsizebycrash=10
+Gravity = -0.038
+
+;空优攻击机weapon_group_type: 1 CONNON/AAM_IRM/AAM_SARH, 2 CONNON/AAM_SARH/AAM_ARM_HEAVY, 3 CONNON/AAM_IRM/AAM_ARM
+;4 CONNON/AAM_ARM/ROCKET_ARM, 5 CONNON/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 CONNON/ROCKET/AGM_LASERM
+;8 CONNON/ROCKET_ARM/AGM_IRM, 9 CONNON/HEAVYROCKET/AGM_LASERM, 10 CONNON/ZUNI/AGM_IRM, 11 CONNON/AAM_ARM/AGM_SARH
+;12 CONNON/AAM_IRM/AGM_IRM, 13 CONNON/AAM_ARM/GPSBOMB, 14 EML/AGM_ARM, 15 GPSBOMB/AGM_LASERM
+weapongrouptype=4
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+enablerwr=true
+maintenanceUseTime = 20
+maintenanceWaitTime = 300

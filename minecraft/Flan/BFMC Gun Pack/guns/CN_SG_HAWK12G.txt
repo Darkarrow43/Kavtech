@@ -1,0 +1,90 @@
+Name HAWK-12G
+ShortName hawk12g
+//The ammo this gun uses (shortName)
+Ammo 12gauge8rdmag
+Ammo 12gauge10rdmag
+Ammo 1845rdmag
+Ammo 12gaugefrag8rdmag
+Ammo 12gaugeslug8rdmag
+Ammo 12gaugebirdshot8rdmag
+Ammo 12gaugeflc8rdmag
+Ammo 12gaugeincendiary8rdmag
+Icon HAWK12G
+Description Type Shotgun_Use 12 Gauge/18.4mm Magazine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 10
+RecoilAngle -20
+RandomRecoilRange 2
+DecreaseRecoil 4
+RandomRecoilYawRange 2
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.5
+RecoilDistanceHipFire 0.4
+RunPosTime 6
+RunCrouchTime 2
+//Damage in half hearts
+Damage 4.5
+//The higher this value, the more the bullets spread
+Spread 1.6
+MinAccuracy 10
+AimingSpreadConstant 0.8
+AimTimeConstant 0.67
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 7
+//Time in ticks between rounds
+ShootDelay 18
+ActionSound shell_12g
+ShootSound hawk12g_f
+ReloadSound s12k_r
+EmptyClickSound emptyclick
+ReloadSoundRange 5
+GunSoundRange 80
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 25
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+
+//Model settings
+Model BFMCpack.HAWK12G
+ModelScale 0.11
+IsShotgun True
+Texture HAWK12G
+
+3rdModel ransya.M870
+3rdModelScale 0.3
+3rdTexture 3rd/M870
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_1 BFMCpack/animations/AR_Reload_1.json
+
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments true
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments false
+AllowAccessoryAttachments false
+NumGenericAttachmentSlots 0
+UseCircleCrosshair true
+
+CanAIUse false

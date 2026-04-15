@@ -1,0 +1,55 @@
+Name SV-98
+ShortName sv98
+Ammo 762x545rdmag
+Ammo 762x54highlight5rdmag
+Ammo 762x5410rdmag
+Icon SV98
+Description Type Sniping Rifle_Use 7.62x54mm Ammo
+Colour 255 255 255
+ReloadTime 75
+Recoil 1
+RandomRecoilRange 0.5
+DecreaseRecoil 0.1
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 1.2
+Damage 17
+RunPosTime 10
+RunCrouchTime 6
+Accuracy 1.4000000000000001
+AimTimeConstant 0.635
+AimingSpreadConstant 0.0
+ShootDelay 28
+ShootSound sv98_f
+ActionSound bolt_sniper
+ReloadSound sv98_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 20
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.SV98
+ModelScale 0.1
+Texture SV98
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+paintjob SV98 camos/SV98_UCP_Ocean
+paintjob SV98 camos/SV98_Partizan
+CancelAimingAfterShoot true

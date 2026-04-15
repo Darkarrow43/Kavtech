@@ -1,0 +1,20 @@
+Name PK-A[3.4x]
+ShortName pka
+Icon PKA
+Description ¡ìa±¶ÂÊx3.4
+AttachmentType sights
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 2
+FOVZoomLevel 1.7
+ZoomOverlay PKA
+
+Model BFMCpack.PKA
+Texture PKA
+ModelScale 0.12

@@ -1,0 +1,16 @@
+filename = 'malisisdoors-1.7.10-1.13.2.jar'
+name = 'MalisisDoors'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '807b996f029ea3e09dd578c1d97f8ea95ecf49f9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2284380
+project-id = 223891

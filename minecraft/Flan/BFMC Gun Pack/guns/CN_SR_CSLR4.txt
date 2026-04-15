@@ -1,0 +1,52 @@
+Name CS-LR4
+ShortName cslr4
+Ammo 762x515rdmag
+Ammo 762x5110rdmag
+Ammo 762x51highlight5rdmag
+Icon CSLR4
+Description Type Sniping Rifle_Use 7.62x51mm Ammo
+Colour 255 255 255
+ReloadTime 70
+TacticalReloadTime 60
+Recoil 1.5
+RandomRecoilRange 0.5
+DecreaseRecoil 0.1
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 2
+Damage 16
+Spread 3
+AimingSpreadConstant 0.0
+RunPosTime 10
+RunCrouchTime 6
+ShootDelay 29
+ShootSound cslr4_f
+ActionSound bolt_sniper
+ReloadSound cslr4_r
+ReloadSoundRange 5
+GunSoundRange 100
+AimTimeConstant 0.635
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 23
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.CSLR4
+ModelScale 0.11
+Texture CSLR4
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+paintjob CSLR4 camos/CSLR4_Type-07-GI
+paintjob CSLR4 camos/CSLR4_PLA-Naval
+paintjob CSLR4 camos/CSLR4_PLA-Desert
+CancelAimingAfterShoot true

@@ -1,0 +1,73 @@
+Name FAMAS
+ShortName famas
+//The ammo this gun uses (shortName)
+Ammo 556x4525rdmag
+Icon Famas
+Description Type Assault Rifle_Use 5.56x45mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 80
+TacticalReloadTime 60
+//BFMCpack由TV90开发.BFMC开发组所有.盗包狗死妈
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RecoilDistance 0.03
+RecoilAngle -2
+RandomRecoilRange 0.5
+DecreaseRecoil 0.8
+RandomRecoilYawRange 0.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.3
+AimTimeConstant 0.63
+//Damage in half hearts
+Damage 6.5
+RunPosTime 4.8
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Spread 0.8
+AimingSpreadConstant 0.4
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound famas_f
+ReloadSound famas_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+BulletSpeed 33
+Mode FullAuto Burst SemiAuto
+NumBurstRounds 3
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Texture FAMAS
+Model BFMCpack.FAMAS
+ModelScale 1.0
+
+3rdModel ransya.A91
+3rdModelScale 0.3
+3rdTexture 3rd/A91
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_2 BFMCpack/animations/AR_BP_Reload_2.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

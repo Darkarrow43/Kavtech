@@ -1,0 +1,68 @@
+DisplayName = AGM84E SLAM [GPS / IR-AGM]
+Type = ASMissile
+Power = 100
+Acceleration = 0.3
+Explosion = 8
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 30
+ModeNum = 2
+ModelBullet =AGM84
+Sound = missile_11_snd
+ReloadTime = 10
+Round = 2
+
+LockTime = 1
+TurningFactor = 0.05
+IsGPSMissile = true
+MaxDegreeOfMissile = 35
+RigidityTime = 0
+enableChunkLoader = true
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+DisplayMortarDistance = true
+
+
+ExplosionDamageVsLiving=1.5
+ExplosionDamageVsPlayer=1.5
+ExplosionDamageVsTank=2
+ExplosionDamageVsPlane=2
+ExplosionDamageVsHeli=2
+ExplosionDamageVsVehicle=2
+
+CameraRotationSpeedPitch = 0.3
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+enableoffaxis = false
+crosstype=9
+ExplosionDamageVsLiving=0.5
+ExplosionDamageVsPlayer=0.5
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+ExplosionDamageVsShip=5
+enableExhaustFlare=false
+
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = arhagm_f15ex_agm84e_bullet
+BombletDiff = 0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 80
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true
+
+SpeedFactor = 0.03
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 50
+SpeedDependsAircraft = true

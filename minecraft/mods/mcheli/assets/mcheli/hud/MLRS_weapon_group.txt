@@ -1,0 +1,26 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;cross_type0_10:radar,rocket,missile
+;weapon_group_type: 0火箭弹1导弹
+;==================== 武器组0: 25MM/IRM/RADAR ====================
+;非瞄准状态
+;25mm
+If = (weapon_group_type==0)&&(cross_type==1)
+DrawTexture = MLRS_AMMO_ROCKET_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+If = (weapon_group_type!=0)&&(cross_type==1)
+DrawTexture = MLRS_AMMO_ROCKET_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+
+
+;==================== 武器组1: 25MM/IRM/ROCKET ====================
+;非瞄准状态
+If = (weapon_group_type==1)&&(cross_type==2)
+DrawTexture = MLRS_AMMO_MISSILE_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+If = (weapon_group_type!=1)&&(cross_type==2)
+DrawTexture = MLRS_AMMO_MISSILE_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+

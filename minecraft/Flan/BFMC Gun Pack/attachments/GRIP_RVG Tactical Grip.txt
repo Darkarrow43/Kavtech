@@ -1,0 +1,17 @@
+Name RVG Grip
+ShortName rvg
+Description §a降低10%散布_§a降低10%垂直后坐力_§c降低5%移动速度_§c降低5%开镜速度
+Icon rvgTD
+AttachmentType grip
+Silencer false
+MeleeDamageMultiplier 1.0
+MovementSpeedMultiplier 0.95
+DamageMultiplier 1.0
+SpreadMultiplier 0.9
+RecoilMultiplier 0.9
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.05
+Model Octagon_Weapons.RVG_Grip
+ModelScale 0.1
+Texture Skin_Gun_RVG_Grip

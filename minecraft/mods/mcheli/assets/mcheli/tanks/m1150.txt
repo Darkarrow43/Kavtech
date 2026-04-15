@@ -1,0 +1,107 @@
+DisplayName = M1150 ABV
+AddDisplayName = zh_CN,M1150 突击破障车
+AddDisplayName = en_US,M1150 ABV
+MaxHp = 1200
+
+ItemID = 30101
+HUD = MBT, MBT_GUNNER
+ThirdPersonDist = 12
+Speed = 0.5
+MobilityRoll = 0
+ThrottleUpDown = 1.5
+MinRotationPitch = -17
+MaxRotationPitch = 8
+PivotTurnThrottle = 0.0
+throttledownfactor = 3
+StepHeight = 1.5
+MobilityYawOnGround = 2.5
+DefaultFreelook = true
+
+Sound = tank_gte
+
+Gravity = -0.1
+GravityInWater = -0.1
+MotionFactor = 0.89
+MaxFuel = 1200
+FuelConsumption = 0.1
+
+CameraPosition = 0, 3.5,  0.77, true
+CameraRotationSpeed = 30
+CameraZoom = 6
+EnableNightVision = true
+AddSeat = 0.00,  0.0, 8,   false
+AddGunnerSeat = 0.00,  1.0, 0,    0, 3.5,  0.77,  false, -90, 90,true
+
+ArmorMinDamage = 15
+DamageFactor = 0.0
+engineShutdownThreshold = 5
+explosionsizebycrash = 8
+BoundingBox = 0.022, 0.448, 7.297,  7.5, 1.411, 2.123, 0.25, DEFAULT, MINE PLOW
+BoundingBox = 0.022, 0.448, 5.438,  2.922, 1.411, 1.574, 0.25, DEFAULT, MINE PLOW
+BoundingBox = 0.022, 0.93, -0.2,  4.486, 1.411, 6.143, 0.8, DEFAULT, HULL SIDE
+BoundingBox = 0.022, 1.031, -4.081,  4.486, 1.468, 1.606, 1.3, DEFAULT, ENGINE
+BoundingBox = 0.022, 0.733, 3.743,  4.486, 1.41, 1.73, 0.6, DEFAULT, UPPER FRONT
+BoundingBox = 0.022, 2.13, 1.077,  3.882, 0.882, 2.134, 0.4, TURRET, TURRET FRONT
+BoundingBox = 0.022, 2.392, -1.429,  3.882, 1.404, 2.922, 1.3, TURRET, TURRET REAR
+BoundingBox = 0.022, 2.777, 0.762,  1.144, 0.412, 1.209, 1.0, TURRET, TURRET SIDE
+Entitywidth = 0
+Entityheight = 0
+SubmergedDamageHeight = 3
+
+FlareType = 10
+
+RadarType = EARLY_AS
+NameOnModernAARadar = 1150
+NameOnEarlyAARadar = 1150
+NameOnModernASRadar = 1150
+NameOnEarlyASRadar = 1150
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+OnGroundPitchFactor = 3
+OnGroundRollFactor = 3
+
+;Parts
+SetWheelPos = 1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+AddTrackRoller = -1.82,  0.728,  3.76
+AddTrackRoller = -1.82,  0.18,  2.58
+AddTrackRoller = -1.82,  0.18,  1.48
+AddTrackRoller = -1.82,  0.18,  0.4677
+AddTrackRoller = -1.82,  0.18, -0.437
+AddTrackRoller = -1.82,  0.18, -1.34
+AddTrackRoller = -1.82,  0.18, -2.2634
+AddTrackRoller = -1.82,  0.18, -3.2593
+AddTrackRoller = -1.82,  0.735, -4.24
+
+AddCrawlerTrack = false, 0.25, -2.15,  1.1/ -4.274,  1/ -4.575,  0.64/ -4.68,  0.55/ -4.64,  -0.16/ -3.7,  -0.23/ -3.28,  -0.23/  2.17,  -0.135/ 3.058,  0.433/ 4.03,  0.723/ 4.16,  1.075/ 3.776,  1.1/ 2.6,1.0/ -2.6
+
+;Weapons
+AddPartWeapon = m1150_ldcs, false, true, false,  0.00, 3.14, 0, 0
+AddPartWeaponChild = false, true, 0.00, 3.14, -3.28, 0.5
+AddPartWeaponChild = false, true, 0.00, 3.14, -3.28, 0.5
+
+AddTurretWeapon = m1150_ldcs, 1.1, 3.14, -3.28,  0.0, 0.0, true,1, 0,-360,360, -35, 0
+AddTurretWeapon = m1150_ldcs, -1.1, 3.14, -3.28,  0.0, 0.0, true,1, 0,-360,360, -35, 0
+
+AddPartturretWeapon = MG_40mmFrag, false, true, false, 0, 3.07, 0.784
+AddPartWeaponChild = false, true,0, 3.07, 1.39
+AddTurretWeapon = MG_40mmFrag, 0, 3.07, 1.39, 0.0, 0.0,true, 1, 0, -360,360, -50,15
+
+weapongrouptype = 90
+
+;MISC
+;Place misc paramters here
+ArmorDamageFactor = 1
+ArmorDamageFactor = 1.0
+HideEntity = true
+WeightType = Tank
+WeightedCenterZ = 0.0
+EnableBack = true
+inventorysize = 18
+RideRack = lcac, 1
+hudtype = 1
+
+armorExplosionDamageMultiplier = 0.8

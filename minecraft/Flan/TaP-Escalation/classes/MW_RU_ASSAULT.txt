@@ -1,0 +1,14 @@
+Name Rifleman
+ShortName mRUSassault
+AddItem AK74M
+AddItem mp443
+AddItem rgd5 2
+AddItem rdg2 1
+AddItem 7n10 6
+AddItem mp443Ammo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyBrown
+Hat 6B47
+Chest russiaEMRVKBO
+Legs 6b45
+Shoes balaclava1RUGreen

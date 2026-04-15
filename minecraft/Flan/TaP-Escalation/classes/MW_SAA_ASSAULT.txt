@@ -1,0 +1,9 @@
+Name Rifleman
+ShortName SAAassault
+AddItem AKM
+AddItem makarov
+AddItem rgd5 1
+AddItem rdg2 1
+AddItem 7623830 5
+AddItem makarovAmmo 5
+SkinOverride MEClean

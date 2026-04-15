@@ -1,0 +1,72 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;cross_type:0 CONNON,1 AAM_IRM, 2 AAM_SARH, 3 ATGM_IRM, 4 ATGM_LOSM, 5, ATGM_SARH, 6 HEAT, 7 AHEAD, 8 ROCKET ,9 40MM
+;weapon_group_type:0 CONNON/AAM_IRM, 1 CONNON/AAM_SARH, 2 CONNON/ATGM_IRM, 3,CONNON/ATGM_LOSM, 4,HEAT/Torpedo/MG
+;前缀为FAC
+;==================== 武器组0: CONNON/AAM_IRM ====================
+;CONNON
+If = (weapon_group_type==0)&&(cross_type==0)
+DrawTexture = FAC_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==0)&&(cross_type==1)
+DrawTexture = FAC_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组1: CONNON/AAM_SARH ====================
+;CONNON
+If = (weapon_group_type==1)&&(cross_type==0)
+DrawTexture = FAC_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_SARH
+If = (weapon_group_type==1)&&(cross_type==2)
+DrawTexture = FAC_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_AAM_SARH_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组2: CONNON/ATGM_IRM ====================
+;CONNON
+If = (weapon_group_type==2)&&(cross_type==0)
+DrawTexture = FAC_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_ATGM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ATGM_IRM
+If = (weapon_group_type==2)&&(cross_type==3)
+DrawTexture = FAC_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_ATGM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组3: CONNON/ATGM_LOSM ====================
+;CONNON
+If = (weapon_group_type==3)&&(cross_type==0)
+DrawTexture = FAC_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_ATGM_LOSM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ATGM_LOSM
+If = (weapon_group_type==3)&&(cross_type==4)
+DrawTexture = FAC_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_ATGM_LOSM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组4: HEAT/AHEAD ====================
+;==================== 武器组4: HEAT/Torpedo/MG ====================
+;HEAT
+If = (weapon_group_type==4)&&(cross_type==6)
+DrawTexture = FAC_AMMO_HEAT_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_TORPEDO_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_MG_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;Torpedo
+If = (weapon_group_type==4)&&(cross_type==11)
+DrawTexture = FAC_AMMO_HEAT_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_TORPEDO_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_MG_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;MG
+If = (weapon_group_type==4)&&(cross_type==10)
+DrawTexture = FAC_AMMO_HEAT_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_TORPEDO_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = FAC_AMMO_MG_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif

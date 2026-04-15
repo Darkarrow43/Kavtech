@@ -1,0 +1,60 @@
+////Name and icon
+Name XM25 Smoke
+ShortName 25mmsmoke
+Icon 25mmSmoke
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 2
+////Visuals
+Model mw.RoundGrenade
+Texture gl3
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 120
+SmokeParticles newcloud
+//Syntax is SmokeEffect <ID> <Duration> <Amplifier>
+//IDs are 	1:MoveSpeed		2:MoveSlowdown		3:DigSpeed			4:DigSlowdown		5:DamageBoost	6:Heal			7:Harm		8:Jump			9:Confusion		10:Regeneration
+//			11:Resistance	12:FireResistance	13:WaterBreathing	14:Invisibility		15:Blindness	16:NightVision	17:Hunger	18:Weakness		19:Poison		20:Wither
+SmokeRadius 3
+SpinWhenThrown true
+////Throwing
+CanThrow false
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact true
+Bounciness 0.1
+HitEntityDamage 30
+ThrowSpeed 8
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky true
+////Detonation conditions
+VehicleProximityTrigger 2.0
+LivingProximityTrigger 1.0
+Fuse 60
+DetonateWhenShot true
+DetonateSound order_smoke
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 1.2
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+CanBeDestructByAPS true
+
+MaxSupplyClips 1
+
+SmokeParticleCount 3
+SmokeParticleRadius 20
+SmokeParticleHeight 30

@@ -1,0 +1,61 @@
+////Name and icon
+Name M84 Flashbang
+ShortName tanklaser
+Icon FlashBan
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 4
+////Visuals
+Model Octagon_Weapons.M84_Flash_Bomb
+Texture Skin_Generic_Java_Model_M84_Flash_Bomb
+TrailParticles false
+ExplodeParticles 100
+ExplodeParticleType Boom
+SmokeTime 4
+SmokeParticles lava
+SmokeEffect 2 100 1
+SmokeEffect 15 100 1
+SmokeEffect 9 100 1
+SmokeRadius 5
+VehicleProximityTrigger -1.0
+LivingProximityTrigger 1.0
+SpinWhenThrown true
+ThrowDelay 10
+ThrowSound none
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 5
+ThrowSpeed 2.4
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+Sticky false
+BounceSound none
+Fuse 1
+DetonateWhenShot false
+Remote false
+PrimeDelay 10
+FireRadius 0.0
+ExplosionRadius 1
+ExplosionDamageVsLiving 0
+ExplosionDamageVsPlayer 0
+ExplosionDamageVsVehicle 0
+ExplosionBreaksBlocks false
+//DropItemOnDetonate <itemID.damage>
+DetonateSound none
+FlashBang true
+FlashTime 120
+FlashRange 15
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound eml
+FlashDamageEnable true
+FlashDamage 1
+FlashEffects True
+FlashEffectsID 15
+FlashEffectsDuration 100
+FlashEffectionsLevel 1
+CanBeDestructByAPS true
+DistortSound false
+TeamThrowSound true

@@ -1,0 +1,11 @@
+Name blindage
+ShortName blindage
+Colour 255 255 255
+TopTexture blindage
+SideTexture blindage
+BottomTexture blindage
+Material sand
+Hardness 1
+Resistance 2
+BreakableByPlayer true
+BlockType falling

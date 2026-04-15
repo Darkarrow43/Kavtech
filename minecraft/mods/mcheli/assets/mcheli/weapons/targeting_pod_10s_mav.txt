@@ -1,0 +1,9 @@
+DisplayName = Designate Target [10s/300m][CD: 5s]
+Type = TargetingPod
+Sight = None
+Delay = 100
+Sound = SCAN
+Length = 300
+Radius = 80
+Target = planes/helicopters/vehicles/players
+MarkTime = 10

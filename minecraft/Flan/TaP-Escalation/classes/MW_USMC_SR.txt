@@ -1,0 +1,16 @@
+Name Sniper
+ShortName mUSAreconMC
+AddItem m40a5
+AddItem m9
+AddItem m18
+AddItem nato76210 6
+AddItem m9Ammo 4
+AddItem claymore
+AddItem c4Remote 1
+
+Hat boonieHatUSMCW
+Chest usmcbodyW
+Legs mtv
+
+
+SkinOverride WhiteGuyBlond

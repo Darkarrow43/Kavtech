@@ -1,0 +1,76 @@
+Name QBZ-191
+ShortName qbz191
+Ammo 58x4230rdmag
+Icon QBZ-191
+Description Type Assault Rifle_Use 5.8x42mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 45
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RandomRecoilRange 0.5
+RandomRecoilYawRange 0.5
+DecreaseRecoil 1.0
+DecreaseRecoilYaw 1.25
+//Damage in half hearts
+Damage 7.0
+RecoilShakeDistance 0.3
+RecoilDistance 0.03
+RunPosTime 4.5
+RunCrouchTime 4
+//Modifiers
+MoveSpeedModifier 1
+AimTimeConstant 0.63
+//The higher this value, the more the bullets spread
+Spread 0.8
+AimingSpreadConstant 0.4
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound qbz191_f
+ReloadSound qbz95_r
+LastShootSound emptyclick
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+BulletSpeed 35
+//Model settings
+Texture QBZ191
+Model BFMCpack.QBZ191
+ModelScale 0.16
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation scarh BFMCpack/animations/SCARH.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation scarh
+
+//Attachment Settings
+AllowAllAttachments true
+AllowAttachments
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

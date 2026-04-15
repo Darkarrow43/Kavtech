@@ -1,0 +1,11 @@
+Name X400 Tactical Light
+ShortName x400
+Icon X400
+Description §a照明_§c敌人可见的光束
+AttachmentType grip
+Flashlight True
+FlashlightStrength 30
+Silencer false
+Model BFMCpack.X400
+Texture X400
+ModelScale 0.2

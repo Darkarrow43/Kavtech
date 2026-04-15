@@ -1,0 +1,43 @@
+Name 9x19mm 25rds Mag
+ShortName 9x1925rdmag
+Model Bullet
+Description Used for HG/SMG
+//Colour of icon and model
+Colour 255 255 255
+ItemID 23822
+Icon GlockAmmo
+Description Used for SMG/Piston
+//How affected by gravity the bullet is
+FallSpeed 3.5
+//The maximum stack size
+MaxStackSize 6
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 25
+//The damage multiplier caused by the bullet on hitting an entity
+Damage 1
+DamageVsVehicles 1
+//Size of explosion caused
+Explosion 0
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact False
+Fuse 0
+FlakParticles 3
+FlakParticleType cloud
+HitSound grassimpact
+HitSoundRange 5
+HitSoundEnable true
+EntityHitSoundEnable true
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.1
+
+//Whether or not the bullet can travel through an entity having hit it
+//Penetrates False
+SmokeTrail False
+
+ShootHeadMultiplier 1.3
+
+ShootArmMultiplier 0.9
+
+ShootLegMultiplier 0.9

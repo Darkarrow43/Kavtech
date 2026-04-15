@@ -1,0 +1,69 @@
+Name QLG-10A
+Description Type Grenade Launcher_Use 40mmGrenade
+ShortName qlg10ahe
+//The ammo this gun uses (shortName)
+Icon QLG10A
+Ammo 40mmhe
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 6
+RandomRecoilRange 4
+DecreaseRecoil 2
+RandomRecoilYawRange 2
+DecreaseRecoilYaw 2
+RecoilAngle -30
+RecoilDistance 1.8
+RecoilShakeDistance 1.0
+RunPosTime 5
+RunCrouchTime 3
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 1
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+//The higher this value, the more the bullets spread
+Accuracy 0.75
+AimingSpreadConstant 0.75
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound qlg10a_f
+ReloadSound gp30_r
+ReloadSoundRange 5
+AimTimeConstant 0.45
+EmptyClickSound emptyclick
+GunSoundRange 20
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+BulletSpeed 12
+
+//3D Model Settings
+Model BFMCpack.QLG10A
+ModelScale 0.15
+Texture QLG10A
+
+3rdModel ransya.M320
+3rdModelScale 0.3
+3rdTexture 3rd/M320
+
+MoveSpeedModifier 1.00
+ReloadSoundRange 5
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 5
+CanAIUse false

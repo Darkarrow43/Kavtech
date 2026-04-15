@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName ANAssault
+AddItem m16a2
+AddItem m9
+AddItem m67 2
+AddItem m18
+AddItem 5564530 6
+AddItem m9Ammo 4
+AddItem mwMedKit 1
+SkinOverride MEBald

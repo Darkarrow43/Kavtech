@@ -1,0 +1,13 @@
+Name Engineer
+ShortName CWSovietsENG
+AddItem AK74tyrant
+AddItem makarov
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem 7t3545 3
+AddItem makarovAmmo 4
+
+SkinOverride WhiteGuyRU

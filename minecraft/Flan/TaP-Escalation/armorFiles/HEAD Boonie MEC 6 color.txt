@@ -1,0 +1,10 @@
+Name Boonie Hat (MEC 6-Colour Desert)
+ShortName boonieHatMEC
+Icon IconBoonieMEC
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieMEC
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

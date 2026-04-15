@@ -1,0 +1,16 @@
+filename = 'EntityRenderDistanceExtender-1.0c.jar'
+name = 'Entity Render Distance Extender'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'ea573cba1c2e41969236d5c105cff639eb70b715'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3492104
+project-id = 536259

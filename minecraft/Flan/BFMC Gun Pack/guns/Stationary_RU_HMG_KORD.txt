@@ -1,0 +1,32 @@
+Name KORD
+ShortName kord
+//The ammo this gun uses (shortName)
+Ammo 50calammo
+Ammo 50calapiammo
+Icon KORD
+Description Type HMG Recipe Part_Use .50BMG Bullet Box
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 130
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 0.1
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+ShootDelay 4
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+//SoundLength 21
+ShootSound kord_f
+ReloadSound m60e4_r
+Mode FullAuto
+BulletSpeed 18.0
+Scope None
+MoveSpeedModifier 0.5
+usableByMechas false
+UsableByMechas false
+UsableByPlayers false
+usableByPlayers false
+CanAIUse false

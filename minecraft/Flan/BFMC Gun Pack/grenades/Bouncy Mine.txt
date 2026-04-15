@@ -1,0 +1,64 @@
+////Name and icon
+Name Bouncy Mine
+ShortName bouncymine
+Icon SMine
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 4
+////Visuals
+TrailParticles false
+//ExplosionDamage
+ExplosionDamageVsPlane 1
+ExplosionDamageVsVehicle 1
+//TrailParticleType <particleType>
+ExplodeParticles 0
+ExplodeParticleType flansmod.fmflame
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown false
+////Throwing
+ThrowDelay 20
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.05
+HitEntityDamage 0
+ThrowSpeed 0.1
+FallSpeed 1.5
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger 0
+LivingProximityTrigger 1.0
+Fuse 0
+DetonateWhenShot false
+DespawnTime 1200
+PrimeDelay 40
+////Detonation
+FireRadius 0.0
+ExplosionRadius 1.6
+ExplosionBreaksBlocks false
+ExplosionDamageVsLiving 1
+ExplosionDamageVsPlayer 1
+//DropItemOnDetonate <itemID.damage>
+DetonateSound flak
+////Misc
+MeleeDamage 0
+HasLight True
+
+Model W44.SMine
+
+Texture Skin44_SMine
+
+ModelScale 1
+
+//BounceMine true
+//BounceDelayAfterOnGround 10
+//TickToExplodeAfterOnGround 15
+//BounceAfterTrigger true
+//BounceSound bounce

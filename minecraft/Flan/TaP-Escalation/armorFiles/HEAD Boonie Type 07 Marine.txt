@@ -1,0 +1,10 @@
+Name Boonie Hat (Type 07 Oceanic)
+ShortName boonieHat07M
+Icon IconBoonieType07M
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieType08M
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

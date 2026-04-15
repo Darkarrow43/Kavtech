@@ -1,0 +1,16 @@
+filename = 'journeymap-1.7.10-5.2.10-fairplay.jar'
+name = 'JourneyMap'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2840f980b9acaa78e9b9db549c31404d4963afc1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6706114
+project-id = 32274

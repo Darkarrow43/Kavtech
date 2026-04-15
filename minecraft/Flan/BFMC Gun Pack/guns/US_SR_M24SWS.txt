@@ -1,0 +1,60 @@
+Name M24 SWS
+ShortName m24sws
+Ammo 762x515rdmag
+Ammo 762x51highlight5rdmag
+Ammo 762x5110rdmag
+Icon M24SWS
+Description Type Sniping Rifle_Use 7.62x51mm Ammo
+Colour 255 255 255
+ReloadTime 80
+TacticalReloadTime 70
+Recoil 1
+RandomRecoilRange 0.5
+DecreaseRecoil 0.1
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 1.5
+Damage 15
+RunPosTime 10
+RunCrouchTime 6
+Accuracy 0.75
+AimTimeConstant 0.6
+AimingSpreadConstant 0.0
+ShootDelay 28
+ShootSound m24_f
+SuppressedShootSound m24_s_f
+ActionSound bolt_sniper
+ReloadSound m24_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSoundRepeated emptyclick
+Mode SemiAuto
+BulletSpeed 21
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+ModelScale 0.267
+Model BFMCpack.M24A2
+Texture M24A2
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+UseRightArmGLTFAnimation true
+GLTFAnimation m24 BFMCpack/animations/M24.json
+TacticalReloadGLTFAnimation m24
+
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire
+CancelAimingAfterShoot true

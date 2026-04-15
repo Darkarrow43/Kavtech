@@ -1,0 +1,100 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;炮手位cross_type0_9 :0 TVM，1 MISSILESTRIKE，2 rocket_arm，3 CONNONSTRIKE，4 irm，5 arm，6 laserm，7 losm，8 SARH，9 connon
+;weapon_group_type: 0:SARH/MISSILESTRIKE;1:CONNON/SARH;2:CONNON/IRM;3:LASERM/CONNONSTRIKE
+;4:CONNON/TVM;5:CONNON/TVM;6:CONNON/TVM;7:CONNON/TVM
+
+;==================== 武器组0: SARH/MISSILESTRIKE ====================
+;SARH
+If = (weapon_group_type==0)&&(cross_type==8)
+DrawTexture = HELI_AMMO_SARH_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_MISSILESTRIKE_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;MISSILESTRIKE
+If = (weapon_group_type==0)&&(cross_type==1)
+DrawTexture = HELI_AMMO_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_MISSILESTRIKE_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组1: CONNON/SARH ====================
+;CONNON
+If = (weapon_group_type==1)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_SARH_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;SARH
+If = (weapon_group_type==1)&&(cross_type==8)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_SARH_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组2: CONNON/IRM ====================
+;CONNON
+If = (weapon_group_type==2)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==2)&&(cross_type==4)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组3: LASERM/CONNONSTRIKE ====================
+;LASERM
+If = (weapon_group_type==3)&&(cross_type==6)
+DrawTexture = HELI_AMMO_LASERM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_CONNONSTRIKE_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;CONNONSTRIKE
+If = (weapon_group_type==3)&&(cross_type==3)
+DrawTexture = HELI_AMMO_LASERM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_CONNONSTRIKE_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组4: CONNON/TVM ====================
+;CONNON
+If = (weapon_group_type==4)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==4)&&(cross_type==0)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组5: CONNON/TVM ====================
+;CONNON
+If = (weapon_group_type==5)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==5)&&(cross_type==0)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组6: CONNON/TVM ====================
+;CONNON
+If = (weapon_group_type==6)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==6)&&(cross_type==0)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组7: CONNON/TVM ====================
+;CONNON
+If = (weapon_group_type==7)&&(cross_type==9)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;TVM
+If = (weapon_group_type==7)&&(cross_type==0)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_TVM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif

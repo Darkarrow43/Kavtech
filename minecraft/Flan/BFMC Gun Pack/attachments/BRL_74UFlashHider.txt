@@ -1,0 +1,20 @@
+Name Flash Hider
+ShortName 74uflashhider
+Icon 74UFlashHider
+AttachmentType barrel
+Silencer False
+DisableMuzzleFlash true
+Description §a降低20%水平后坐力_§a消除枪口火焰_§c增加10%散布
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.1
+RecoilMultiplier 1.0
+RecoilYawMultiplier 0.8
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+Model DarkZone.74UFlashHider
+Texture AKS74U
+ModelScale 1.0

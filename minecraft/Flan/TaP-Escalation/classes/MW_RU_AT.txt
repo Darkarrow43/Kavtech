@@ -1,0 +1,11 @@
+Name Anti-Tank
+ShortName mRUSengineer
+AddItem AK74M
+AddItem rpg26
+AddItem rpg26
+AddItem mp443
+AddItem 7n10 6
+AddItem rpg26Rocket 2
+AddItem mp443Ammo 4
+AddItem rdg2 1
+SkinOverride WhiteGuyRU

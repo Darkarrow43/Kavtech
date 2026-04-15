@@ -1,0 +1,66 @@
+DisplayName = SPICE-1000 [GPS / IR Dual-Mode]
+Type = ATmissile
+Power = 1000
+Acceleration = 0
+Explosion = 7
+explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=2
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = SPICE1000
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 10
+
+EnableOffAxis = true
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1
+DamageFactor = tank, 2
+turningFactor = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+EnableOffAxis = false
+LockTime = 1
+TurningFactor = 0.05
+
+SpeedDependsAircraft =true
+NukeEffectOnly=true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 3
+ExplosionDamageVsShip=7
+canBeIntercepted = true
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+MaxLockOnRange = 70
+MaxLockOnAngle = 60
+EnableOffAxis = false
+MaxDegreeOfMissile = 60
+ActiveRadar = true
+SpeedDependsAircraft = false
+enableChunkLoader = true
+

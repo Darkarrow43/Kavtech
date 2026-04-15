@@ -1,0 +1,10 @@
+Name andesite
+ShortName andesite
+Colour 255 255 255
+TopTexture andesite
+SideTexture andesite
+BottomTexture andesite
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

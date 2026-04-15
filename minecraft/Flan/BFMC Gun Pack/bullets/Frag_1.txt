@@ -1,0 +1,25 @@
+Name Frag
+ShortName frag1
+Model None
+Colour 255 255 255
+Icon Frag
+FallSpeed 0.1
+MaxStackSize 1
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 500
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 15
+DamageVsPlayer 15
+DamageVsVehicles 15
+DamageVsPlanes 15
+Fuse 140
+FlakParticles 5
+SetEntitiesOnFire False
+HitBoxSize 0.5
+SmokeTrail True
+TrailParticles True
+TrailParticleType lava
+HasLight True
+DragInAir 15
+FlareParticleCount 1
+DebrisParticleCount 1

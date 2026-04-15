@@ -1,0 +1,22 @@
+Name Skeleton Stock
+ShortName skeletonstock
+Icon MOE
+
+AttachmentType stock
+
+Silencer false
+Description в╟йн
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay none
+
+Model DarkZone.MOE
+Texture MOE
+ModelScale 1.15

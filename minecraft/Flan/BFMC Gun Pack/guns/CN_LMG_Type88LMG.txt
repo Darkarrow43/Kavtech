@@ -1,0 +1,67 @@
+Name TYPE-88 LMG
+ShortName qjy88
+//The ammo this gun uses (shortName)
+Ammo 58x42100rdbox
+Ammo 58x42100rdapbox
+Icon QJY-88
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Light Machine Gun_Use 5.8x42mm Bullet Box
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 120
+TacticalReloadTime 135
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.5
+RecoilDistance 0.15
+RecoilAngle 0
+RandomRecoilRange 0.8
+DecreaseRecoil 1
+RandomRecoilYawRange 0.9
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.6
+RunPosTime 15
+RunCrouchTime 6
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+AimTimeConstant 0.68
+CanHipFireWhileSprinting False
+//Damage in half hearts
+Damage 6.5
+//The higher this value, the more the bullets spread
+Spread 2
+AimingSpreadConstant 0.15
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound qjy88_f
+ReloadSound qjy88_r
+ReloadSoundRange 6
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 35
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+ModelScale 0.25
+Model BFMCpack.Type88LMG
+Texture Type88LMG
+MoveSpeedModifier 0.9
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight flanMWSingleFire flanMWBurstFire flanMWAutoFire
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowGadgetAttachments true
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3

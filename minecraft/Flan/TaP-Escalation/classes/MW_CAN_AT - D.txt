@@ -1,0 +1,18 @@
+Name Anti-Tank
+ShortName canadaATD
+AddItem c7a2
+AddItem l9a1
+AddItem m72law
+AddItem m72law
+AddItem 5564530 6
+AddItem m9Ammo 4
+AddItem m72lawAmmoEvolved 1
+AddItem m72lawAmmoEvolved 1
+
+
+Hat CG634
+Chest canadaModernD
+Legs PBAD
+
+
+SkinOverride WhiteGuyRedHair

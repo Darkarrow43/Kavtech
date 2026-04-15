@@ -1,0 +1,11 @@
+Name Saboteur
+ShortName mRUSSus
+AddItem makarov
+AddItem c4 8
+AddItem c4Remote 
+AddItem rdg2 1
+AddItem makarovAmmo 8
+SkinOverride WhiteGuyBlondBald
+Hat mk7Ukraine
+Chest ukrSlavaMM14
+Legs IOTVUkraine

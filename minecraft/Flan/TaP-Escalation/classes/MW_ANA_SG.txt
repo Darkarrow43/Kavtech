@@ -1,0 +1,12 @@
+Name Specialist
+ShortName ANAsg
+AddItem M4A1
+AddItem Mossberg590
+AddItem m9
+AddItem claymore 2
+AddItem c4Remote 
+AddItem m18
+AddItem mpp12gauge 32
+AddItem 5564530 6
+AddItem m9Ammo 4
+SkinOverride MEMustache

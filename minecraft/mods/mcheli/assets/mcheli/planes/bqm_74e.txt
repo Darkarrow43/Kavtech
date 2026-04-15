@@ -1,0 +1,32 @@
+﻿DisplayName = TARGET DRONE
+AddDisplayName = zh_CN,标靶无人机
+AddDisplayName = en_US,TARGET DRONE
+ItemID = 28736
+MaxHp = 500
+Speed = 1.5
+Sound = rocket
+onGroundPitch = 20
+UAV = true
+TargetDrone = true
+AutoPilotRot = -1.0
+ThrottleUpDown = 20.0
+MaxFuel         = 180
+FuelConsumption = 1.0
+
+; M = Military(軍用機).  Q = Drone(無人航空機)
+Category = M.Q
+
+ParticlesScale = 2.5
+AddPartNozzle = 0.00, 0.02, -1.59, -1,0,0
+
+AddRecipe = "IRF", I,iron_ingot, R,redstone,  F,furnace
+ArmorMinDamage = 11
+BoundingBox =  0.0, 0.0, 0.0, 15, 10
+NameOnModernAARadar = S70
+NameOnEarlyAARadar = UAV
+NameOnModernASRadar = S70
+NameOnEarlyASRadar = UAV
+RadarType = MODERN_AA
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+enablerwr=true

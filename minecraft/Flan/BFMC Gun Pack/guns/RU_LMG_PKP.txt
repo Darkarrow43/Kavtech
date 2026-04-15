@@ -1,0 +1,71 @@
+Name PKP PECHENEG
+ShortName pkp
+//The ammo this gun uses (shortName)
+Ammo 762x54100rdbox
+Ammo 762x54100rdapbox
+Icon PKP
+Description Type Light Machine Gun_Use 7.62x54mm Bullet Box
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 110
+TacticalReloadTime 120
+Recoil 2.5
+RecoilAngle 0
+RecoilDistance 0.05
+RandomRecoilRange 0.8
+DecreaseRecoil 1.5
+RandomRecoilYawRange 1.1
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.6
+AimTimeConstant 0.71
+CanHipFireWhileSprinting False
+RunPosTime 14
+RunCrouchTime 6
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 7.5
+//The higher this value, the more the bullets spread
+Accuracy 1
+AimingSpreadConstant 0.15
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound pkp_f
+ReloadSound pkp_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 32
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model BFMCpack.PKP
+ModelScale 0.38
+Texture PKP
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight flanMWSingleFire flanMWBurstFire flanMWAutoFire
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments true
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 0.9
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3

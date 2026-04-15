@@ -1,0 +1,17 @@
+Name Modern Chinese Marines
+ShortName PLAModernMarines
+//TextColour can be one of Black, Blue, Green, Aqua, Red, Purple, Orange, LGrey, Grey, LBlue, LGreen, LAqua, Red, Pink, Yellow, White
+//This is used for player names and such
+TextColour Aqua
+//TeamColour is a more specific colour for banners, flags and spawn points. It is specified by Red, Green and Blue, each ranging from 0 to 255
+TeamColour 108 255 208
+//Specify the armour this team should spawn with
+Hat PASGTChinaMarine
+Chest chinaModernBodyMarine
+Legs type06Vest
+AddClass mPLAassault
+AddClass mPLAreconM
+AddClass mPLAengineer
+AddClass mPLAsupport
+AddClass mPLASpecialist
+AddClass mPLASapper

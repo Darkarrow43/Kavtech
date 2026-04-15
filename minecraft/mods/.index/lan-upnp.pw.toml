@@ -1,0 +1,16 @@
+filename = 'lanupnp-1.1.jar'
+name = 'Lan UPNP'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '834a4e3a83ac30c796ac6ddfcb9a55cc34659d3c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2851215
+project-id = 352915

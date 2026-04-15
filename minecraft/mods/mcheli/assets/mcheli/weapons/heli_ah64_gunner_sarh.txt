@@ -1,0 +1,69 @@
+DisplayName =AGM-114L Hellfire mmW SARH ATGM
+Type = ATMissile
+Power = 600
+Acceleration = 0.5
+Explosion = 4
+explosionblock=0
+Flaming = false
+Sight = MissileSight
+Delay = 120
+ModeNum = 1
+Sound = 9K118_F
+SoundVolume = 10
+RidableOnly = true
+ModelBullet = AGM114
+TimeFuse = 360
+LockTime = 10
+
+HeatCount = 1200
+MaxHeatCount = 1500
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1
+DamageFactor = tank, 1
+
+RigidityTime = 15
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Shell
+
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 600
+MaxDegreeOfMissile =90
+PassiveRadar = true
+EnableOffAxis = true
+SpeedFactor = 0.04
+SpeedFactorStartTick = 30
+SpeedFactorEndTick = 75
+SpeedDependsAircraft = true
+turningFactor = 0.09
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=false
+canBeIntercepted=false
+canBeIntercepted=true
+
+;≈⁄ ÷Œªcross_type0_9 :0 TVM£¨1 MISSILESTRIKE£¨2 rocket_arm£¨3 CannonSTRIKE£¨4 irm£¨5 arm£¨6 laserm£¨7 losm£¨8 SARH£¨9 cannonn
+;weapon_group_type: 0:SARH/MISSILESTRIKE;1:Cannon/SARH;2:Cannon/IRM;3:LASERM/CannonSTRIKE
+;4:Cannon/TVM;5:Cannon/TVM;6:Cannon/TVM;7:Cannon/TVM
+crosstype=8
+
+DamageFactor = living, 1
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = ship, 1
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=true

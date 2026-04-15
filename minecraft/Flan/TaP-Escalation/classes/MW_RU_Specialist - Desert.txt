@@ -1,0 +1,16 @@
+Name Specialist
+ShortName mRUSSGD
+AddItem AK74M
+AddItem ks23
+AddItem mp443
+AddItem claymore 2
+AddItem c4Remote 
+AddItem rdg2 1
+AddItem ks23shells 32
+AddItem 7n10 6
+AddItem mp443Ammo 4
+SkinOverride WhiteGuyRU
+Hat 6B47DigiBeige
+Chest russiaEMRVKBOBeige
+Legs 6b45Beige
+Shoes balaclava1RU

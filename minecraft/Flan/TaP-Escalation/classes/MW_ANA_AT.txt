@@ -1,0 +1,10 @@
+Name Anti-Tank
+ShortName ANAAT
+AddItem AKM
+AddItem rpg7
+AddItem makarov
+AddItem 7623830 5
+AddItem rpgAmmoAnimals 2
+AddItem makarovAmmo 4
+AddItem rdg2 1
+SkinOverride MEMustache

@@ -1,0 +1,46 @@
+Name QJZ-89
+ShortName qjz89tripod
+RotateWheels False
+Icon QJZ89
+Model BFMCpack.QJZ89
+Texture QJZ89
+CameraDistance 3
+MaxThrottle 0.0
+MaxNegativeThrottle 0.0
+TurnLeftSpeed 0.0
+TurnRightSpeed 0.0
+WheelRadius 1.0
+WheelPosition 0 -4 -8 -4
+WheelPosition 1 -4 -8 4
+WheelPosition 2 4 -8 4
+WheelPosition 3 4 -8 -4
+WheelSpringStrength 0.5
+Bounciness 0.2
+FourWheelDrive true
+Tank false
+FuelTankSize 2000
+CargoSlots 0
+ShellSlots 0
+Driver 0 -8 0 -45 45 -18 22
+RotatedDriverOffset -15 0 0
+Passengers 0
+AddGun 40 3 0 turret kord
+AllowAllAmmo False
+ShootDelay 3
+StartSound None
+StartSoundLength None
+EngineSound None
+EngineSoundLength None
+ShootSoundSecondary qjz89_f
+SetupPart core 60 -20 -8 -18 36 24 36
+BulletDetection 5
+ModelScale 0.45
+Description Type Heavy Machine Gun_Use .50BMG Bullet Box
+BulletDetection 5
+CanRoll true
+BulletSpeed 18.5
+MoveSpeedModifier 0.5
+BulletSpread 1
+IsExplosionWhenDestroyed false
+
+DriverAimSpeed 1.64f 1.54f 0f

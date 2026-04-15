@@ -1,0 +1,16 @@
+filename = 'FastLeafDecay-1.7.10-1.4.jar'
+name = 'Fast Leaf Decay'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd82f7a1f7573f35a4f1dace410a7fbb88bb4b522'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2272838
+project-id = 230976

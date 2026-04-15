@@ -1,0 +1,15 @@
+Name Engineer
+ShortName mUKRSapper
+AddItem AK74tyrant
+AddItem makarov
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem 5453930 5
+AddItem makarovAmmo 5
+SkinOverride WhiteGuyBlondBald
+Hat mk7Ukraine
+Chest ukrSlavaMM14
+Legs IOTVUkraine

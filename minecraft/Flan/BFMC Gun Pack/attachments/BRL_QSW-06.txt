@@ -1,0 +1,18 @@
+Name QSW-06 Suppressor
+ShortName qsw06
+Icon QSW-06
+Description §a降低15%散布_§a降低5%垂直后坐力_§a消音_§c降低20%子弹速度
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+SpreadMultiplier 0.85
+RecoilMultiplier 0.95
+BulletSpeedMultiplier 0.8
+ReloadTimeMultiplier 1.0
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+Model BFMCpack.QSW06
+Texture QSW06
+ModelScale 0.2

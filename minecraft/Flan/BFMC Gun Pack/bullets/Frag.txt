@@ -1,0 +1,31 @@
+Name Frag
+ShortName frag
+Model None
+Colour 255 255 255
+Icon Frag
+FallSpeed 0
+MaxStackSize 1
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 500
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 10
+DamageVsPlayer 10
+DamageVsVehicles 10
+DamageVsPlanes 10
+Fuse 2
+FlakParticles 1
+SetEntitiesOnFire False
+HitBoxSize 0.5
+SmokeTrail True
+TrailParticles True
+TrailParticleType flansmod.fmflame
+HasLight True
+DragInAir 0.5
+FlareParticleCount 1
+DebrisParticleCount 1
+
+BulletSpeedMultiplier 0.5
+
+ShootHeadMultiplier 1.0
+ShootArmMultiplier 1.0
+ShootLegMultiplier 1.0

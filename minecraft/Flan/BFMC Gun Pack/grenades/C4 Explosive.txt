@@ -1,0 +1,65 @@
+////Name and icon
+Name C4 Explosive
+ShortName c4cn
+Icon C4
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 4
+////Visuals
+Model dwfirearms.LupineC4
+Texture C4
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 600
+//ExplodeParticleType <particleType>
+SmokeTime 10
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+ThrowSound c4
+ThrowDistortSound False
+DistortSound False
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.2
+HitEntityDamage 0
+ThrowSpeed 0.9
+FallSpeed 1.5
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky true
+StickToEntity true
+StickToDriveable true
+StickToEntityAfter false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 0
+DetonateWhenShot true
+Remote true
+DespawnTime 20000
+PrimeDelay 40
+////Detonation
+FireRadius 0.0
+ExplosionRadius 6.5
+ExplosionDamageVsLiving 0.4
+ExplosionDamageVsPlayer 0.4
+ExplosionDamageVsVehicle 3
+ExplosionDamageVsPlane 3
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+DetonateSound explcls
+////Misc
+FlashBang true
+FlashTime 1
+FlashRange 1
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound flash
+DistortSound false
+TeamThrowSound true

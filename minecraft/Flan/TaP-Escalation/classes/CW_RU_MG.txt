@@ -1,0 +1,8 @@
+Name Machine Gunner
+ShortName CWSovietsMG
+AddItem pkm
+AddItem makarov
+AddItem rdg2 1
+AddItem pkmbox 16
+AddItem makarovAmmo 4
+SkinOverride WhiteGuyBlondBald

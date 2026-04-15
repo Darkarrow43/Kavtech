@@ -1,0 +1,10 @@
+Name Boonie Hat (Wustentarn)
+ShortName boonieHatWustentarn
+Icon IconBoonieTropentarn
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieWustentarn
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

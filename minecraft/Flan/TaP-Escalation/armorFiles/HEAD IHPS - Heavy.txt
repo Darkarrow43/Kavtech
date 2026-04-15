@@ -1,0 +1,12 @@
+Name Integrated Head Protection System - Visor
+ShortName IHPSvisor
+Icon AdvancedCombatHelmetVisor
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.IHPSHeavy
+ArmourTexture SkinIHPSHeavy
+MoveSpeedModifier 0.75
+Description Juggernaut_American Combat Helmet_With Mandible Protection_Year: 2018_Operational Camouflage Pattern
+headArmor 200
+faceArmor 100

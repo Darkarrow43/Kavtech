@@ -1,0 +1,65 @@
+Name AS VAL
+ShortName asval
+//The ammo this gun uses (shortName)
+Ammo 9x3920rdmag
+Ammo 9x3930rdmag
+Icon ASVal
+Description Type Carbine Rifle_Use 9x39mm Ammo
+Colour 255 255 255
+ReloadTime 55
+TacticalReloadTime 40
+Recoil 1.5
+RecoilDistance 0.075
+RandomRecoilRange 0.2
+DecreaseRecoil 0.8
+RandomRecoilYawRange 0.8
+DecreaseRecoilYaw 1.8
+RecoilShakeDistance 0.3
+Damage 6.5
+//The higher this value, the more the bullets spread
+Accuracy 0.5
+SingleShootSpreadModifier 0.5
+AimingSpreadConstant 0.5
+AimTimeConstant 0.6
+RunPosTime 4
+RunCrouchTime 3
+//Time in ticks between rounds
+RoundsPerMin 1000
+ShootSound as_f
+ReloadSound as_r
+ReloadSoundRange 5
+GunSoundRange 30
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+BulletSpeed 23
+
+Model BFMCpack.ASVAL
+ModelScale 1.2
+Texture ASVAL
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_3 BFMCpack/animations/AR_Reload_3.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowAllAttachments True
+AllowBarrelAttachments False
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3

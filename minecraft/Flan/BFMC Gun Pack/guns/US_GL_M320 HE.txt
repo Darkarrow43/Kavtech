@@ -1,0 +1,66 @@
+Name M320
+Description Type Grenade Launcher_Use 40mmGrenade
+ShortName m320he
+//The ammo this gun uses (shortName)
+Icon M320
+Ammo 40mmhe
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 6
+RandomRecoilRange 4
+DecreaseRecoil 2
+RandomRecoilYawRange 2
+DecreaseRecoilYaw 2
+RecoilAngle -45
+RecoilDistance 0.2
+RecoilShakeDistance 1.0
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 1
+RunPosTime 5
+RunCrouchTime 2
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+//The higher this value, the more the bullets spread
+Accuracy 0.75
+AimingSpreadConstant 0.75
+ShootDelay 1
+ShootSound m320_f
+ReloadSound m320_r
+ReloadSoundRange 5
+EmptyClickSound emptyclick
+GunSoundRange 20
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+BulletSpeed 12
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+Model MT.M320
+ModelScale 1.0
+Texture M320
+
+3rdModel ransya.M320
+3rdModelScale 0.3
+3rdTexture 3rd/M320
+
+MoveSpeedModifier 1.00
+ReloadSoundRange 5
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments pka
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+CanAIUse false

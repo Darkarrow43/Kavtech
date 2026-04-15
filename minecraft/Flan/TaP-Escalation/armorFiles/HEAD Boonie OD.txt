@@ -1,0 +1,10 @@
+Name Boonie Hat (Olive Drab)
+ShortName boonieHatOD
+Icon IconBoonieOD
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieOD
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

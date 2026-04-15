@@ -1,0 +1,51 @@
+Name M67 Frag
+ShortName m67
+Icon M67
+Description Fuse 4s
+Colour 255 255 255
+ItemID 23857
+StackSize 4
+Model Octagon_Weapons.M67_Grenade
+Texture M67
+TrailParticles false
+ExplodeParticles 300
+ExplodeParticleType Boom
+SmokeTime 10
+SpinWhenThrown true
+ThrowDelay 10
+ThrowSound usmc_grenade
+DetonateOnImpact false
+Bounciness 0.6
+HitEntityDamage 5
+ThrowSpeed 2.5
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.1
+Sticky false
+BounceSound bounce
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 60
+DetonateWhenShot false
+Remote false
+PrimeDelay 0
+FireRadius 0.0
+ExplosionRadius 4
+ExplosionDamageVsLiving 2.5
+ExplosionDamageVsPlayer 2.5
+ExplosionBreaksBlocks true
+DetonateSound hand_grenade
+MeleeDamage 2
+DebrisParticleCount 10
+FlashBang true
+FlashTime 1
+FlashRange 5
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound flash
+FlashEffects 9 40 2
+FlashEffectsDuration 40
+FlashEffectsLevel 2
+CanBeDestructByAPS true
+DistortSound false

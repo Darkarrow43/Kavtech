@@ -1,0 +1,14 @@
+Name Sniper
+ShortName mUSArecon
+AddItem m110
+AddItem m9
+AddItem m18
+AddItem battleRifle 6
+AddItem m9Ammo 4
+AddItem claymore
+AddItem c4Remote 1
+SkinOverride WhiteGuyBlond
+
+Hat boonieHatOCP
+Chest USAOCPBody
+Legs IOTV

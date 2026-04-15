@@ -1,0 +1,10 @@
+Name Boonie Hat (US 6-Colour Desert)
+ShortName boonieHatChocChip
+Icon IconBoonieChocChip
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieChocChip
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

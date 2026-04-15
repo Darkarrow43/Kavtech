@@ -1,0 +1,10 @@
+Name copper_block_cutted
+ShortName copper_block_cutted
+Colour 255 255 255
+TopTexture copper_block_cutted
+SideTexture copper_block_cutted
+BottomTexture copper_block_cutted
+Material iron
+Hardness 8
+Resistance 10
+BreakableByExplosion false

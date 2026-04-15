@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName canadaRifleMan
+AddItem c7a2
+AddItem l9a1
+AddItem m67 1
+AddItem m18
+AddItem 5564530 6
+AddItem m9Ammo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyRedHairBeard

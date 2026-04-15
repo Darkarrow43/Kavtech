@@ -1,0 +1,23 @@
+Name Lightweight
+ShortName lightweight
+Icon Lightweight
+Description §a增加10%开镜速度_§a减少20%跑射延迟_§c增加15%散布
+Silencer false
+
+MeleeDamageMultiplier 1.0
+
+AttachmentType gadget
+
+RecoilMultiplier 1.0
+RecoilYawMultiplier 1.0
+SpreadMultiplier 1.15
+AimingTimeMultiplier 0.9
+RunPosTimeMultiplier 0.8
+RunCrouchTimeMultiplier 0.8
+ReloadTimeMultiplier 1.0
+ZoomLevel 1.0
+
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model None

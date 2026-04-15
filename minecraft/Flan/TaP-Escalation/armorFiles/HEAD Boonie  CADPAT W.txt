@@ -1,0 +1,10 @@
+Name Boonie Hat (CADPAT Woodland)
+ShortName boonieHatCADPATW
+Icon IconBoonieCADPATW
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieCADPAT
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

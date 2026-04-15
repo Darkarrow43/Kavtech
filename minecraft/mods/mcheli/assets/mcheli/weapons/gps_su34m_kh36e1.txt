@@ -1,0 +1,67 @@
+
+DisplayName = KH36-E1 [GPS]
+Type = ASmissile
+Power = 150
+Acceleration = 0.1
+Explosion = 7
+Explosionblock=0
+Flaming = false
+Sight = MoveSight
+ModelBullet = KH36
+Sound = missile_11_snd
+Delay = 30
+ReloadTime = 10
+Round = 2
+
+DisplayMortarDistance = true
+
+LockTime = 1
+TurningFactor = 0.15
+
+MaxDegreeOfMissile = 25
+RigidityTime = 30
+
+
+ModelBomblet = KH36
+
+DisplayMortarDistance = true
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+
+effectYield=2
+
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=2
+ExplosionDamageVsTank=4
+ExplosionDamageVsPlane=4
+ExplosionDamageVsHeli=4
+ExplosionDamageVsVehicle=4
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+SpeedFactor = 0.06
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 100
+SpeedDependsAircraft = true
+enableChunkLoader = true
+;Delayfuse = 80
+;TimeFuse = 600
+isGPSmissile=true
+
+crosstype=11
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=2
+ExplosionDamageVsTank=6
+ExplosionDamageVsPlane=3
+ExplosionDamageVsHeli=3
+ExplosionDamageVsVehicle=1
+ExplosionDamageVsShip=4
+enableExhaustFlare=false
+ExplosionThroughWall=false

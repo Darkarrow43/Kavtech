@@ -1,0 +1,76 @@
+Name M16A3
+ShortName m16a3
+//The ammo this gun uses (shortName)
+Ammo 556x4540rdmag
+Icon M16A3
+Description Type Assault Rifle_Use 5.56x45mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 65
+TacticalReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.2
+RecoilDistance 0.03
+RecoilAngle -0.5
+RandomRecoilRange 0.6
+DecreaseRecoil 0.9
+RandomRecoilYawRange 0.75
+DecreaseRecoilYaw 2
+AimTimeConstant 0.62
+RecoilShakeDistance 0.3
+//Damage in half hearts
+Damage 6
+RunPosTime 4.5
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Accuracy 0.42500000000000004
+AimingSpreadConstant 0.4
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound m16lmg_f
+ReloadSound m4a1_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 30
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.2
+
+Model BFMCpack.M16A4
+ModelScale 1.15
+Texture M16A3
+
+3rdModel ransya.M16
+3rdModelScale 0.3
+3rdTexture 3rd/M16
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_4 BFMCpack/animations/AR_Reload_4.json
+
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+//Attachment Settings
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CanAIUse false

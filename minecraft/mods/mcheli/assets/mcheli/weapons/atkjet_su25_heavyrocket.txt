@@ -1,0 +1,66 @@
+DisplayName = S-25O Heavy Rocket
+Type = Rocket
+Power = 350
+ModelBullet = s25o
+Acceleration = 3
+Explosion = 7
+Explosionblock = 0
+Sound = missile_11_snd
+Flaming = false
+Sight = MoveSight
+Delay =0
+ReloadTime = 150
+Round =2
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+HeatCount = 400
+MaxHeatCount = 600
+Gravity = -0.004
+SoundVolume = 10
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = heli, 1.5
+
+DisplayMortarDistance = true
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=3.5
+ExplosionDamageVsPlane=3.5
+ExplosionDamageVsHeli=3.5
+ExplosionDamageVsVehicle=3.5
+
+MaxAmmo = 16
+SuppliedNum = 16
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+canBeIntercepted=true
+canBeIntercepted=true
+
+
+;¼ÝÊ»Î»cross_type0_9:0 Cannon, 1 AAM_ARM_HEAVY, 2 AAM_ARM, 3 AAM_IRM, 4 AAM_SARH, 5 AGM_ARM, 6 AGM_IRM, 7 AGM_LASERM, 8 AGM_SARH, 9 AGM_TVM
+;10 Clusterbomb ,11 GPSBOMB ,12 GPSBOMB_SAP ,13 HEAVYROCKT ,14 IRBOMB, 15 ROCKET_ARM, 16 ROCKET, 17 ZUNI,
+
+;¿ÕÓÅ¹¥»÷»úweapon_group_type: 1 Cannon/AAM_IRM/AAM_SARH, 2 Cannon/AAM_SARH/AAM_ARM_HEAVY, 3 Cannon/AAM_IRM/AAM_ARM
+;4 Cannon/AAM_ARM/ROCKET_ARM, 5 Cannon/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 Cannon/ROCKET/AGM_LASERM
+;8 Cannon/ROCKET_ARM/AGM_IRM, 9 Cannon/HEAVYROCKET/AGM_LASERM, 10 Cannon/ZUNI/AGM_IRM, 11 Cannon/AAM_ARM/AGM_SARH
+;12 Cannon/AAM_IRM/AGM_IRM, 13 Cannon/AAM_ARM/GPSBOMB, 14 EML/AGM_ARM, 15 GPSBOMB/AGM_LASERM
+
+crosstype=13
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=1
+ExplosionDamageVsPlane=1
+ExplosionDamageVsHeli=1
+ExplosionDamageVsVehicle=1
+DamageFactor = living, 0.5
+ExplosionDamageVsShip=3.5
+enableExhaustFlare=true

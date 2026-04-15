@@ -1,0 +1,68 @@
+Name CZ-805
+ShortName cz805
+//The ammo this gun uses (shortName)
+Ammo 556x4530rdmag
+Icon CZ805
+Description Type Assault Rifle_Use 5.56x45mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+TacticalReloadTime 40
+Recoil 2.0
+RecoilDistance 0.02
+RandomRecoilRange 0.3
+DecreaseRecoil 0.6
+RandomRecoilYawRange 0.4
+DecreaseRecoilYaw 1.5
+RecoilShakeDistance 0.3
+//Damage in half hearts
+Damage 7
+RunPosTime 4
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Spread 0.8
+AimingSpreadConstant 0.4
+AimTimeConstant 0.635
+//Time in ticks between rounds
+RoundsPerMin 685
+ShootSound cz805_f
+ReloadSound cz805_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+BulletSpeed 35
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.CZ805
+ModelScale 0.065
+Texture CZ805
+
+3rdModel ransya.Mk18
+3rdModelScale 0.3
+3rdTexture 3rd/Mk18
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_0 BFMCpack/animations/AR_Reload_0.json
+
+//Attachment Settings
+AllowAllAttachments True
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+
+animGunOffset = -0.05
+animGunOffsetX = -1

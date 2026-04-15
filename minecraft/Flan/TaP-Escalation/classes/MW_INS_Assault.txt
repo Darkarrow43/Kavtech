@@ -1,0 +1,9 @@
+Name Rifleman
+ShortName ISISassault
+AddItem AKM
+AddItem tt33
+AddItem m67 1
+AddItem 7623830 4
+AddItem tt33Ammo 4
+AddItem mwMedKit 1
+SkinOverride BlackNigga2

@@ -1,0 +1,10 @@
+Name Divine Illuminati Bill
+ShortName BillDivine
+Icon divineBill
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7407
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Misc
+StackSize 64
+Description This heavenly note shall grant thee the power of 1,000 profane coins.

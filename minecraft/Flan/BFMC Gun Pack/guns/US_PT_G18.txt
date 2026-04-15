@@ -1,0 +1,67 @@
+Name GLOCK-18
+ShortName g18
+//The ammo this gun uses (shortName)
+Ammo 9x1915rdmag
+Icon Glock
+Description Type Piston_Use 9x19mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 40
+TacticalReloadTime 30
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1.5
+RecoilAngle -5
+RandomRecoilRange 0.3
+DecreaseRecoil 1
+RandomRecoilYawRange 1
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.2
+//Damage in half hearts
+Damage 4.5
+RunPosTime 2
+RunCrouchTime 2
+AimTimeConstant 0.5
+//The higher this value, the more the bullets spread
+Spread 0.6000000000000001
+AimingSpreadConstant 0.9
+//Time in ticks between rounds
+RoundsPerMin 900
+ShootSound g18_f
+ReloadSound m9_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 20
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Texture G18
+Model BFMCpack.G18
+ModelScale 1.0
+
+3rdModel ransya.G17
+3rdModelScale 0.2
+3rdTexture 3rd/G17
+
+//Attachment Settings
+AllowAllAttachments true
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+CanAIUse false

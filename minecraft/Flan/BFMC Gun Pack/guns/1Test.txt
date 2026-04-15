@@ -1,0 +1,48 @@
+Name TEST
+ShortName test_model
+
+Texture NTW-20
+Model BFMCpack.TestBlockModel
+ModelScale 0.1
+
+Ammo 50calammo
+Ammo 50calapiammo
+Icon None
+Colour 255 255 255
+Description Type Assault Rifle_Use 5.8x42mm Ammo
+ReloadTime 70
+Recoil 2
+RecoilDistance 0.06
+RecoilAngle 0.1
+RandomRecoilRange 0.65
+DecreaseRecoil 1
+RandomRecoilYawRange 0.65
+DecreaseRecoilYaw 2
+Damage 6
+AimTimeConstant 0.68
+Accuracy 0.5
+AimingSpreadConstant 0.3
+RoundsPerMin 400
+ShootSound 50CalShoot
+ReloadSound m4a1_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto Burst SemiAuto
+NumBurstRounds 3
+BulletSpeed 25
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+CanShootUnderwater False
+Deployable False
+DeployedModel None
+AllowAllAttachments true
+AllowAttachments
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CanAIUse false

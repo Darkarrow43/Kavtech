@@ -1,0 +1,115 @@
+DisplayName = LAV-25
+AddDisplayName = zh_CN,LAV-25 步兵战车
+AddDisplayName = en_US,LAV-25
+MaxHp = 625
+
+ItemID = 91129
+HUD = IFV, MBT_GUNNER
+Speed = 0.7
+MobilityRoll = 0
+ThrottleUpDown = 3.0
+MinRotationPitch = -35
+MaxRotationPitch = 10
+PivotTurnThrottle = 0.0
+throttledownfactor = 3
+StepHeight = 1.5
+MobilityYawOnGround = 4
+DefaultFreelook = true
+
+Soundvolume = 10
+Sound = tank14_idle
+Float = true
+
+Gravity = -0.1
+GravityInWater = -0.1
+MotionFactor = 0.9
+MaxFuel = 1500
+FuelConsumption = 1
+
+CameraPosition = 0.6,  2.7, 0.9, true
+CameraRotationSpeed = 50
+CameraZoom = 4
+EnableNightVision = true
+EnableEntityRadar = false
+AddGunnerSeat = 0.00, 1.58, 0,    -0.0, 1.78, 0.0,  false, -90, 90, true
+AddGunnerSeat = -0.0,  1.05,  -3.87, 0.00, 3.192,-0.8323,   false, -70, 10,true
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 15
+explosionsizebycrash = 10
+BoundingBox = -0.136, 0.89, 0.752,  2.78, 2.123, 3.753, 1.0, DEFAULT, HULL SIDE
+BoundingBox = -0.136, 1.491, 3.743,  2.78, 0.956, 2.228, 0.9, DEFAULT, FRONT UPPER
+BoundingBox = -0.136, 0.89, -1.948,  2.78, 2.123, 1.649, 1.3, DEFAULT, CREW / AMMO COMPARTMENT
+BoundingBox = -0.136, 0.534, 3.743,  2.78, 0.957, 2.228, 0.9, DEFAULT, FRONT LOWER
+BoundingBox = 0.907, 2.384, -0.537,  0.058, 0.768, 1.543, 1.0, TURRET, TURRET SIDE
+BoundingBox = -0.907, 2.384, -0.537,  0.058, 0.768, 1.543, 1.0, TURRET, TURRET SIDE
+BoundingBox = 0.0, 2.384, -1.292,  1.846, 0.768, 0.028, 1.3, TURRET, TURRET REAR
+BoundingBox = 0.0, 2.385, 0.0,  1.838, 0.795, 2.3, 0.8, TURRET, TURRET FRONT
+BoundingBox = 0.0, 2.784, 0.0,  1.74, 0.024, 2.176, 1.0, TURRET, TURRET TOP
+
+Entitywidth = 0
+Entityheight = 0
+SubmergedDamageHeight = 2
+
+FlareType = 10
+
+RadarType = EARLY_AS
+NameOnAdvancedAARadar = LAV
+NameOnModernAARadar = IFV
+NameOnEarlyAARadar = *
+NameOnModernASRadar = LAV
+NameOnEarlyASRadar = IFV
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor = 3.5
+
+;Parts
+SetWheelPos = 1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
+
+TrackRollerRot = 50
+
+AddTrackRoller = -1.499,  0.3368,  3.185
+AddTrackRoller = -1.541,  0.3393,  1.87
+AddTrackRoller = -1.4555,  0.3427,  0.1993
+AddTrackRoller = -1.4555,  0.3452,  -1.101
+
+;Weapons
+AddTurretWeapon = ac_lav25_m791,          0.00, 2.333, 0.7919,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+AddTurretWeapon = ac_lav25_m792,          0.00, 2.333, 0.7919,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+AddTurretWeapon = tvagm_lav25_tow2n,          1.125, 2.58, 0.7560,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+AddTurretWeapon = tvagm_lav25_tow2n,          -1.1187, 2.58, 0.7560,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+;AddTurretWeapon = AI,          3.5, 0, 1,  0.0, 0.0, true,1, 0,-360,360, -65, 10
+;AddTurretWeapon = AI,          -3.5, 0, 1,  0.0, 0.0, true,1, 0,-360,360, -65, 10
+;AddTurretWeapon = AI,          3.5, 0, -1,  0.0, 0.0, true,1, 0,-360,360, -65, 10
+;AddTurretWeapon = AI,          -3.5, 0, -1,  0.0, 0.0, true,1, 0,-360,360, -65, 10
+
+AddPartWeapon = ac_lav25_m792, false, true, false,  0.00, 1.788, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.333,0.7919
+AddPartWeaponChild = false, true,0.00, 2.333, 0.7919, 0.05
+AddPartWeaponChild = false, true,0.00, 2.962,0.5336
+
+AddPartTurretWeapon = mg_lav25_m2hb, true, true, false,  -0.0, 2.382, -0.7758, 0
+AddPartWeaponChild = false, true,0.00, 3.192,-0.8323
+AddTurretWeapon = mg_lav25_m2hb,          0.00, 3.192,-0.8323,  0.0, 0.0, false,2, 0,-360,360, -70, 10
+AddTurretWeapon = GUNNER_DEFENSE,          0, 2, 0,  0.0, 90, false,2, 0,-0,0, 0, 0
+
+weapongrouptype = 1
+
+;MISC
+;Place misc paramters here
+WeightType = Tank
+ArmorDamageFactor = 1
+EnableBack = true
+WeightedCenterZ = 0.1
+HideEntity = true
+HideEntity = true
+hudtype = 1
+
+
+
+

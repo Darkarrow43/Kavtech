@@ -1,0 +1,11 @@
+Name Anti-Tank
+ShortName ISISengineer
+AddItem AKMS
+AddItem rpg7
+AddItem tt33
+AddItem 7623830 5
+AddItem rpgAmmoAnimals 3
+AddItem tt33Ammo 4
+SkinOverride MEClean
+Hat genericturban
+Chest insurgentRobeDDBU

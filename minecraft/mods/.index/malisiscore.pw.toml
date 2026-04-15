@@ -1,0 +1,16 @@
+filename = 'malisiscore-1.7.10-0.14.3.jar'
+name = 'MalisisCore'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'eb0b67c3606735da9a04545091128c882deb38a9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2283267
+project-id = 223896

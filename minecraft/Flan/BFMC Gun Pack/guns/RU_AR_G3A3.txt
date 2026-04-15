@@ -1,0 +1,72 @@
+Name G3A3
+ShortName g3a3
+//The ammo this gun uses (shortName)
+Ammo 762x5120rdmag
+Icon G3A3
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Assault Rifle_Use 7.62x51mm Ammo
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.5
+RandomRecoilRange 0.5
+DecreaseRecoil 1
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 1.8
+RecoilShakeDistance 0.6
+//Damage in half hearts
+Damage 9
+//The higher this value, the more the bullets spread
+Spread 0.8
+AimingSpreadConstant 0.35
+SingleShootSpreadModifier 0.5
+AimTimeConstant 0.655
+
+//Time in ticks between rounds
+ShootSound g3a3_f
+ReloadSound scarh_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+RoundsPerMin 400
+//Bullet speed, default 3.0
+BulletSpeed 35
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.G3A3
+ModelScale 0.12
+Texture G3A3
+
+3rdModel ransya.SCARL
+3rdTexture 3rd/SCARH
+3rdModelScale 0.3
+
+UseGLTFAnimation true
+GLTFAnimation scarl BFMCpack/animations/SCARL.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation scarl
+
+//Attachment Settings
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

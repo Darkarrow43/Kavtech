@@ -1,0 +1,22 @@
+Name Melee Stock
+ShortName meleestock
+Icon PDW
+
+AttachmentType stock
+Description в╟йн
+Silencer false
+
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay none
+
+Model DarkZone.PDW
+Texture PDW
+ModelScale 1.15

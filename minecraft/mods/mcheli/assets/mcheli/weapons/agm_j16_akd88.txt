@@ -1,0 +1,68 @@
+DisplayName = AKD88 [GPS / IR Dual-Mode]
+Type = ASmissile
+Power = 100
+Acceleration = 0.2
+Explosion = 8
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 20
+ModeNum = 2
+ModelBullet = AKD88
+Reloadtime = 10
+
+Accuracy = 0
+DisableSmoke = True
+DisplayMortarDistance = true
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+EnableOffAxis = false
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle, 1
+DamageFactor = tank, 1
+enableChunkLoader = true
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+LockTime = 1
+TurningFactor = 0.05
+IsGPSMissile = true
+MaxDegreeOfMissile = 35
+RigidityTime = 0
+
+SpeedDependsAircraft = true
+
+NukeEffectOnly=true
+
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 5
+ExplosionDamageVsShip=10
+
+
+LockEntity=true
+MaxLockOnRange = 50
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = agm_j16_akd88_terminal
+BombletDiff = 0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 80
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true

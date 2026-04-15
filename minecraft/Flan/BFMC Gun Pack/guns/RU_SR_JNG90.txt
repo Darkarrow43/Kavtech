@@ -1,0 +1,54 @@
+Name JNG-90
+ShortName jng90
+Ammo 762x545rdmag
+Ammo 762x54highlight5rdmag
+Ammo 762x5410rdmag
+Icon JNG90
+Description Type Sniping Rifle_Use 7.62x54mm Ammo
+Colour 255 255 255
+ReloadTime 75
+TacticalReloadTime 60
+Recoil 2
+RandomRecoilRange 0.8
+DecreaseRecoil 0.5
+RandomRecoilYawRange 2
+DecreaseRecoilYaw 2
+Damage 19
+RunPosTime 12
+RunCrouchTime 6
+Accuracy 1.25
+AimTimeConstant 0.685
+AimingSpreadConstant 0.0
+ShootDelay 39
+ShootSound awm_f
+ActionSound bolt_sniper
+ReloadSound sv98_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 26
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.JNG90
+ModelScale 0.07
+Texture JNG90
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 0.9
+CancelAimingAfterShoot true

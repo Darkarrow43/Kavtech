@@ -1,0 +1,20 @@
+Name R2 Suppressor
+ShortName r2
+Icon KACQDS
+Description §a降低5%散布_§a降低10%水平后坐力_§a消音_§c降低5%子弹速度
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+SpreadMultiplier 0.95
+RecoilYawMultiplier 0.9
+BulletSpeedMultiplier 0.95
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model DarkZone.KACQDS
+Texture KACQDS
+ModelScale 1.0

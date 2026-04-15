@@ -1,0 +1,61 @@
+////Name and icon
+Name APS Grenade
+ShortName apsgrenade
+Icon APSGrenade
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 2
+////Visuals
+Model BFMCpack.SG1
+Texture APSGrenade
+ModelScale 0.2
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 3
+//ExplodeParticleType <particleType>
+SmokeTime 2
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowSound grenade
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 0
+ThrowSpeed 2.0
+FallSpeed 1.0
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1.0
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 140
+DetonateWhenShot true
+Remote false
+DespawnTime 0
+PrimeDelay 15
+BounceSound bounce
+////Detonation
+FireRadius 0.0
+ExplosionRadius 1.5
+ExplosionDamageVsLiving 2.0
+ExplosionDamageVsPlayer 2.0
+ExplosionDamageVsVehicle 1.0
+ExplosionBreaksBlocks false
+//DropItemOnDetonate <itemID.damage>
+DetonateSound hand_grenade
+////Misc
+MeleeDamage 1
+IsActiveDefence True
+ActiveDefenceRange 6
+ShootSound T_UGS_Activate
+DistortSound false
+TeamThrowSound true
+CanBeDestructByAPS true

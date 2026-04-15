@@ -1,0 +1,12 @@
+Name Engineer
+ShortName mPLASapper
+AddItem qbz
+AddItem QSZ92
+AddItem DBP87 5
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem m18
+AddItem superBlowTorch 1
+AddItem QSZAmmo 4
+SkinOverride Asian3

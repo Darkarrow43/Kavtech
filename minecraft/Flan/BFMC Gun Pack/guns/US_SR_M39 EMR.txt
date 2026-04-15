@@ -1,0 +1,74 @@
+Name M39 EMR
+ShortName m39emr
+//The ammo this gun uses (shortName)
+Ammo 762x5110rdmag
+Icon M39EMR
+Description Type Designated Marksman Rifle_Use 7.62x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1000
+RandomRecoilRange 1.5
+DecreaseRecoil 2
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 2
+RecoilShakeDistance 0.8
+//后座回复
+CounterRecoilForce 0.01
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+Damage 12.5
+RunPosTime 11
+RunCrouchTime 6
+Accuracy 0.5
+AimingSpreadConstant 0.15
+SpreadWLP 6.0
+AimTimeConstant 0.66
+RoundsPerMin 300
+ShootSound m39emr_f
+ReloadSound m39emr_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 26
+//Default Scope Settings
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model Settings
+Model BFMCpack.M39EMR
+ModelScale 0.12
+Texture M39EMR
+
+3rdModel ransya.M21
+3rdTexture 3rd/M21
+3rdModelScale 0.3
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 0.95

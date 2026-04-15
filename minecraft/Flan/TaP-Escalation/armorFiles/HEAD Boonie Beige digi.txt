@@ -1,0 +1,10 @@
+Name Boonie Hat (Digital Beige)
+ShortName boonieHatDB
+Icon IconBoonieDigitalBeige
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieDigitalBeige
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

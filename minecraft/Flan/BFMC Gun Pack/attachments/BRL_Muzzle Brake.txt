@@ -1,0 +1,22 @@
+Name Muzzle Brake
+ShortName flashhider
+Icon AACFlashHider2
+DisableMuzzleFlash true
+AttachmentType barrel
+Description §a降低15%垂直后坐力_§a消除枪口火焰_§c增加15%散布
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.15
+RecoilMultiplier 0.85
+RecoilYawMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model DarkZone.AACFlashHider2
+Texture AACFlashHider2
+ModelScale 1.0
+

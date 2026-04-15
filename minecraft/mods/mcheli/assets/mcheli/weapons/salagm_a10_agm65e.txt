@@ -1,0 +1,69 @@
+DisplayName = AGM65E Maverick [SALH]
+Type = TVMissile
+Power = 400
+Acceleration = 1
+Explosion = 6
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 20
+
+ModeNum = 2
+Round = 6
+reloadtime = 10
+ModelBullet = AGM65
+SoundVolume = 10
+Sound = sa-2_snd
+RidableOnly = false
+fixmode=1
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+turningFactor = 0.15
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 2
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  1, iron_ingot
+
+SpeedFactor = 0.08
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 40
+SpeedDependsAircraft = true
+
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=2
+ExplosionDamageVsTank=3
+ExplosionDamageVsPlane=3
+ExplosionDamageVsHeli=3
+ExplosionDamageVsVehicle=3
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+
+EnableOffAxis = false
+
+crosstype=7
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=1
+ExplosionDamageVsPlane=1
+ExplosionDamageVsHeli=1
+ExplosionDamageVsVehicle=1
+DamageFactor = living, 0.5
+DamageFactor = ship, 1.1
+ExplosionDamageVsShip=3
+enableExhaustFlare=false
+
+maxlockonangle = 50
+maxDegreeOfMissile = 30
+LockEntity=true

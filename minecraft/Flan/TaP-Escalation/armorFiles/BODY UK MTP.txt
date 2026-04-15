@@ -1,0 +1,15 @@
+Name British Army No.8 Combat Dressm (MTP)
+ShortName ukMTP
+Icon britishMTP
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.BritishModernUniform
+ArmourTexture SkinBritishModern
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+armArmor 100
+ModelScale 1.05
+Description UK Battle Dress Uniform_Year: 2011_Multi Terrain Pattern
+ModelScale 1.05

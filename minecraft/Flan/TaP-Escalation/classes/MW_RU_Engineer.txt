@@ -1,0 +1,12 @@
+Name Engineer
+ShortName mRUSapper
+AddItem AK74M
+AddItem mp443
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem 7n10 5
+AddItem mp443Ammo 5
+SkinOverride WhiteGuyBlondBald

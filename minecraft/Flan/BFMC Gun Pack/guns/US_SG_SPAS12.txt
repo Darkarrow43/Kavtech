@@ -1,0 +1,67 @@
+Name SPAS-12
+ShortName spas12
+Ammo 12gaugebuckshot
+Ammo 12gaugebirdshot
+Ammo 12gaugeheavy
+Ammo 12gaugeslug
+Ammo 12gaugeincendiary
+Ammo 12gaugefrag
+Icon SPAS12
+Description Type Shotgun_Use 12 Gauge Bullet
+Colour 255 255 255
+ReloadTime 150
+Recoil 10
+RandomRecoilRange 2
+DecreaseRecoil 3
+RandomRecoilYawRange 2
+DecreaseRecoilYaw 2
+RecoilAngle -15
+RecoilDistance 0.3
+RecoilDistanceHipFire 0.95
+RecoilShakeDistance 1.0
+NumBullets 1
+NumAmmoSlots 9
+Damage 1
+RunPosTime 8
+RunCrouchTime 2
+Accuracy 0.8
+MinAccuracy 9
+AimingSpreadConstant 0.8
+ShootDelay 18
+AimTimeConstant 0.675
+ActionSound bolt_shotgun
+ShootSound spas12_f
+//ReloadSound 870_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 25
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+Model BFMCpack.SPAS12
+ModelScale 0.1
+Texture SPAS12
+
+3rdModel ransya.M870
+3rdModelScale 0.3
+3rdTexture 3rd/M870
+
+AllowAllAttachments true
+AllowAttachments
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments false
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 0
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash2
+UseCircleCrosshair true
+CanAIUse false

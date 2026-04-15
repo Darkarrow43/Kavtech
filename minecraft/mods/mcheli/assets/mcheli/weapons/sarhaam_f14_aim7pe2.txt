@@ -1,0 +1,61 @@
+DisplayName = AIM-7PE2 [SARH-AAM]
+Type = AAMissile
+ModelBullet = aim-7m
+Power = 250
+Acceleration = 0.1
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 10
+Reloadtime = 10
+
+Group = MainGun
+Round = 2
+LockTime = 5
+DamageFactor = heli, 0.8
+Sound = AA11_F
+RigidityTime = 20
+MaxAmmo = 2
+SuppliedNum = 2
+Gravity = 0
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+predictTargetPos = true
+turningFactor = 0.15
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 700
+MaxDegreeOfMissile = 20
+PassiveRadar = true
+LockMinHeight = 20
+EnableOffAxis = false
+PDHDNMaxDegree = 185
+maxLockOnAngle = 5
+enableBVR = true
+WeaponSwitchSound = Switch_Jet_wWeapon_Missile
+SpeedFactor = 0.05
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 95
+SpeedDependsAircraft = true
+canBeIntercepted = true
+MinRangeBVR = 50
+enableChunkLoader = true
+
+ExplosionDamageVsLiving = 1
+ExplosionDamageVsPlayer = 0.1
+ExplosionDamageVsTank = 0.1
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 0.1
+ExplosionDamageVsShip = 0.1
+enableExhaustFlare = false
+
+crosstype=4
+
+ProximityFuseDist   = 20
+proximityFuseTick   = 20
+proximityFuseDamage = 320
+proximityFuseHeight = 20
+ExplosionAirburst   = 4

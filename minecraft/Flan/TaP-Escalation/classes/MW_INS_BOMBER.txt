@@ -1,0 +1,7 @@
+Name Suicide Bomber
+ShortName ISISbomber
+AddItem nagant30Carbine
+AddItem m67 6
+AddItem bombDetonator
+AddItem nagantAmmoT 5
+SkinOverride MEBeard2

@@ -1,0 +1,11 @@
+Name Painkiller
+ShortName painkiller
+Icon Painkiller
+Colour 255 255 255
+Heal true
+HealAmount 2
+ToolLife 1
+HealPlayers True
+DestroyOnEmpty true
+StackSize 1
+RecipeOutput 1

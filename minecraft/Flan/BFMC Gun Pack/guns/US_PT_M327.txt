@@ -1,0 +1,62 @@
+Name SW M327
+ShortName m327
+Description Type Piston_Use .357Magnum Bullet
+Ammo 357magnum
+Icon M327
+Colour 255 255 255
+ReloadTime 70
+Recoil 2
+RecoilAngle -80
+RecoilDistance 0.6
+RecoilDistanceHipFire 0.6
+RandomRecoilRange 0.2
+RecoilYaw 2
+RandomRecoilYawRange 1.2
+DecreaseRecoil 1
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.9
+NumBullets 1
+AimTimeConstant 0.5
+Damage 1.0
+RunPosTime 3
+RunCrouchTime 2
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+MoveSpeedModifier 1.10
+LoadIntoGun 8
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0.5
+ShootDelay 5
+DistortSound False
+ShootSound mp412_f
+ReloadSound mp412_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+OneHanded false
+BulletSpeed 15
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+ModelScale 1.0
+Model lolipk.SWM327
+Texture SWM327
+
+3rdModel ransya.G17
+3rdModelScale 0.2
+3rdTexture 3rd/G17
+ShootAnimation BFMCpack/animations/shoot/deagle_shoot.json
+AllowAllAttachments true
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+CanAIUse false

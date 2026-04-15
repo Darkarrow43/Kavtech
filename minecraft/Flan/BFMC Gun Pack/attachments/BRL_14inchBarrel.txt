@@ -1,0 +1,18 @@
+Name 14inch Barrel
+ShortName 870mcsbarrel
+Icon M870MCSBarrel
+
+AttachmentType barrel
+Description ×°ÊÎ
+Silencer false
+
+//ÊÇ·ñÏûÑæÆ÷
+DisableMuzzleFlash true
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model DarkZone.M870MCSBarrel
+Texture M870MCS
+ModelScale 1.15

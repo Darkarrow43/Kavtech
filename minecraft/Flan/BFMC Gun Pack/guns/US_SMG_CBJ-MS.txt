@@ -1,0 +1,71 @@
+Name CBJ-MS
+ShortName cbjms
+//The ammo this gun uses (shortName)
+Ammo 65x2530rdmag
+Icon CBJ-MS
+Description Type Submachine Gun_Use 6.5x25mm Ammo
+Colour 255 255 255
+ReloadTime 60
+TacticalReloadTime 40
+Recoil 2.5
+RandomRecoilRange 0.4
+DecreaseRecoil 1.2
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.8
+Damage 8
+RunPosTime 3
+RunCrouchTime 2
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.75
+MinSpread 4
+AimTimeConstant 0.52
+//Time in ticks between rounds
+RoundsPerMin 700
+ShootSound akm_f
+ReloadSound as_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+BulletSpeed 30
+
+Model BFMCpack.CBJMS
+ModelScale 0.2
+Texture CBJMS
+
+3rdModel ransya.UMP45
+3rdModelScale 0.3
+3rdTexture 3rd/UMP45
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+//UseRightArmGLTFAnimation true
+GLTFAnimation mp9 BFMCpack/animations/MP9.json
+TacticalReloadGLTFAnimation mp9
+RenderExtraAmmo true
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowAllAttachments True
+AllowBarrelAttachments true
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+AllowSlideAttachments False
+AllowPumpAttachments false
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 0
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire

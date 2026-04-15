@@ -1,0 +1,16 @@
+filename = 'JourneyMapQol_1.7.10-1.1.0.jar'
+name = 'JourneyMap QOL Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '026976cf41b4474decf467804b796be8e943c6f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5342314
+project-id = 621947

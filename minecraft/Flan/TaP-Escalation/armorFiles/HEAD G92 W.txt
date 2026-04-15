@@ -1,0 +1,10 @@
+Name Gefechtshelm M92 (Flecktarn)
+ShortName G92Woodland
+Icon IconG92
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.GermanArmyModernHelmet
+ArmourTexture SkinBWFlecktarn
+Description German Combat Helmet_Year: 1992_Flecktarn
+headArmor 200

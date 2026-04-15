@@ -1,0 +1,4 @@
+Name Standard Barrel
+ShortName stdbarrel
+Icon stdbarrel
+Colour 255 255 255

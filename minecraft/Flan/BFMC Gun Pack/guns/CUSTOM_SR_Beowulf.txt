@@ -1,0 +1,75 @@
+Name BEOWULF
+ShortName beowulf
+//The ammo this gun uses (shortName)
+Ammo 127x4210rdmag
+Icon Beowulf
+Description Type Designated Marksman Rifle_Use 12.7x42mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1000
+RandomRecoilRange 1.5
+DecreaseRecoil 2
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 2
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.01
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+//Damage in half hearts
+Damage 11.5
+RunPosTime 7
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.075
+AimTimeConstant 0.655
+//Time in ticks between rounds
+RoundsPerMin 400
+ShootSound g3a3_f
+ReloadSound m4a1_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.Beowulf
+ModelScale 1.15
+Texture Beowulf
+
+3rdModel ransya.M16
+3rdModelScale 0.3
+3rdTexture 3rd/M16
+
+BulletSpeed 25
+//Attachment Settings
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments true
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+CanAIUse false

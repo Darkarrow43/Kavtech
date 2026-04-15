@@ -1,0 +1,16 @@
+Name Sniper
+ShortName franceSR
+AddItem HK417
+AddItem m9
+AddItem c4Remote 1
+AddItem claymore
+AddItem m18
+AddItem battleRifle 6
+AddItem m9Ammo 4
+
+
+Hat boonieHatCE
+Chest franceModern
+Legs smbFelin
+
+SkinOverride WhiteGuyBrownStubble

@@ -1,0 +1,79 @@
+Name KS-20G
+ShortName ks12
+//The ammo this gun uses (shortName)
+Ammo 20gauge
+Ammo 20gaugeslug
+Ammo 20gaugebirdshot
+Ammo 20gaugefc
+Ammo 20gaugeexplosive
+Ammo 20gaugeincendiary
+Icon KS12
+Description Type Shotgun_Use 20 Gauge Bullet
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 80
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 12
+RandomRecoilRange 2
+DecreaseRecoil 5
+RandomRecoilYawRange 3
+DecreaseRecoilYaw 6
+RecoilShakeDistance 1.0
+RecoilAngle -20
+RecoilDistance 0.5
+RecoilDistanceHipFire 1.1
+RunPosTime 6.5
+RunCrouchTime 4
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+NumAmmoSlots 4
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 1
+MinAccuracy 12
+AimingSpreadConstant 0.75
+AimTimeConstant 0.65
+//Time in ticks between rounds
+ShootDelay 22
+ActionSound shell_12g
+ShootSound ks12_f
+//ReloadSound 
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 25
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.KS20G
+ModelScale 0.215
+Texture KS20G
+
+3rdModel ransya.M870
+3rdModelScale 0.3
+3rdTexture 3rd/M870
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowGripAttachments false
+AllowGadgetAttachments true
+AllowStockAttachments true
+NumGenericAttachmentSlots 0
+UseCircleCrosshair true
+CanAIUse false

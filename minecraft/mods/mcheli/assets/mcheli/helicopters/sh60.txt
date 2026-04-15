@@ -1,0 +1,71 @@
+DisplayName = SH-60
+AddDisplayName = en_US,SH-60
+MaxHp = 400
+Float = false
+Speed = 0.7
+ThrottleUpDown = 0.3
+FlareType = 3
+MaxFuel         = 1500
+FuelConsumption = 1
+onGroundPitch = 0.0
+FloatOffset = -0.9
+ThirdPersonDist = 25
+Sound = heli4_idle
+MinRotationPitch = -60
+MaxRotationPitch = 60
+Soundvolume = 10
+
+Category = 3.5
+
+HUD = HELI, HELI_GUNNER
+
+AddSeat =  0.5688,  0.9,  1.199
+AddSeat =  -0.5688,  0.9,  1.199
+
+AddSeat =  -0.8895,  0.5326,  -2.4182
+AddSeat =  -0.2759,  0.5326,  -2.4182
+AddSeat =   0.8895,  0.5326,  -2.4182
+
+AddSeat =  -0.8895,  0.5326,  -1.4182
+AddSeat =  -0.2759,  0.5326,  -1.4182
+AddSeat =   0.8895,  0.5326,  -1.4182
+
+AddSeat =  -0.8895,  0.5326,  -0.4182
+AddSeat =  -0.2759,  0.5326,  -0.4182
+AddSeat =   0.8895,  0.5326,  -0.4182
+
+MobilityYaw = 0.6
+MobilityPitch = 0.6
+MobilityRoll = 0.6
+
+ArmorMinDamage = 12
+damagefactor = 0
+engineShutdownThreshold = 10
+explosionsizebycrash = 5
+
+AddRepellingHook = 1.36, 2.659, 0.652, 30
+
+AddRotor= 1, 90,  -0.2813,  3.7775, -2.5094,   0.0, 1.0, 0.0, true
+AddRotor= 1,  0,  -0.4031,  4.2158, -14.9086,  1.0, 0.0, 0.0, false
+
+AddWeapon = r_sh60_hydra70, -3.2374, 1.1504, -1.0628,  1, 0,  true,1,  0,0,0, 0, 0
+AddWeapon = r_sh60_hydra70,  2.5192, 1.1504, -1.0628,  1, 0,  true,1,  0,0,0, 0, 0
+InventorySize = 56
+
+BoundingBox =  -0.35, 1.3, 1.7, 3, 2, 2.5, 1.2, DEFAULT, COCKPIT
+BoundingBox =  -0.35, 2, -2.5, 3.2, 3, 6, 0.7, DEFAULT, FUSELAGE
+BoundingBox =  -0.35, 4.2, -2.5, 5, 0.2, 5, 1.5, DEFAULT, ROTOR
+BoundingBox =  -0.35, 1.2, -9, 1.5, 1.8, 7, 1.3, DEFAULT, TAIL
+BoundingBox =  -0.35, 2.5, -14.5, 0.4, 4.5, 4, 1.4, DEFAULT, ROTOR
+
+
+RadarType = EARLY_AS
+NameOnModernAARadar = SH60
+NameOnEarlyAARadar = SH60
+NameOnModernASRadar = SH60
+NameOnEarlyASRadar = HELI
+enablerwr = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200

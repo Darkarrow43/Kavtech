@@ -1,0 +1,11 @@
+Name Sniper
+ShortName CWSovietsSR
+AddItem dragunov
+AddItem makarov
+AddItem rgd5 2
+AddItem rdg2 1
+AddItem dragunovAmmo 5
+AddItem makarovAmmo 4
+AddItem claymore
+AddItem c4Remote 1
+SkinOverride WhiteGuyBlond

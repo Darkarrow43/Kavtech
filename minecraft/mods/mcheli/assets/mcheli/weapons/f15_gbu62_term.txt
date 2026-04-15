@@ -1,0 +1,66 @@
+DisplayName = GBU-62 terminal
+Type = ATmissile
+Power = 500
+Acceleration = 0
+Explosion = 5
+explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=2
+reloadtime = 200
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = gbu_62
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 2
+
+EnableOffAxis = true
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1
+DamageFactor = tank, 2
+turningFactor = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+EnableOffAxis = false
+LockTime = 1
+TurningFactor = 0.05
+
+SpeedDependsAircraft =true
+NukeEffectOnly=true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 3
+ExplosionDamageVsShip=7
+
+
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+MaxLockOnRange = 70
+MaxLockOnAngle = 60
+EnableOffAxis = false
+MaxDegreeOfMissile = 60
+ActiveRadar = true
+SpeedDependsAircraft = false
+enableChunkLoader = true

@@ -1,0 +1,15 @@
+Name Improved Outer Tactical Vest - OCP
+ShortName IOTV
+Icon PBAOCP
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.IOTV
+ArmourTexture SkinUSARMYOCP
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 400
+backArmor 400
+Durability 50
+ModelScale 1.05
+Description American Body Armour_Year: 2015_Operational Camouflage Pattern

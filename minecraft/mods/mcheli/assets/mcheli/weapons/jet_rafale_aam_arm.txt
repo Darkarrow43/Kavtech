@@ -1,0 +1,76 @@
+DisplayName =MICA-EM ARM AAM [TVC]
+Type = AAMissile
+ModelBullet = mica
+Power = 180
+Acceleration = 1
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 45
+Group = MainGun
+Round = 2
+HeatCount = 500
+MaxHeatCount = 600
+LockTime = 0
+TimeFuse = 150
+ProximityFuseDist = 5
+DamageFactor = heli, 0.7
+Sound = AA11_F
+SoundVolume = 10
+RigidityTime =0
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+numLockedChaffMax=1
+
+
+enableBVR=true
+predictTargetPos=true
+turningFactor = 0.25
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 300
+
+MaxLockOnAngle = 39
+
+;200米距离，38.6度fov，对应视场半径70米
+
+PDHDNMaxDegree = 180
+LockMinHeight = 60
+EnableOffAxis = true
+MaxDegreeOfMissile = 70
+ActiveRadar = true
+enableBVR=true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+SpeedFactor = 0.08
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 30
+SpeedDependsAircraft = false
+pdHDNMaxDegreeLockOutCount = 1
+scanInterval=1
+canBeIntercepted=false
+canBeIntercepted=false
+canBeIntercepted=true
+
+
+;驾驶位cross_type0_9:0 Cannon, 1 AAM_ARM_HEAVY, 2 AAM_ARM, 3 AAM_IRM, 4 AAM_SARH, 5 AGM_ARM, 6 AGM_IRM, 7 AGM_LASERM, 8 AGM_SARH, 9 AGM_TVM
+;10 Clusterbomb ,11 GPSBOMB ,12 GPSBOMB_SAP ,13 HEAVYROCKT ,14 IRBOMB, 15 ROCKET_ARM, 16 ROCKET, 17 ZUNI,
+
+;空优攻击机weapon_group_type: 1 Cannon/AAM_IRM/AAM_SARH, 2 Cannon/AAM_SARH/AAM_ARM_HEAVY, 3 Cannon/AAM_IRM/AAM_ARM
+;4 Cannon/AAM_ARM/ROCKET_ARM, 5 Cannon/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 Cannon/ROCKET/AGM_LASERM
+;8 Cannon/ROCKET_ARM/AGM_IRM, 9 Cannon/HEAVYROCKET/AGM_LASERM, 10 Cannon/ZUNI/AGM_IRM, 11 Cannon/AAM_ARM/AGM_SARH
+;12 Cannon/AAM_IRM/AGM_IRM, 13 Cannon/AAM_ARM/GPSBOMB, 14 EML/AGM_ARM, 15 GPSBOMB/AGM_LASERM
+
+crosstype=2
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=0.1
+ExplosionDamageVsTank=0.1
+ExplosionDamageVsPlane=0.1
+ExplosionDamageVsHeli=0.1
+ExplosionDamageVsVehicle=0.1
+ExplosionDamageVsShip=0.1
+enableExhaustFlare=true

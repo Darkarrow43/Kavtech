@@ -1,0 +1,24 @@
+Name Grip Suppressor
+ShortName ots14grip
+Icon OTS14Grip
+
+AttachmentType barrel
+DisableMuzzleFlash true
+Silencer true
+Description §a降低30%散布_§a降低15%后坐力_§a消音_§c降低20%子弹速度_§c降低10%移动速度_§c只能装备于GROZA-1
+MeleeDamageMultiplier 1.0
+DamageMultiplier 0.95
+SpreadMultiplier 0.7
+RecoilMultiplier 0.85
+RecoilYawMultiplier 0.85
+MovementSpeedMultiplier 0.9
+BulletSpeedMultiplier 0.8
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model DarkZone.OTS14Grip
+Texture OTS14Grip
+ModelScale 1.0

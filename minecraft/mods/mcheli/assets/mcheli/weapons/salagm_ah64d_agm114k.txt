@@ -1,0 +1,65 @@
+DisplayName = AGM114K [SALH]
+Type = TVMissile
+Power = 600
+Acceleration = 0.5
+Explosion = 4
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 30
+ModeNum = 2
+ModelBullet =agm114
+Sound = 9K118_F
+ReloadTime = 10
+Round = 4
+FIXMODE=1
+LOCKTIME = 0
+TimeFuse = 400
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+DamageFactor = tank, 3
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+EnableOffAxis = false
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+CameraRotationSpeedPitch = 0.3
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+
+
+crosstype=6
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=3
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=false
+
+turningFactor = 0.15
+Gravity = 0.005
+
+MaxDegreeOfMissile = 135
+SpeedFactor = 0.2
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 50
+SpeedDependsAircraft = true
+
+laserGuidance = true
+hasLaserGuidancePod = true
+LockEntity=true
+CameraFollowLockEntity = true
+cameraFollowstrength=0.5
+LockEntity=true

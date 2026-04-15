@@ -1,0 +1,141 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;驾驶位cross_type0_9:rocket，zuni，rocket_arm，aam_irm，irm，arm，laserm，losm，bomb，connon，AAM_sarh
+;weapon_group_type: 0:connon/losm;1:connon/laserm;2:rocket/aam_IRM;3:connon/bomb;4:ZUNI/IRM;5:ZUNI/ARM;6:ROCKET_ARM/AAM_IRM;7:ROCKET_ARM/LOSM;8,CONNON/IRM;9,CONNON/AAM_IRM;10,ROCKET/AAM_SARH
+;==================== 武器组0: CONNON/LOSM====================
+
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;驾驶位cross_type0_9:rocket，zuni，rocket_arm，aam_irm，irm，arm，laserm，losm，bomb，connon
+;weapon_group_type: 0:connon/losm;1:connon/laserm;2:rocket/aam_IRM;3:connon/bomb;4:ZUNI/IRM;5:ZUNI/ARM;6:ROCKET_ARM/AAM_IRM;7:ROCKET_ARM/LOSM
+
+;==================== 武器组0: CONNON/LOSM ====================
+;CONNON
+If = (weapon_group_type==0)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==0)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LOSM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组1: CONNON/LASERM ====================
+;CONNON
+If = (weapon_group_type==1)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LASERM
+If = (weapon_group_type==1)&&(cross_type==6)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LASERM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组2: ROCKET/AAM_IRM ====================
+;ROCKET
+If = (weapon_group_type==2)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==2)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组3: CONNON/BOMB ====================
+;CONNON
+If = (weapon_group_type==3)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_BOMB_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;BOMB
+If = (weapon_group_type==3)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_BOMB_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组4: ZUNI/IRM ====================
+;ZUNI
+If = (weapon_group_type==4)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ZUNI_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==4)&&(cross_type==4)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ZUNI_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组5: ZUNI/ARM ====================
+;ZUNI
+If = (weapon_group_type==5)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ZUNI_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ARM
+If = (weapon_group_type==5)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ZUNI_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_ARM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组6: ROCKET_ARM/AAM_IRM ====================
+;ROCKET_ARM
+If = (weapon_group_type==6)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_ARM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==6)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组7: ROCKET_ARM/LOSM ====================
+;ROCKET_ARM
+If = (weapon_group_type==7)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_ARM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LOSM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;LOSM
+If = (weapon_group_type==7)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_LOSM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+
+endif
+
+;==================== 武器组8: CONNON/IRM ====================
+;CONNON
+If = (weapon_group_type==8)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRM
+If = (weapon_group_type==8)&&(cross_type==4)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组9: CONNON/AAM_IRM ====================
+;CONNON
+If = (weapon_group_type==9)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==9)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组10: ROCKET/AAM_SARH ====================
+;ROCKET
+If = (weapon_group_type==10)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_SARH
+If = (weapon_group_type==10)&&(cross_type==10)&&(cam_zoom<2)
+DrawTexture = HELI_AMMO_ROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = HELI_AMMO_AAM_SARH_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif

@@ -1,0 +1,63 @@
+DisplayName = KH39T [IR-AGM]
+Type = ATMissile
+Power = 400
+Acceleration = 0.1
+Explosion = 8
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 30
+LockTime = 10
+ModeNum = 2
+Round = 4
+reloadtime = 10
+ModelBullet = KH39
+Sound = missile_11_snd
+RidableOnly = false
+
+RigidityTime = 15
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+MaxLockOnRange = 1500
+MaxLockOnAngle = 5
+
+EnableOffAxis = false
+MaxDegreeOfMissile = 120
+SpeedFactor = 0.1
+SpeedFactorStartTick = 25
+SpeedFactorEndTick = 55
+SpeedDependsAircraft = true
+turningFactor = 0.15
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = vehicle , 1.1
+DamageFactor = tank, 1.5
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+
+modenum=2
+fixmode=1
+canBeIntercepted=true
+RidableOnly = true
+
+crosstype=4
+
+DamageFactor = living, 0.5
+ExplosionDamageVsLiving=0.5
+ExplosionDamageVsPlayer=0.5
+ExplosionDamageVsTank=4
+ExplosionDamageVsPlane=3.5
+ExplosionDamageVsHeli=3.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = ship, 1.1
+ExplosionDamageVsShip=3.5
+enableExhaustFlare=false
+disablesmoke=false

@@ -1,0 +1,57 @@
+Name 40mm 3GL
+ShortName 40mm3gl
+Description Used for GL
+//Colour of icon and model
+Colour 255 255 255
+Icon 40mm3GL
+//How affected by gravity the bullet is
+FallSpeed 1.5
+//The maximum stack size
+MaxStackSize 3
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 1
+//The damage multiplier caused by the bullet on hitting an entity
+Damage 30
+DamageVsLiving 30
+DamageVsPlanes 20
+DamageVsVehicles 20
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 3
+//Bullet spread modifier, multiplies by the gun's bulletSpread
+Spread 12
+//Size of explosion caused
+Explosion 1.2
+VehicleProximityTrigger 2.0
+LivingProximityTrigger 2.0
+ExplosionDamageVsLiving 1.8
+ExplosionDamageVsPlayer 1.8
+ExplosionDamageVsVehicle 1.0
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact False
+Fuse 200
+FlakParticles 50
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.2
+HitSound 40mm_grenade
+HitSoundRange 50
+HitSoundEnable true
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+//Penetration 5
+SmokeTrail true
+Model mw.RoundGrenade
+Texture gl3
+TrailParticles true
+TrailParticleType cloud
+BulletSpeedMultiplier 0.4
+CanBeDestructByAPS true
+
+DetonateOnImpact false
+DetonateOnBouncinessLimit true
+EnableBounciness True
+Bounciness 0.6
+DragInAir 0.95
+MaxSupplyClips 5

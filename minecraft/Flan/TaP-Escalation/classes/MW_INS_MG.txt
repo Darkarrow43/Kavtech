@@ -1,0 +1,10 @@
+Name Machine Gunner
+ShortName ISISsupport
+AddItem pkm
+
+AddItem makarov
+AddItem c4 2
+AddItem pkmbox 16
+AddItem makarovAmmo 5
+AddItem c4Remote 1
+SkinOverride MEBeard

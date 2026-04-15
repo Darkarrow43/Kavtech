@@ -1,0 +1,15 @@
+Name Osprey Body Armour Mk.4
+ShortName ospreyMK4
+Icon PBAMTP
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.OspreyMk4
+ArmourTexture SkinOspreyMk4
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 400
+backArmor 400
+Durability 50
+ModelScale 1.05
+Description British Body Armour_Year: 2010_Multi Terrain Pattern

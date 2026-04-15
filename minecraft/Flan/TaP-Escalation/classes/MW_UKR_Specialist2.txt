@@ -1,0 +1,10 @@
+Name Civilian Militia
+ShortName mUKRCiv
+AddItem AKM
+AddItem niggalaws
+AddItem nlawAmmo 1
+AddItem molotovCocktail 8
+AddItem 7623830 6
+SkinOverride WhiteGuyRU
+Hat achNaked
+Chest sigmaMaleShirt

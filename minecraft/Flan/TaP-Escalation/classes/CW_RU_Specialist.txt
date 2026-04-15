@@ -1,0 +1,12 @@
+Name Specialist
+ShortName CWSovietsSpecialist
+AddItem AKM
+AddItem ks23
+AddItem makarov
+AddItem claymore 2
+AddItem c4Remote 
+AddItem rdg2 1
+AddItem 7623830 5
+AddItem ks23shells 32
+AddItem makarovAmmo 5
+SkinOverride WhiteGuyRU

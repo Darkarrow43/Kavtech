@@ -1,0 +1,15 @@
+Name Anti-Tank
+ShortName bundeswehrAT
+AddItem g36k
+AddItem p8
+AddItem panzerfaust3
+AddItem panzerfaust3
+AddItem 5564530 6
+AddItem m9Ammo 4
+AddItem panzerfaust3Ammo 2
+
+Hat G92Woodland
+Chest germanArmyFleck
+Legs idzVest
+Shoes eyePro
+SkinOverride WhiteGuyBrownBeard

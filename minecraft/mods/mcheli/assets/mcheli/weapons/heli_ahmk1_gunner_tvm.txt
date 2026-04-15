@@ -1,0 +1,49 @@
+DisplayName =SPEAR-3 TV-guided ATGM [MIL]
+Type = tvMissile
+Power = 500
+Acceleration = 2
+Explosion = 4
+Explosionblock = 0
+Flaming = false
+Sight = false
+Delay = 120
+ModeNum = 2
+ModelBullet =spear3
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 4
+
+ProximityFuseDist = 1
+HeatCount = 700
+MaxHeatCount = 1000
+TimeFuse = 300
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+DisplayMortarDistance = true
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Shell
+canBeIntercepted=false
+canBeIntercepted=false
+canBeIntercepted=true
+turningFactor = 0.09
+;≈⁄ ÷Œªcross_type0_9 :0 TVM£¨1 MISSILESTRIKE£¨2 rocket_arm£¨3 CannonSTRIKE£¨4 irm£¨5 arm£¨6 laserm£¨7 losm£¨8 SARH£¨9 cannonn
+;weapon_group_type: 0:SARH/MISSILESTRIKE;1:Cannon/SARH;2:Cannon/IRM;3:LASERM/CannonSTRIKE
+;4:Cannon/TVM;5:Cannon/TVM;6:Cannon/TVM;7:Cannon/TVM
+crosstype=0
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=true

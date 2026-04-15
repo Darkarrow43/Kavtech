@@ -1,0 +1,88 @@
+DisplayName = M1161 ITV
+AddDisplayName = zh_CN, M1161 咆哮者
+AddDisplayName = en_US, M1161 ITV
+MaxHp = 150
+
+Category = C
+HUD = M1161ITV,none
+ThirdPersonDist = 10
+Speed = 1.5
+MobilityRoll = 0
+ThrottleUpDown = 5
+MinRotationPitch = 0
+MaxRotationPitch = 0
+PivotTurnThrottle = 0.1
+StepHeight = 1.5
+MobilityYawOnGround = 3
+DefaultFreelook = false
+
+Soundvolume = 10
+Sound = tank14_idle
+
+Gravity = -0.1
+GravityInWater = -0.5
+MotionFactor = 0.94
+MaxFuel = 1200
+FuelConsumption = 1.0
+
+CameraRotationSpeed = 60
+CameraZoom = 2
+EnableNightVision = false
+AddSeat = 0.55, 0.9, -0.3
+AddSeat = -0.55, 0.9, -0.3
+AddGunnerSeat = 0.00, 2.0, -1.82, 0, 3.5, -1.82, false, -40,10, false
+
+ArmorMinDamage = 4
+DamageFactor = 0.5
+
+
+
+BoundingBox = 0, 1, 1.5, 2, 1, 2, 1.5, DEFAULT, ENGINE
+BoundingBox = 0, 1.4, -1.4, 2, 1.8, 3.7, 0.5, DEFAULT, BODY
+
+
+
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+NameOnAdvancedAARadar = CAR
+NameOnModernAARadar = CAR
+NameOnEarlyAARadar = CAR
+NameOnModernASRadar = CAR
+NameOnEarlyASRadar = CAR
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor = 0.5
+
+;Parts
+SetWheelPos = 0.68,  -0.24,  1.20, -1.10
+
+;Weapons
+AddPartWeapon = mg_m1161_m2hb, false, true, false, 0.0, 2.09, -1.818, 0
+AddPartWeaponChild = false, true, 0.0, 2.868,-0.8496, 0
+
+AddWeapon = mg_m1161_m2hb,   0.0, 2.868, -1.82,   0.0, 0.0, false, 3, 0, -360,360, -40,10
+
+AddWeapon = horn, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+
+;MISC
+;Place misc paramters here
+EnableBack = true
+EnableBack = true
+WeightType = Car
+WeightedCenterZ = 0.0
+PartWheelRot = 40
+AddPartWheel = -0.7848,  0.3141,  1.58, 30
+AddPartWheel = 0.7848,  0.3141,  1.58, 30
+AddPartWheel = -0.7848,  0.3141,  -2.355
+AddPartWheel = 0.7848,  0.3141,  -2.355
+InventorySize = 9
+AddFixedSearchLight = 0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight = 0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddRack = container, 0.00, 1.20, -1.06,  0.0, 0.0, 0.0, 5.0
+
+;DUPLICATES
+DefaultFreelook = true
+Sound = JeepMove

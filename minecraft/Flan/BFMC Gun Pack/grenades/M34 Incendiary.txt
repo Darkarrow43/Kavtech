@@ -1,0 +1,47 @@
+Name M34 Incendiary
+ShortName m34cn
+Icon M34
+Colour 255 255 255
+StackSize 2
+Model Octagon_Weapons.M83_Smoke_Bomb
+Texture M34
+TrailParticles true
+TrailParticleType smoke
+HasLight true
+SmokeTime 100
+SmokeRadius 5
+SmokeParticles lava
+SmokeEffect 20 80 3
+SpinWhenThrown true
+ThrowDelay 20
+ThrowSound grenade
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 2
+ThrowSpeed 2.2
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.6
+Sticky false
+VehicleProximityTrigger 0.0
+Fuse 60
+DetonateWhenShot true
+Remote false
+PrimeDelay 60
+ExplosionRadius 5
+ExplosionDamageVsLiving 0.4
+ExplosionDamageVsPlayer 0.4
+ExplosionDamageVsVehicle 1.2
+ExplosionBreaksBlocks false
+DetonateSound m34
+MeleeDamage 1
+FlareParticleCount 2
+DebrisParticleCount 2
+LivingProximityTrigger 2
+DamageToTriggerer 3.0
+CanBeDestructByAPS true
+ShowDefaultExplodeParticles false
+DistortSound false
+TeamThrowSound true
+IsIncendiary true

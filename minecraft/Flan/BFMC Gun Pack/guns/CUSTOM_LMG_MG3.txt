@@ -1,0 +1,80 @@
+Name MG3
+ShortName mg3
+Description Type Light Machine Gun_Use 7.62x51mm Bullet Box
+//The ammo this gun uses (shortName)
+Ammo 762x51100rdbox
+Icon MG3
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+TacticalReloadTime 110
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+RecoilDistance 0.05
+RecoilAngle 0.2
+RandomRecoilRange 0.6
+DecreaseRecoil 1.0
+RandomRecoilYawRange 1.75
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.5
+
+NumBullets 1
+Damage 6
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+
+MoveSpeedModifier 0.9
+RunPosTime 14
+RunCrouchTime 5
+AimTimeConstant 0.7
+
+MeleeDamage 0
+//The higher this value, the more the bullets spread
+Spread 3
+AimingSpreadConstant 0.1
+
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not 
+Scope None
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound mg3_f
+ReloadSound mg3_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+BulletSpeed 28
+
+Model BFMCpack.MG3
+Texture MG3
+ModelScale 0.3075
+
+UseGLTFAnimation true
+GLTFAnimation mg3_reload BFMCpack/animations/MG3_Reload.json
+
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight flanMWSingleFire flanMWBurstFire flanMWAutoFire
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments true
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+
+CanAIUse false

@@ -1,0 +1,15 @@
+Name Duck Bill
+ShortName duckbill
+Icon duckbill
+Description §a减少25%散布_§c增加100%水平方向扩散_§f适配霰弹枪
+Silencer false
+AttachmentType barrel
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.75
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.1
+Model svz.NoStock
+Texture none
+IsDuckBill true

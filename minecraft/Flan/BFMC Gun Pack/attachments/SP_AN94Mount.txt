@@ -1,0 +1,15 @@
+Name AN94 Mount
+ShortName an94mount
+Icon an94mount
+
+AttachmentType pump
+Description в╟йн
+Silencer false
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model BFMCpack.AN94Mount
+Texture AN94
+ModelScale 0.13

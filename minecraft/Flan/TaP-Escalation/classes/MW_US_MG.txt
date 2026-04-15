@@ -1,0 +1,8 @@
+Name Machine Gunner
+ShortName mUSAsupport
+AddItem m240b
+AddItem m18
+AddItem m9
+AddItem m240bBag 6
+AddItem m9Ammo 4
+SkinOverride WhiteGuyBrownStubble

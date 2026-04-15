@@ -1,0 +1,93 @@
+DisplayName = KA-52
+AddDisplayName = zh_CN,KA-52 短吻鳄
+AddDisplayName = en_US,KA-52
+MaxHp = 400
+
+Category = 5.0
+ItemID = 28800
+HUD = HELI, HELI_GUNNER
+ThirdPersonDist = 22
+Speed = 0.7
+MinRotationPitch = -70
+MaxRotationPitch = 70
+Soundvolume = 10
+Sound = heli2_idle
+
+Gravity = -0.038
+MaxFuel = 1200
+FuelConsumption = 1
+
+CameraPosition = 0.0, 0.5487, 4.869
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+AddSeat = 0.5022,  1.473,  2.65
+AddGunnerSeat = -0.5022,  1.473,  2.65,  0.0, 0.5487, 4.869,  true,-10, 70, false
+
+ArmorMinDamage = 12
+damagefactor = 0
+engineShutdownThreshold = 15
+explosionsizebycrash = 4
+
+
+BoundingBox = 0, 2, 3, 2, 2.5, 3, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2, -1, 2.2, 2.8, 5, 1, DEFAULT, BODY
+BoundingBox = 0, 2.4, -6, 1.7, 2, 5, 1.5, DEFAULT, TAIL
+BoundingBox = 0, 3.5, -10, 0.2, 3.5, 3, 1.8, DEFAULT, ROTOR
+BoundingBox = 0, 4.2, -0.5, 5, 0.2, 5, 1.8, DEFAULT, ROTOR
+BoundingBox = 0, 6, -0.5, 5, 0.2, 5, 1.8, DEFAULT, ROTOR
+
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+FlareType = 3
+hasDIRCM = true
+HasChaff = true
+ChaffUseTime = 40
+ChaffWaitTime = 500
+
+RadarType = MODERN_AS
+NameOnAdvancedAARadar = K52
+NameOnModernAARadar = K52
+NameOnEarlyAARadar = HELI
+NameOnModernASRadar = HELI
+NameOnEarlyASRadar = *
+enablerwr = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddRotor = 1, 0,  0.00,  5.473,  -0.5456,  0.0, 1.0, 0.0
+AddRotor = 1, 0,  0.00,  5.473,  -0.5456,  0.0, -1.0, 0.0
+
+AddPartSteeringWheel = 0.4973,1.631,3.194, 0, 0, 1,   -15
+AddPartSteeringWheel = -0.4973,1.631,3.194, 0, 0, 1,   -15
+
+;Weapons
+AddPartWeapon = ac_ka52_30mm,     false,  true,  false,   -0.009285, 0.8599, 4.866
+
+AddPartWeaponMissile = gps_ka52_kh36e1, false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = gps_ka52_kh36e1, false,  false,  false,    -1.72,  0.96, -1.64
+
+AddWeapon = ac_ka52_30mm,     -1.130, 1.253, 0.7723 ,  -1,0
+
+AddWeapon = gps_ka52_kh36e1,    -2.5,  1.40, -0.45,  1, 0,  true,2,  0,0,0, 0, 25
+AddWeapon = gps_ka52_kh36e1,     2.5,  1.40, -0.45, -1, 0,  true,2,  0,0,0, 0, 25
+
+AddWeapon = salagm_ka52_9m127,  -3,  0.96, -1.64,  0, -0,false,1, 0,-360,360, -10,70
+AddWeapon = salagm_ka52_9m127,   3,  0.96, -1.64,  0, -0,false,1, 0,-360,360, -10,70
+
+AddWeapon = iraam_ka52_igla,  -3,  0.96, -1.64,  0, -0,false,1, 0,-360,360, -10,70
+AddWeapon = iraam_ka52_igla,  3,  0.96, -1.64,  0, -0,false,1, 0,-360,360, -10,70
+
+AddWeapon = HELI_KA52_GUNNER_connonstrike,  0,  0, 0,  0, -0,false,2, 0,-360,360, -10,70
+
+
+weapongrouptype = 3
+
+;MISC
+;Place misc paramters here
+EnableFoldBlade = true
+onGroundPitch = 1.7

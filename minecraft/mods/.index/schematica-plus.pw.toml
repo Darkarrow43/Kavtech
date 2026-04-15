@@ -1,0 +1,16 @@
+filename = 'Schematica-2.0.0-alpha.5-3003-0402.jar'
+name = 'Schematica-Plus'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '95fe550b2214dd1a1d159bf3768e5317010dc339'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7842678
+project-id = 1485733

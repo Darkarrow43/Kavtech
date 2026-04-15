@@ -1,0 +1,62 @@
+DisplayName = KH38ML [SALH-AGM]
+Type = TVMissile
+Power =100
+Acceleration = 0.1
+Explosion = 9
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 20
+
+ModeNum = 2
+Round = 2
+reloadtime =10
+ModelBullet = KH38
+Sound = missile_11_snd
+RidableOnly = false
+fixmode=1
+Gravity = 0.005
+laserGuidance = true
+hasLaserGuidancePod = true
+
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 3
+
+turningFactor = 0.2
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = vehicle , 1.1
+DamageFactor = tank, 1.1
+
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+
+EnableOffAxis = false
+
+turningFactor = 0.17
+maxDegreeOfMissile = 30
+
+crosstype=7
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=1
+DamageFactor = living, 0.5
+DamageFactor = ship, 1.1
+ExplosionDamageVsShip=5
+enableExhaustFlare=true
+
+SpeedFactor = 0.06
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 50
+SpeedDependsAircraft = true
+RigidityTime = 30
+LockEntity=true

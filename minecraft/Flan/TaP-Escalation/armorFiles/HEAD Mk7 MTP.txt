@@ -1,0 +1,10 @@
+Name Mk7 Helmet - MTP
+ShortName mk7MTP
+Icon MTP
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinMk7MTP
+Model NewArmor.Mk7Cover
+Description British Ballistic-Nylon Helmet_Year: 2010_MTP Cover
+headArmor 200

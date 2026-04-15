@@ -1,0 +1,53 @@
+Name NTW-20
+Description Type Anti-Tank Rifle_Use 20x82mm Bullet[AP]
+ShortName ntw20
+Ammo 20x823rdmag
+Icon NTW-20
+Colour 255 255 255
+ReloadTime 70
+TacticalReloadTime 60
+Recoil 10
+RandomRecoilRange 1
+DecreaseRecoil 6
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 5
+RecoilDistance 1.5
+RecoilDistanceHipFire 1.5
+RecoilAngle -20
+AimTimeConstant 0.63
+RunPosTime 5
+RunCrouchTime 4
+Damage 24
+Accuracy 2
+AimingSpreadConstant 0.0
+ShootDelay 36
+ShootSound ptrs_f
+ActionSound bolt_sniper
+ReloadSound m24_r
+Mode SemiAuto
+Scope GUI\RifleScope
+ZoomLevel 8.0
+FOVZoomLevel 1.0
+Deployable False
+DeployedModel None
+BulletSpeed 25
+
+Model BFMCpack.NTW20
+ModelScale 0.1
+Texture NTW20
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+UseRightArmGLTFAnimation true
+GLTFAnimation ntw20_reload BFMCpack/animations/NTW20_Reload.json
+
+AllowAllAttachments false
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1
+MoveSpeedModifier 1.0
+CancelAimingAfterShoot false
+CanAIUse false

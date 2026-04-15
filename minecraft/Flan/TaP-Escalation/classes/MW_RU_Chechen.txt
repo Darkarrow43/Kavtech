@@ -1,0 +1,11 @@
+Name Chechen
+ShortName chechenWarrior
+AddItem ak103
+AddItem m79
+AddItem m79Ammo 16
+AddItem rdg2 1
+AddItem 7623830 6
+SkinOverride MEBeard
+Hat bandanaB
+Chest chechenStuff
+Legs smbFelin

@@ -1,0 +1,77 @@
+Name SA-58 OSW
+ShortName sa58
+//The ammo this gun uses (shortName)
+Ammo 762x5130rdmag
+Icon SA58
+Description Type Assault Rifle_Use 7.62x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.5
+RandomRecoilRange 0.6
+DecreaseRecoil 1.4
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 1.5
+RecoilShakeDistance 0.6
+RecoilDistance 0.05
+RecoilAngle -2
+Damage 8.5
+RunPosTime 5.0
+RunCrouchTime 3
+AimTimeConstant 0.62
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.1875
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+RoundsPerMin 850
+ShootSound sa58_f
+ReloadSound scarh_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 32
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+Model BFMCpack.SA58
+ModelScale 0.1
+Texture SA58
+
+3rdModel ransya.M16
+3rdModelScale 0.3
+3rdTexture 3rd/M16
+
+UseGLTFAnimation true
+GLTFAnimation scarh BFMCpack/animations/SCARH.json
+UseLeftArmGLTFAnimation true
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments atAFG atAPS atEOT atFG atPFG atRDS atSFG atT1DS atFU atSU atFLFG at8XScope
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+AllowSlideAttachments false
+AllowPumpAttachments true
+AllowAccessoryAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+//paintjob ACR camos/ACWR_MARPAT
+//paintjob ACR camos/ACWR_GEN_Urban
+CanAIUse false

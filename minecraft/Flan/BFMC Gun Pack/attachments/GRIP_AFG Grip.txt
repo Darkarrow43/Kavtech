@@ -1,0 +1,22 @@
+Name AFG Grip
+ShortName afg
+Icon AFG2
+
+AttachmentType grip
+Description §a降低50%水平后坐力_§c增加10%垂直后坐力_§c降低5%开镜速度
+Silencer false
+
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+RecoilYawMultiplier 0.5
+RecoilMultiplier 1.1
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.05
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay none
+
+Model DarkZone.AFG2
+Texture AFG2
+ModelScale 1.0

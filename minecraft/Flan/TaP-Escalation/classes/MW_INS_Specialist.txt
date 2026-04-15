@@ -1,0 +1,12 @@
+Name Specialist
+ShortName ISISSG
+AddItem m16a1
+AddItem r870
+AddItem makarov
+AddItem claymore 2
+AddItem c4Remote 
+AddItem rdg2 1
+AddItem 5564530 6
+AddItem mpp12gauge 32
+AddItem makarovAmmo 5
+SkinOverride MEClean

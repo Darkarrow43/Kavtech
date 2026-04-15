@@ -1,0 +1,10 @@
+Name Boonie Hat (EMR)
+ShortName boonieHatEMR
+Icon IconBoonieEMR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieEMR
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

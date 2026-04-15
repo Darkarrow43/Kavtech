@@ -1,0 +1,14 @@
+Name Sniper
+ShortName ANASR
+AddItem dragunov
+AddItem makarov
+AddItem rdg2 1
+AddItem dragunovAmmo 5
+AddItem makarovAmmo 4
+AddItem claymore
+AddItem c4Remote 1
+SkinOverride MEMustache
+
+Hat boonieHatUSWood
+Chest afghanArmy
+Legs InterceptorBodyArmor

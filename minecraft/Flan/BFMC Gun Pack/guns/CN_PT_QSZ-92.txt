@@ -1,0 +1,63 @@
+Name QSZ-92
+ShortName qsz92
+//The ammo this gun uses (shortName)
+Ammo 9x1915rdmag
+Icon QSZ-92
+Description Type Piston_Use 9x19mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 40
+TacticalReloadTime 30
+Recoil 2
+RandomRecoilRange 0.1
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.2
+DecreaseRecoilYaw 2
+AimTimeConstant 0.45
+RecoilShakeDistance 0.5
+RunPosTime 2
+RunCrouchTime 2
+NumBullets 1
+//Damage in half hearts
+Damage 6.5
+//The higher this value, the more the bullets spread
+Spread 1
+AimingSpreadConstant 0.5
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound qsz92_f
+ReloadSound qsz92_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 20
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.2
+Deployable False
+DeployedModel None
+
+Model BFMCpack.QSZ92
+ModelScale 0.12
+Texture QSZ92
+
+3rdModel ransya.G17
+3rdModelScale 0.2
+3rdTexture 3rd/G17
+
+UseGLTFAnimation true
+GLTFAnimation hg_reload_1 BFMCpack/animations/HG_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments true
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 1.1
+CanAIUse false

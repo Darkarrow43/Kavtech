@@ -1,0 +1,74 @@
+Name QBB-95
+ShortName qbb95
+//The ammo this gun uses (shortName)
+Ammo 58x4275rddrum
+Icon QBB-95
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Light Machine Gun_Use 5.8x42mm Bullet Drum
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 85
+TacticalReloadTime 75
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RecoilAngle 0
+RandomRecoilRange 0.6
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.7
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.6
+RunPosTime 12
+RunCrouchTime 4
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+AimTimeConstant 0.67
+//Damage in half hearts
+Damage 7
+//The higher this value, the more the bullets spread
+Spread 2
+AimingSpreadConstant 0.1
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound qbb95_f
+ReloadSound qbz95_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 36
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Texture QBB95
+Model BFMCpack.QBB95
+ModelScale 0.1
+
+3rdModel ransya.A91
+3rdModelScale 0.3
+3rdTexture 3rd/A91
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_1 BFMCpack/animations/AR_BP_Reload_1.json
+
+MoveSpeedModifier 0.9
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight flanMWSingleFire flanMWBurstFire flanMWAutoFire
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire

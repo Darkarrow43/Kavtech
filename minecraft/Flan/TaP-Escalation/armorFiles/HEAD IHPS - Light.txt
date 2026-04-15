@@ -1,0 +1,10 @@
+Name Integrated Head Protection System 
+ShortName IHPS
+Icon OCPPASGT
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.IHPSlight
+ArmourTexture SkinIHPSLight
+Description American Combat Helmet_Year: 2018_Operational Camouflage Pattern_Can Mount NVGS
+headArmor 200

@@ -1,0 +1,17 @@
+Name Tri Beam Laser
+ShortName tribeamlaser
+Icon tribeamlaser
+Description §a降低10%开镜时间_§c增加15%水平后坐力_§c敌人可见的镭射
+Texture TriBeamLaser
+Model BFMCpack.TriBeamLaser90D
+ModelScale 0.1
+AttachmentType gadget
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.85
+RecoilMultiplier 1.0
+RecoilYawMultiplier 1.15
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 0.9
+IsLaserPointer True

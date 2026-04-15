@@ -1,0 +1,11 @@
+Name Adrenaline
+ShortName adrenaline
+Icon Adrenaline
+Colour 255 255 255
+Heal true
+HealAmount 5
+ToolLife 2
+HealPlayers True
+DestroyOnEmpty true
+StackSize 1
+RecipeOutput 1

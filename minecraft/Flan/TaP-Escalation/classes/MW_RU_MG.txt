@@ -1,0 +1,8 @@
+Name Machine Gunner
+ShortName mRUSsupport
+AddItem pkp
+AddItem mp443
+AddItem rdg2 1
+AddItem pkmbox 16
+AddItem mp443Ammo 4
+SkinOverride WhiteGuyBlondBald

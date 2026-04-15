@@ -1,0 +1,55 @@
+////Name and icon
+Name Medic Bag
+ShortName medicbagcn
+Icon largemedicbox
+Description NumUses 2_HealAmountPerUse 10
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 16
+////Visuals
+Model BFMCpack.MedicBox
+Texture MedicBox
+ModelScale 0.7
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown false
+////Throwing
+ThrowDelay 20
+ThrowSound medkit
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0
+HitEntityDamage 5
+ThrowSpeed 0.3
+FallSpeed 1.0
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger 2.0
+LivingProximityTrigger -2.0
+Fuse 300
+DetonateWhenShot true
+Remote false
+DespawnTime 600
+PrimeDelay 10
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks false
+//DropItemOnDetonate <itemID.damage>
+DetonateSound bag_break
+////Misc
+MeleeDamage 0
+IsMedicBag true
+
+DistortSound false
+TeamThrowSound true

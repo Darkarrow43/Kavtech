@@ -1,0 +1,10 @@
+Name QGF03 Kevlar Helmet 
+ShortName PASGTChina
+Icon IconPASGTChina
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.PLAHelmetModern
+ArmourTexture SkinQGF03Woodland
+Description Chinese Combat Helmet_Year: 2007_Type 07 Universal
+headArmor 200

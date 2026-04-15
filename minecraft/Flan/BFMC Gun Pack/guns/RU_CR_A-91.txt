@@ -1,0 +1,64 @@
+Name A-91
+ShortName a91
+Ammo 762x3930rdmag
+Icon A91
+Colour 255 255 255
+Description Type Carbine Rifle_Use 7.62x39mm Ammo
+ReloadTime 48
+TacticalReloadTime 40
+Recoil 2
+RandomRecoilRange 0.2
+DecreaseRecoil 0.6
+RandomRecoilYawRange 1.0
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.4
+Damage 7
+RunPosTime 3
+RunCrouchTime 3
+Accuracy 0.4
+AimTimeConstant 0.45
+AimingSpreadConstant 0.7
+ShootDelay 2
+ShootSound a91_f
+ReloadSound groza_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+BulletSpeed 28
+//Model settings
+
+Model BFMCpack.A91
+ModelScale 0.13
+Texture A91
+
+3rdModel ransya.A91
+3rdModelScale 0.3
+3rdTexture 3rd/A91
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_1 BFMCpack/animations/AR_BP_Reload_1.json
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+
+//Bullet Casing
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+
+animGunOffsetX = -1

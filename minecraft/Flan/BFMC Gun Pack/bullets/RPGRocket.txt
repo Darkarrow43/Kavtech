@@ -1,0 +1,51 @@
+Name PG-7V Rocket
+ShortName rpgammo
+Model Octagon_Weapons.PG7VS
+Texture PG7V
+//Colour of icon and model
+Colour 255 255 255
+ItemID 23849
+Icon rpg7rocket
+Description Used for RPG
+//How affected by gravity the bullet is
+FallSpeed 0.5
+//The maximum stack size
+MaxStackSize 3
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 1
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 580
+DamageVsVehicles 580
+DamageVsPlane 580
+//Size of explosion caused
+Explosion 2
+ExplosionPower 3
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact True
+Fuse 200
+FlakParticles 300
+FlakParticlesCrack 200
+FlakParticlesDiff 0.8
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.1
+HitSound flakx
+HitSoundRange 500
+HitSoundEnable true
+ExplosionDamageVsLiving 1.5
+ExplosionDamageVsPlayer 1.5
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+//Penetrates False
+SmokeTrail True
+TrailParticles true
+TrailParticleType flansmod.fmsmoke
+HasLight False
+DebrisParticleCount 2
+DragInAir 0.975
+CanBeDestructByAPS true
+
+PenetratingBlockMaxNum 0
+MaxSupplyClips 5

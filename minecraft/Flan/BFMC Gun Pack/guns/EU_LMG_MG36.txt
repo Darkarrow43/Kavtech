@@ -1,0 +1,62 @@
+Name MG36
+ShortName mg36
+Description Type Light Machine Gun_Use 5.56x45mm Bullet Drum
+//The ammo this gun uses (shortName)
+Ammo 556x45100rddrum
+Icon MG36
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 90
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RecoilDistance 0.2
+RecoilAngle 1
+RandomRecoilRange 0.8
+RandomRecoilYawRange 1.0
+DecreaseRecoil 1.0
+DecreaseRecoilYaw 2.0
+AimTimeConstant 0.75
+CanHipFireWhileSprinting False
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 7
+//Modifiers
+MoveSpeedModifier 0.875
+MeleeDamage 0
+//The higher this value, the more the bullets spread
+Accuracy 0.75
+AimingSpreadConstant 0.125
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound m16lmg_f
+ReloadSound hk417_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto Burst SemiAuto
+BulletSpeed 25
+Model mpack.mg36TD
+ModelScale 0.11
+Texture MG36
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+//AllowAttachments
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not 
+Scope None
+NumPrimaryAmmoItems 1
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+CasingModel MT.NATO
+CasingTexture effects/NATO
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire

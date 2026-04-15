@@ -1,0 +1,73 @@
+Name QBZ-95-1
+ShortName qbz95
+//The ammo this gun uses (shortName)
+Ammo 58x4230rdmag
+Icon QBZ-95
+Description Type Assault Rifle_Use 5.8x42mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 50
+Recoil 1.8
+RecoilAngle -0.8
+RecoilDistance 0.08
+RandomRecoilRange 0.2
+DecreaseRecoil 0.8
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 1.5
+RecoilShakeDistance 0.3
+RunPosTime 4.5
+RunCrouchTime 4
+//Damage in half hearts
+Damage 6.5
+AimTimeConstant 0.56
+//The higher this value, the more the bullets spread
+Spread 0.7000000000000001
+AimingSpreadConstant 0.4
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound qbz95_f
+ReloadSound qbz95_r
+EmptyClickSound emptyclick
+ReloadSoundRange 5
+GunSoundRange 100
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 36
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Texture QBZ951
+Model BFMCpack.QBZ951
+ModelScale 0.1
+
+3rdModel ransya.A91
+3rdModelScale 0.3
+3rdTexture 3rd/A91
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_1 BFMCpack/animations/AR_BP_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+paintjob QBZ-95 camos/QBZ95_Type-07-GI

@@ -1,0 +1,12 @@
+Name Rifleman
+ShortName mPLASpecialist
+AddItem qbz
+AddItem qbs09
+AddItem QSZ92
+AddItem claymore 2
+AddItem c4Remote 
+AddItem m18
+AddItem mpp12gauge 32
+AddItem DBP87 5
+AddItem QSZAmmo 4
+SkinOverride Asian2

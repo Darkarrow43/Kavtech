@@ -1,0 +1,17 @@
+Name 5MW Laser
+ShortName 5mwlaser
+Icon 5mwlaser
+ItemID Your ID
+Description §a降低15%散布_§a降低5%开镜时间_§c增加10%垂直后坐力_§c敌人可见的镭射
+Model BFMCpack.5MWLaser
+ModelScale 0.1
+Texture 5MWLaser
+AttachmentType gadget
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.8
+RecoilMultiplier 1.1
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 0.95
+IsLaserPointer True

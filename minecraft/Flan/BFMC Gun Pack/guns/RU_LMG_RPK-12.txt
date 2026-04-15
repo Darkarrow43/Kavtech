@@ -1,0 +1,72 @@
+Name RPK-12
+ShortName rpk12
+//The ammo this gun uses (shortName)
+Ammo 545x3945rdmag
+Ammo 545x3930rdmag
+Icon RPK12
+Description Type Light Machine Gun_Use 5.45x39mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+RecoilDistance 0.03
+RandomRecoilRange 0.4
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.6
+DecreaseRecoilYaw 2.5
+RecoilShakeDistance 0.6
+AimTimeConstant 0.68
+RunPosTime 6.5
+RunCrouchTime 4
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 7
+//The higher this value, the more the bullets spread
+Accuracy 1
+AimingSpreadConstant 0.15
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound rpk12_f
+ReloadSound rpk_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 34
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+MoveSpeedModifier 0.9
+Model BFMCpack.RPK12
+ModelScale 0.12
+Texture RPK12
+
+UseGLTFAnimation true
+GLTFAnimation ak12 BFMCpack/animations/AK12.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation ak12
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire

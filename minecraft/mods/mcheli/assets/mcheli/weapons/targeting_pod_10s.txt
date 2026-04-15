@@ -1,0 +1,11 @@
+DisplayName = Designate Target [8s/300m][CD: 5s]
+Type = TargetingPod
+Sight = None
+Delay = 100
+Sound = SCAN
+Length = 300
+Radius = 45
+Target = planes/helicopters/vehicles/players
+MarkTime = 8
+canBeIntercepted=false
+canBeIntercepted=false

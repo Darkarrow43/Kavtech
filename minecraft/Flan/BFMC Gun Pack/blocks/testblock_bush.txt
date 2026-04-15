@@ -1,0 +1,8 @@
+Name TestBlock_bush
+ShortName testblock_bush
+Colour 255 255 255
+Texture wheat
+Material plants
+Hardness 0
+Resistance 0
+BlockType bush

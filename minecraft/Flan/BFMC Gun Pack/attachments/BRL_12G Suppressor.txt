@@ -1,0 +1,22 @@
+Name 12G Suppressor
+Description §a降低15%垂直后坐力_§a降低15%水平后坐力_§a消音_§c降低20%子弹速度_§f适配霰弹枪
+ShortName 12gsupp
+Icon 12GSupp
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 0.85
+RecoilAngleMultiplier 1
+RecoilDistanceMultiplier 1.0
+RecoilYawMultiplier 0.85
+BulletSpeedMultiplier 0.8
+ReloadTimeMultiplier 1.0
+Model BFMCpack.12GSupp
+ModelScale 0.08
+Texture 12GSupp
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None

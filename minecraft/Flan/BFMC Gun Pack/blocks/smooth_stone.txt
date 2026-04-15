@@ -1,0 +1,10 @@
+Name smooth_stone
+ShortName smooth_stone
+Colour 255 255 255
+TopTexture smooth_stone
+SideTexture smooth_stone
+BottomTexture smooth_stone
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

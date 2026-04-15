@@ -1,0 +1,11 @@
+Name Anti-Tank
+ShortName SAAAT
+AddItem AKS74U
+AddItem rpg29
+AddItem makarov
+AddItem rdg2 1
+AddItem 7t3545 3
+AddItem rpg29Ammo 2
+AddItem makarovAmmo 4
+SkinOverride MEBald
+

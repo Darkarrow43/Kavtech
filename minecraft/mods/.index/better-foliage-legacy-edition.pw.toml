@@ -1,0 +1,16 @@
+filename = 'BetterFoliage-LegacyEdition-1.2.4.jar'
+name = 'Better Foliage - Legacy Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7dc741d235356f135b93cf61f7a1c82fab557224'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7557519
+project-id = 1390553

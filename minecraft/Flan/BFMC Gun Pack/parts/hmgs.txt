@@ -1,0 +1,4 @@
+Name HMG .50
+ShortName hmgs
+Icon hmgs
+Colour 255 255 255

@@ -1,0 +1,48 @@
+Name FY-JS
+ShortName fyjs
+Ammo 58x4210rdmagfyjs
+Icon FY-JS
+Description Type Sniping Rifle_Use 5.8x42mm Ammo
+Colour 255 255 255
+ReloadTime 75
+TacticalReloadTime 60
+Recoil 1.6
+RandomRecoilRange 0.5
+DecreaseRecoil 0.1
+RandomRecoilYawRange 1.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 1.0
+Damage 12
+Spread 2
+AimingSpreadConstant 0.0
+ShootDelay 26
+ShootSound gol_f
+ActionSound bolt_sniper
+ReloadSound cslr4_r
+ReloadSoundRange 5
+GunSoundRange 100
+AimTimeConstant 0.615
+RunPosTime 9
+RunCrouchTime 6
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 30
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.FYJS
+ModelScale 0.11
+Texture FYJS
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+CancelAimingAfterShoot true

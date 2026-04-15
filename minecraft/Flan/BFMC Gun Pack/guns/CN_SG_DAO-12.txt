@@ -1,0 +1,72 @@
+Name DAO-12
+ShortName striker
+//The ammo this gun uses (shortName)
+Ammo 12gaugebuckshot
+Ammo 12gaugebirdshot
+Ammo 12gaugeheavy
+Ammo 12gaugeslug
+Ammo 12gaugeincendiary
+Ammo 12gaugefrag
+Icon DAO-12
+Description Type Shotgun_Use 12 Gauge Bullet
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 190
+Recoil 7
+RecoilDistance 0.02
+RecoilDistanceHipFire 0.5
+RandomRecoilRange 2
+DecreaseRecoil 2.2
+RandomRecoilYawRange 1.5
+RecoilShakeDistance 0.6
+NumBullets 1
+Accuracy 1.3
+MinAccuracy 18
+AimingSpreadConstant 0.75
+AimTimeConstant 0.75
+NumAmmoSlots 12
+NumAmmoItemsInGun 12
+LoadIntoGun 12
+NumBullets 7
+Damage 0.85
+RunPosTime 14
+RunCrouchTime 6
+AimingSpreadConstant 0.75
+//Time in ticks between rounds
+ShootDelay 5
+ShootSound striker_f
+//ReloadSound striker_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 20
+AllowSpreadByBullet True
+AllowNumBulletsByBulletType True
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model BFMCpack.DAO12
+ModelScale 0.08
+Texture DAO12
+MoveSpeedModifier 0.9
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments
+AllowBarrelAttachments false
+AllowScopeAttachments true
+AllowGadgetAttachments true
+AllowGripAttachments true
+NumGenericAttachmentSlots 0
+//Paintjob Settings
+//Format is "Paintjob iconName textureName requiredDyeAmount requiredDyeColour" Multiple colours may be listed in order, seperated by a space
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+UseCircleCrosshair true
+CanAIUse false

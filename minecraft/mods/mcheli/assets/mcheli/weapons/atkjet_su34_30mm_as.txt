@@ -1,0 +1,85 @@
+DisplayName = GSH-30-1 30mm Cannon [GP Ammo Belt]
+
+Type = MachineGun2
+Power = 30
+Acceleration = 20
+ModelBullet = 30mm
+Explosion = 1
+Flaming = false
+Sight = None
+Delay = 2
+ReloadTime = 50
+Round = 20
+SoundPitchRandom = 0.0
+SoundVolume = 10
+SoundPitch = 0.9
+Sound = GSH_30_SND
+
+
+; 48 - armor dpb / 960 - (20 * armor) dpm
+;
+; To FAV =  42 dpb  /  840 dpm
+; To AA =   34 dpb  /  680 dpm
+; To Tank = 30 dpb  /  600 dpm
+; To IFV =  34 dpb  /  680 dpm
+DamageFactor = tank, 1.2
+
+
+; 30 - armor dpb / 600 - (20 * armor) dpm
+;
+; To Jet =  20 dpb / 400 dpm
+; To MV22 = 22 dpb / 440 dpm
+DamageFactor = plane, 1.3
+
+
+; 36 - armor dpb / 720 - (20 * armor) dpm
+;
+; To Attack Heli =          26 dpb / 520 dpm
+; To Scout Heli =           28 dpb / 560 dpm
+; To Light Transport Heli = 24 dpb / 480 dpm
+; To Heavy Transport Heli = 24 dpb / 480 dpm
+DamageFactor = heli, 1.2
+
+
+DamageFactor = player, 0.2
+DamageFactor = vehicle , 1.2
+
+
+DamageFactor = player, 1.0
+DamageFactor = vehicle , 1.2
+
+
+Accuracy = 0.8
+Group = MainGun
+;ModeNum = 2
+AddMuzzleFlash      =   5.5,      0.2,        2,  150,254,159,84
+AddMuzzleFlash      =   5,      0.1,        1,  150,254,219,184
+AddMuzzleFlashSmoke   = 4,  2,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke   = 6,  1,   3.0,  3.0,  5,  180,220,217,214
+Gravity = -0.005
+MaxAmmo = 300
+SuppliedNum = 300
+Item =  2, iron_ingot
+Item =  2, gunpowder
+canBeIntercepted=false
+canBeIntercepted=false
+
+
+;¼ÝÊ»Î»cross_type0_9:0 Cannon, 1 AAM_ARM_HEAVY, 2 AAM_ARM, 3 AAM_IRM, 4 AAM_SARH, 5 AGM_ARM, 6 AGM_IRM, 7 AGM_LASERM, 8 AGM_SARH, 9 AGM_TVM
+;10 Clusterbomb ,11 GPSBOMB ,12 GPSBOMB_SAP ,13 HEAVYROCKT ,14 IRBOMB, 15 ROCKET_ARM, 16 ROCKET, 17 ZUNI,
+
+;¿ÕÓÅ¹¥»÷»úweapon_group_type: 1 Cannon/AAM_IRM/AAM_SARH, 2 Cannon/AAM_SARH/AAM_ARM_HEAVY, 3 Cannon/AAM_IRM/AAM_ARM
+;4 Cannon/AAM_ARM/ROCKET_ARM, 5 Cannon/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 Cannon/ROCKET/AGM_LASERM
+;8 Cannon/ROCKET_ARM/AGM_IRM, 9 Cannon/HEAVYROCKET/AGM_LASERM, 10 Cannon/ZUNI/AGM_IRM, 11 Cannon/AAM_ARM/AGM_SARH
+;12 Cannon/AAM_IRM/AGM_IRM, 13 Cannon/AAM_ARM/GPSBOMB, 14 EML/AGM_ARM, 15 GPSBOMB/AGM_LASERM
+
+crosstype=0
+ExplosionDamageVsLiving=0.5
+ExplosionDamageVsPlayer=0.5
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = living, 0.5
+DamageFactor = ship, 1.2
+ExplosionDamageVsShip=0.5

@@ -1,0 +1,79 @@
+DisplayName = GBU-32 1000lb JDAM
+Type = Rocket
+Power = 0
+Acceleration = 1.5
+Explosion = 6
+explosionblock=0
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=4
+reloadtime = 200
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = gbu-32
+TimeFuse = 1000
+Accuracy = 0
+DisableSmoke = True
+ProximityFuseDist = 2.0
+
+DisplayMortarDistance = true
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+
+
+
+EnableOffAxis = true
+HeatCount = 500
+MaxHeatCount = 1600
+
+
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+turningFactor = 1
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+
+
+
+EnableOffAxis = true
+
+
+SpeedDependsAircraft =false
+
+
+
+NukeEffectOnly=true
+
+
+
+;¼ÝÊ»Î»cross_type0_9:0 Cannon, 1 AAM_ARM_HEAVY, 2 AAM_ARM, 3 AAM_IRM, 4 AAM_SARH, 5 AGM_ARM, 6 AGM_IRM, 7 AGM_LASERM, 8 AGM_SARH, 9 AGM_TVM
+;10 Clusterbomb ,11 GPSBOMB ,12 GPSBOMB_SAP ,13 HEAVYROCKT ,14 IRBOMB, 15 ROCKET_ARM, 16 ROCKET, 17 ZUNI,
+
+;¿ÕÓÅ¹¥»÷»úweapon_group_type: 1 Cannon/AAM_IRM/AAM_SARH, 2 Cannon/AAM_SARH/AAM_ARM_HEAVY, 3 Cannon/AAM_IRM/AAM_ARM
+;4 Cannon/AAM_ARM/ROCKET_ARM, 5 Cannon/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 Cannon/ROCKET/AGM_LASERM
+;8 Cannon/ROCKET_ARM/AGM_IRM, 9 Cannon/HEAVYROCKET/AGM_LASERM, 10 Cannon/ZUNI/AGM_IRM, 11 Cannon/AAM_ARM/AGM_SARH
+;12 Cannon/AAM_IRM/AGM_IRM, 13 Cannon/AAM_ARM/GPSBOMB, 14 EML/AGM_ARM, 15 GPSBOMB/AGM_LASERM
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=3
+ExplosionDamageVsHeli=3
+ExplosionDamageVsVehicle=1
+DamageFactor = living, 1
+DamageFactor = ship, 1
+ExplosionDamageVsShip=5

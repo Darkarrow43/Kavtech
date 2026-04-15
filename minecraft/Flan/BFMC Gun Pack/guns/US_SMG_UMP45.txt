@@ -1,0 +1,79 @@
+Name UMP45
+ShortName ump45
+//The ammo this gun uses (shortName)
+Ammo 45acp25rdmag
+Icon UMP45
+Description Type Submachine Gun_Use .45ACP Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+TacticalReloadTime 45
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.2
+RecoilDistance 0.03
+RandomRecoilRange 0.3
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.5
+RecoilShakeDistance 0.4
+//This must never be set to 0, will cause massive issues
+DecreaseRecoilYaw 2
+AimTimeConstant 0.53
+//Damage in half hearts
+Damage 8
+RunPosTime 3
+RunCrouchTime 2
+//The higher this value, the more the bullets spread
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0.75
+//Time in ticks between rounds
+RoundsPerMin 600
+ShootSound ump45_f
+ReloadSound ump45_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+DistortSound False
+Mode FullAuto SemiAuto Burst
+NumBurstRounds 3
+//Bullet speed, default 3.0
+BulletSpeed 25
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+
+Model BFMCpack.UMP45
+ModelScale 1.0
+Texture UMP45
+
+3rdModel ransya.UMP45
+3rdModelScale 0.3
+3rdTexture 3rd/UMP45
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+//UseRightArmGLTFAnimation true
+GLTFAnimation ump45 BFMCpack/animations/UMP45.json
+TacticalReloadGLTFAnimation ump45
+RenderExtraAmmo true
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 1
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

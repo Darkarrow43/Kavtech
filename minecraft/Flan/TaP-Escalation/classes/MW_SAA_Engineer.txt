@@ -1,0 +1,12 @@
+Name Engineer
+ShortName SAASapper
+AddItem AKM
+AddItem makarov
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem rdg2 1
+AddItem 7623830 5
+AddItem makarovAmmo 5
+SkinOverride MEClean

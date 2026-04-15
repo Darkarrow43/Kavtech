@@ -1,0 +1,10 @@
+Name Boonie Hat (Type 07 Desert)
+ShortName boonieHat07D
+Icon IconBoonieType07D
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieType08D
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

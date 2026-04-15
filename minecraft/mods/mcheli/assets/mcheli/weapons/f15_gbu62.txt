@@ -1,0 +1,68 @@
+DisplayName = GBU-62 [GPS / IR Dual-Mode]
+Type = ASmissile
+Power = 500
+Acceleration = 0.1
+Explosion = 5
+explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 20
+round = 12
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 2
+
+ModelBullet = gbu_62
+Accuracy = 0
+DisableSmoke = True
+DisplayMortarDistance = true
+EnableOffAxis = false
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle, 1
+DamageFactor = tank, 1
+MaxAmmo = 12
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+LockTime = 1
+TurningFactor = 0.05
+IsGPSMissile = true
+MaxDegreeOfMissile = 35
+RigidityTime = 0
+
+SpeedDependsAircraft = true
+
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 5
+ExplosionDamageVsShip=10
+
+
+LockEntity=true
+MaxLockOnRange = 50
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+enableChunkLoader = true
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = f15_gbu62_term
+BombletDiff = 0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 80
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true

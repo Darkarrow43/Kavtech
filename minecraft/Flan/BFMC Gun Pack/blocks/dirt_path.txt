@@ -1,0 +1,10 @@
+Name dirt_path
+ShortName dirt_path
+Colour 255 255 255
+TopTexture dirt_path_top
+SideTexture dirt_path_side
+BottomTexture dirt
+Material sand
+Hardness 4
+Resistance 4
+BreakableByExplosion false

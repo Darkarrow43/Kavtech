@@ -1,0 +1,72 @@
+Name M16A4
+ShortName m16a4
+//The ammo this gun uses (shortName)
+Ammo 556x4530rdmag
+Icon M16A4
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Assault Rifle_Use 5.56x45mm Ammo
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+TacticalReloadTime 40
+Recoil 2
+RecoilDistance 0.05
+RandomRecoilRange 0.4
+DecreaseRecoil 0.8
+RandomRecoilYawRange 0.75
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.3
+//Damage in half hearts
+Damage 7
+RunPosTime 4.5
+RunCrouchTime 4
+AimTimeConstant 0.66
+//The higher this value, the more the bullets spread
+Accuracy 0.4
+AimingSpreadConstant 0.3
+SingleShootSpreadModifier 0.8
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+RoundsPerMin 1200
+ShootSound m16a4_f
+ReloadSound m4a1_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode Burst SemiAuto
+NumBurstRounds 3
+//Bullet speed, default 3.0
+BulletSpeed 36
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+CanShootUnderwater False
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+Texture M16A4
+Model BFMCpack.M16A4
+ModelScale 1.15
+
+3rdModel ransya.M16
+3rdModelScale 0.3
+3rdTexture 3rd/M16
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_4 BFMCpack/animations/AR_Reload_4.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

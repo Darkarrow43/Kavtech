@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName bundeswehrRifleMan
+AddItem g36a2
+AddItem p8
+AddItem m67 1
+AddItem m18
+AddItem 5564530 6
+AddItem m9Ammo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyRedHairBeard

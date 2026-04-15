@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName CWSovietsAssault
+AddItem AK74tyrant
+AddItem makarov
+AddItem rgd5 1
+AddItem rdg2 1
+AddItem 5453930 5
+AddItem makarovAmmo 5
+AddItem mwMedKit 1
+SkinOverride WhiteGuyBrown

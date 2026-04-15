@@ -1,0 +1,14 @@
+Name Russian VKBO Uniform - EMR Summer
+ShortName russiaEMRVKBO
+Icon RUDigiFlora
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.VKBORussia
+ArmourTexture SkinRussiaVKBO
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+armArmor 100
+
+Description Russian Battle Dress_Year: 2011_EMR Summer

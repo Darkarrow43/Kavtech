@@ -1,0 +1,49 @@
+Name Mosin M91-59
+ShortName mosin
+Ammo mosinammo
+Icon Mosin
+Description Type Sniping Rifle_Use 7.62x54mm Ammo
+Colour 255 255 255
+ReloadTime 70
+Recoil 2.5
+RandomRecoilRange 0.5
+DecreaseRecoil 1
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 2
+Damage 16
+RunPosTime 9
+RunCrouchTime 4
+Accuracy 0.4
+AimTimeConstant 0.6
+AimingSpreadConstant 0.0
+ShootDelay 25
+ShootSound kar98k_f
+ReloadSound kar98k_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 32
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.Mosin
+Texture Mosin
+ModelScale 1.0
+LoadIntoGun 5
+AllowAllAttachments true
+AllowBarrelAttachments true
+
+AllowScopeAttachments true
+
+AllowGripAttachments false
+
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel DarkZone.GunFire
+FlashTexture effects/GunFire
+CanAIUse false

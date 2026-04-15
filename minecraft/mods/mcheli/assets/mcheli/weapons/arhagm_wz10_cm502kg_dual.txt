@@ -1,0 +1,79 @@
+DisplayName = CM502KG [SAL / ARH - AGM]
+Type = TVMissile
+Power = 450
+Acceleration = 1
+Explosion = 4
+explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 20
+ModeNum = 2
+Fixmode = 1
+Sound = sa-2_snd
+SoundVolume = 10
+RidableOnly = true
+ModelBullet = KH39
+TimeFuse = 360
+LockTime = 0
+Round = 4
+DisableSmoke = True
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1.5
+DamageFactor = tank, 1.5
+Reloadtime = 10
+enableChunkLoader = true
+RigidityTime = 0
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+
+
+IsHeatSeekerMissile = false
+IsRadarMissile = false
+MaxLockOnRange = 400
+MaxDegreeOfMissile = 135
+ActiveRadar = false
+EnableOffAxis = false
+SpeedDependsAircraft = true
+turningFactor = 0.2
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+laserGuidance = true
+hasLaserGuidancePod = true
+LockEntity=true
+CameraFollowLockEntity = true
+cameraFollowstrength=1
+LockEntity=true
+
+crosstype=4
+SpeedFactor = 0.3
+SpeedFactorStartTick = 35
+SpeedFactorEndTick = 40
+DamageFactor = living, 1
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=false
+turningFactor = 0.15
+Gravity = 0.005
+
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = arhagm_wz10_cm502kg_bullet
+BombletDiff = 0.0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 15
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true

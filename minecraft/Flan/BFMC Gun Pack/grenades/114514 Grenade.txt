@@ -1,0 +1,44 @@
+Name 114514 Grenade
+ShortName 114514grenade
+Icon 114514
+Colour 255 255 255
+StackSize 4
+Model mw.RoundGrenade
+Texture 114514
+TrailParticles false
+SmokeTime 200
+SmokeEffect 20 100 3
+SmokeEffect 2 100 3
+SmokeEffect 17 100 2
+SmokeRadius 4
+SmokeParticles angryVillager
+SpinWhenThrown true
+ThrowDelay 10
+ThrowSound m67pin
+DetonateOnImpact false
+DetonateSound 1145141919810
+Bounciness 0.45
+HitEntityDamage 30
+ThrowSpeed 2.2
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+BounceSound bounce
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 80
+DetonateWhenShot true
+Remote false
+PrimeDelay 0
+FireRadius 0.0
+ExplosionRadius 0
+ExplosionBreaksBlocks false
+MeleeDamage 2
+//FlashBang true
+//FlashTime 1
+//FlashRange 1
+//FlashSoundEnable true
+//FlashSoundRange 4
+//FlashSound 1145141919810

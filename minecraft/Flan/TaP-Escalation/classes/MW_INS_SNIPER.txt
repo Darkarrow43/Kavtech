@@ -1,0 +1,11 @@
+Name Sniper
+ShortName ISISrecon
+AddItem dragunov
+AddItem tt33
+
+AddItem dragunovAmmo 4
+AddItem tt33Ammo 3
+AddItem claymore
+SkinOverride MEMustache
+Hat genericturban
+Chest insurgentRobeDDBU

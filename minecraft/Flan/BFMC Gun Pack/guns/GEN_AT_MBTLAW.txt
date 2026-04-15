@@ -1,0 +1,50 @@
+Name MBT LAW
+ShortName mbtlaw
+//The ammo this gun uses (shortName)
+Ammo mbtlawammo
+Icon MBTLAW
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ReloadTime 90
+RecoilAngle 0
+RecoilDistance 0
+Recoil 3
+DecreaseRecoil 1
+Damage 1
+RunPosTime 16
+RunCrouchTime 6
+//The higher this value, the more the bullets spread
+Accuracy 0.5
+AimingSpreadConstant 0.0
+ShootDelay 1
+BulletSpeed 3
+ShootSound rpg_f
+ReloadSound mbtlaw_r
+Mode SemiAuto
+Scope MBTLAW
+ZoomLevel 2
+FOVZoomLevel 1.0
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model BFMCpack.MBTLAW
+ModelScale 0.31
+Texture MBTLAW
+//Attachment Settings
+AllowAllAttachments false
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 0
+MoveSpeedModifier 0.7
+Description Type ATW_Use MBT LAW Rocket
+
+ReloadSoundRange 5
+GunSoundRange 80
+LockOnToDriveables True
+LockOnToVehicles True
+LockOnToPlanes false
+CanLockOnAngle 10
+MaxRangeLockOn 400

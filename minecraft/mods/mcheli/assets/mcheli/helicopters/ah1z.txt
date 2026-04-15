@@ -1,0 +1,86 @@
+DisplayName = AH-1Z VIPER
+AddDisplayName = zh_CN, AH-1Z 蝰蛇
+AddDisplayName = en_US, AH-1Z VIPER
+MaxHp = 300
+
+Category = M.A
+ItemID = 28800
+HUD = HELI, HELI_GUNNER
+ThirdPersonDist = 25
+Speed = 0.85
+MinRotationPitch = -70
+MaxRotationPitch = 70
+Soundvolume = 10
+Sound = heli8_idle
+
+Gravity = -0.038
+MaxFuel = 960
+FuelConsumption = 1
+
+CameraPosition = 0, 0, 0
+CameraZoom = 3
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+AddSeat = 0.00, 1.18, 0.835
+AddGunnerSeat = 0.00, 1.00,  2.5,  0.0, 0.73, 3.86, true
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 10
+explosionsizebycrash = 3
+
+
+BoundingBox = 0, 1.5, 1.5, 1.5, 3, 3, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 1.5, -2.5, 1.5, 3, 5, 1, DEFAULT, BODY
+BoundingBox = 0, 1.2, -8, 1, 1, 6, 1, DEFAULT, TAIL
+BoundingBox = 0, 1.8, -12, 0.2, 2, 2, 2, DEFAULT, ROTOR
+BoundingBox = 0, 3.5, -1.5, 1, 1, 3, 1.5, DEFAULT, GEARBOX
+BoundingBox = 0, 4.1, -1.5, 5, 0.2, 5, 2, DEFAULT, ROTOR
+
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+FlareType = 3
+HasChaff = true
+ChaffUseTime = 40
+ChaffWaitTime = 800
+
+RadarType = MODERN_AA
+NameOnAdvancedAARadar = AH1
+NameOnModernAARadar = AH1
+NameOnEarlyAARadar = HELI
+NameOnModernASRadar = AH1
+NameOnEarlyASRadar = HELI
+enablerwr = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddRotor = 1, 0, 0,  3.5,     -1.67,  0.0, 1.0, 0.0
+AddRotor = 1, 0, 0,  3.03, -13.07,  1.0, 0.0, 0.0
+AddRotor = 1, 0, 0,  3.03, -13.07,  -1.0, 0.0, 0.0
+
+;Weapons
+AddPartWeapon = ac_ah1z_m197,     true,  true,  false,   0.00,  0.649,    2.66
+AddPartWeaponChild = false, true,  0.00, 0.427,  2.66
+AddPartRotWeapon = ac_ah1z_m197,     false, true,  true,    0.00,  0.41,    2.66
+
+AddWeapon = ac_ah1z_m197,  0.00,  0.41,  2.66,  0,-1, true,2, 0,-360,360, -5,70
+
+AddWeapon = r_ah1z_hydra,    -1.00,  0.695, -1.0,  1, 0,  true,1,  0,-360,360, -5,70
+AddWeapon = r_ah1z_hydra,    1.00,  0.695, -1.0,  1, 0,  true,1,  0,-360,360, -5,70
+
+AddWeapon = tvagm_ah1z_tow2a, -2,  0.695, 1.0,  1, 0,  true,2
+AddWeapon = tvagm_ah1z_tow2a, 2,  0.695, 1.0,  1, 0,   true,2
+
+weapongrouptype = 7
+
+;MISC
+;Place misc paramters here
+EntityPitch = 0
+EntityRoll = 0
+
+

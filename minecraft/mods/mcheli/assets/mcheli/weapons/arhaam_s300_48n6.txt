@@ -1,0 +1,62 @@
+DisplayName = 48N6 [SARH-AAM]
+Type = AAMissile
+ModelBullet = aim-7m
+Power = 500
+Acceleration = 1
+Explosion = 3
+Flaming = false
+Sight = MissileSight
+Delay = 20
+Reloadtime = 10
+RigidityTime = 30
+
+Group = MainGun
+Round = 4
+LockTime = 5
+DamageFactor = heli, 0.8
+Sound = s300launch
+RigidityTime = 0
+MaxAmmo = 4
+SuppliedNum = 1
+Gravity = 0
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+predictTargetPos = false
+turningFactor = 0.5
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 1000
+MaxDegreeOfMissile = 90
+PassiveRadar = true
+LockMinHeight = 35
+EnableOffAxis = false
+PDHDNMaxDegree = 185
+maxLockOnAngle = 10
+enableBVR = true
+WeaponSwitchSound = Switch_Jet_wWeapon_Missile
+SpeedFactor = 0.1
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 100
+SpeedDependsAircraft = true
+canBeIntercepted = true
+MinRangeBVR = 50
+enableChunkLoader = true
+
+ExplosionDamageVsLiving = 1
+ExplosionDamageVsPlayer = 0.1
+ExplosionDamageVsTank = 0.1
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 0.1
+ExplosionDamageVsShip = 0.1
+enableExhaustFlare = false
+
+crosstype=4
+
+ProximityFuseDist   = 20
+proximityFuseTick   = 20
+proximityFuseDamage = 320
+proximityFuseHeight = 20
+ExplosionAirburst   = 4

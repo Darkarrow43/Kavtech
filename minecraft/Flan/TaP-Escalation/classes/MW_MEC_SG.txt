@@ -1,0 +1,14 @@
+Name Specialist
+ShortName mMECSG
+AddItem g3A4
+AddItem mpp.saiga12
+AddItem hipower
+AddItem claymore 2
+AddItem c4Remote 
+AddItem m18 1
+AddItem mppsaigaAmmo 6
+AddItem battleRifle 6
+AddItem BHPammo 4
+
+
+SkinOverride MEBeard2

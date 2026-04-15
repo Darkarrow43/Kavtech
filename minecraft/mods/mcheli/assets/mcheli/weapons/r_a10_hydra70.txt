@@ -1,0 +1,46 @@
+DisplayName = Hydra-70 Rocket [HE]
+Type = Rocket
+Power = 50
+ModelBullet = hydra70
+Acceleration = 12
+Explosion = 3
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 1
+ReloadTime = 10
+Round = 38
+SoundVolume = 10
+DamageFactor = plane, 0.8
+DamageFactor = heli, 0.8
+DamageFactor = vehicle , 1
+DamageFactor = tank, 0.2
+
+DisplayMortarDistance = true
+Accuracy = 0.8
+
+Gravity = -0.002
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Shell
+
+MaxAmmo = 38
+SuppliedNum = 19
+Item =  1, iron_ingot
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=true
+
+crosstype=16
+
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.9
+ExplosionDamageVsPlane=1
+ExplosionDamageVsHeli=1
+ExplosionDamageVsVehicle=1
+DamageFactor = ship, 1.2
+ExplosionDamageVsShip=1
+enableExhaustFlare=false

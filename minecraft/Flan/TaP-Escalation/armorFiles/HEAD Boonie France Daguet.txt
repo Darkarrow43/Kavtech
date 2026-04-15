@@ -1,0 +1,10 @@
+Name Boonie Hat (Daguet)
+ShortName boonieHatDaguet
+Icon IconBoonieFranceD
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieDaguet
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

@@ -1,0 +1,62 @@
+Name Sawed-off
+ShortName sawedoff
+//The ammo this gun uses (shortName)
+Ammo 12gaugebuckshot
+Ammo 12gaugebirdshot
+Ammo 12gaugeheavy
+Ammo 12gaugeslug
+Ammo 12gaugeincendiary
+Ammo 12gaugefrag
+Icon Sawed-off
+Description Type Shotgun_Use 12 Gauge Bullet
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 35
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 9
+RecoilDistance 0.5
+RecoilDistanceHipFire 0.5
+RecoilAngle -70
+AimTimeConstant 0.53
+RecoilShakeDistance 1.0
+//Damage in half hearts
+Damage 1.0
+RunPosTime 3
+RunCrouchTime 3
+//The higher this value, the more the bullets spread
+Accuracy 1.25
+AimingSpreadConstant 0.8
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 10
+//For guns in which the magazine is integrated
+LoadIntoGun 2
+//Time in ticks between rounds
+ShootDelay 7
+ShootSound sawedoff_f
+ReloadSound sawedoff_r
+ReloadSoundRange 5
+GunSoundRange 50
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+EmptyClickSound emptyclick
+MoveSpeedModifier 1.05
+Mode SemiAuto
+BulletSpeed 20
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+ModelScale 1.0
+Model DarkZone.Izh43S
+Texture Izh43S
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 0
+UseCircleCrosshair true
+
+CanAIUse false

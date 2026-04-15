@@ -1,0 +1,12 @@
+Name Specialist
+ShortName canadaSG
+AddItem c7a2
+AddItem r870
+AddItem l9a1
+AddItem claymore 2
+AddItem c4Remote 
+AddItem m18
+AddItem mpp12gauge 32
+AddItem 5564530 6
+AddItem m9Ammo 4
+SkinOverride WhiteGuyBrownStubble

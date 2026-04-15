@@ -1,0 +1,67 @@
+Name M82A3
+ShortName m82a3
+//The ammo this gun uses (shortName)
+Ammo 50cal5rdmag
+Ammo 50cal10rdmag
+Ammo 50calexplosive5rdmag
+Ammo 50calhighlight5rdmag
+Icon M82A3
+Description Type Sniping Rifle_Use .50Cal Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+TacticalReloadTime 80
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 10
+RandomRecoilRange 1
+DecreaseRecoil 6
+RandomRecoilYawRange 3.0
+DecreaseRecoilYaw 2.5
+RecoilShakeDistance 1.5
+RecoilDistance 0.5
+RecoilDistanceHipFire 0.6
+//Damage in half hearts
+Damage 24
+RunPosTime 18
+RunCrouchTime 10
+//The higher this value, the more the bullets spread
+Accuracy 2
+AimingSpreadConstant 0.0
+AimTimeConstant 0.8
+//Time in ticks between rounds
+ShootDelay 7
+ShootSound m82a3_f
+ReloadSound m82a3_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+BulletSpeed 24
+Mode SemiAuto
+//Default Scope Settings
+Scope None
+ZoomLevel 1
+FOVZoomLevel 1.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model Settings
+MoveSpeedModifier 0.8
+ModelScale 1.15
+Model BFMCpack.M82A3
+Texture M82A3
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip svzSilencer svzForegrip svzBipod svzHolosight svz8xScope svz12xScope svzAcog svzAimPoint svzKobrasight svzReflexsight svzAngledGrip svzHeavyBarrel
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+CameraShakeModifier 2.0

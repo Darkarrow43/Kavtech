@@ -1,0 +1,60 @@
+////Name and icon
+Name APS
+ShortName apstank
+Icon APSTank
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 2
+////Visuals
+Model None
+Texture APSGrenade
+ModelScale 0.2
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowSound APS_Tank
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 0
+ThrowSpeed 0.0
+FallSpeed 0.0
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1.0
+Sticky true
+StickToEntity true
+StickToDriveable true
+StickToEntityAfter true
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 90
+DetonateWhenShot false
+Remote false
+DespawnTime 0
+PrimeDelay 5
+BounceSound bounce
+////Detonation
+FireRadius 0.0
+//DropItemOnDetonate <itemID.damage>
+//DetonateSound hand_grenade
+////Misc
+MeleeDamage 1
+
+IsAdvancedActiveDefence True
+ActiveDefenceRange 8
+AdvancedActiveDefenceWorkTick 80
+AdvancedActiveDefenceShootCount 10
+ShootSound T_UGS_Activate
+DistortSound false

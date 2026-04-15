@@ -1,0 +1,41 @@
+////Name and icon
+Name Epi Pen
+ShortName epipen2
+Icon Adrenaline2
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+StackSize 3
+Model dwfirearms.LPMInjector
+Texture LPMInjectorHeal
+TrailParticles false
+ExplodeParticles 0
+SmokeTime 1
+SmokeEffect 1 100 1
+SmokeEffect 20 60 2
+SmokeRadius 2
+SmokeParticles heart
+SpinWhenThrown false
+CanThrow True
+ThrowDelay 10
+ThrowSound syringe_f
+DetonateOnImpact false
+Bounciness 0.8
+HitEntityDamage 1
+ThrowSpeed 0.1
+FallSpeed 1
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1.0
+Sticky false
+VehicleProximityTrigger -1.0
+LivingProximityTrigger 1.0
+Fuse 1
+DetonateWhenShot true
+Remote false
+PrimeDelay 0
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks false
+DetonateSound <sound>
+MeleeDamage 1
+HideCrosshair true

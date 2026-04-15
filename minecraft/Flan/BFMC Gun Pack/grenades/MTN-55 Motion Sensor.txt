@@ -1,0 +1,35 @@
+Name Motion Sensor
+ShortName mtn55
+Icon MTN55
+Colour 255 255 255
+StackSize 4
+Model BFMCpack.MTN55
+Texture MTN55
+TrailParticles false
+ThrowSpeed 2.6
+FallSpeed 1.25
+Bounciness 0.5
+HitEntityDamage 10
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+ExplosionRadius 1.5
+ExplosionDamageVsLiving 2.8
+ExplosionDamageVsPlayer 2.8
+HitBoxSize 0.2
+Sticky false
+DetonateWhenShot true
+PrimeDelay 10
+SpinWhenThrown true
+ThrowDelay 10
+DetonateOnImpact false
+ThrowSound MTN55_Throw
+DetonateSound flak
+MeleeDamage 2
+DespawnTime 600
+MotionSensor true
+MotionSensorRange 8.0
+MotionSensorTime 2
+MotionSensorDelay 80
+MotionSoundRange 8.0
+MotionSound MTN55_Activate
+MotionSoundTime 40

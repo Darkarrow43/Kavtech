@@ -1,0 +1,16 @@
+filename = 'mod_worldeditcui_1.7.10_00_mc1.7.10.litemod'
+name = 'WorldEditCUI'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cafcf27905a6974d8e5fc1e21c88ee900c03c5c1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2352910
+project-id = 254692

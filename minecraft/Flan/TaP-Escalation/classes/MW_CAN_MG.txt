@@ -1,0 +1,8 @@
+Name Machine Gunner
+ShortName canadaMG
+AddItem m240g
+AddItem l9a1
+AddItem m18
+AddItem m240box 16
+AddItem m9Ammo 4 
+SkinOverride WhiteGuyBlondStubble

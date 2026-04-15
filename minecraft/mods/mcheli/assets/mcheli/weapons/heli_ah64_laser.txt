@@ -1,0 +1,57 @@
+DisplayName =AGM-114K Hellfire Laser-Guided ATGM
+Type = TVMissile
+Power =600
+Acceleration = 2
+Explosion = 5
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet =agm114
+Sound =9K118_F
+ReloadTime = 100
+Round = 2
+FIXMODE=1
+LOCKTIME = 0
+ProximityFuseDist = 1
+HeatCount = 1000
+MaxHeatCount = 1200
+TimeFuse = 200
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Shell
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+CameraRotationSpeedPitch = 0.3
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+ProximityFuseDist = 1
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+canBeIntercepted=false
+canBeIntercepted=false
+canBeIntercepted=true
+
+
+;¼ÝÊ»Î»cross_type0_9:0rocket£¬1zuni£¬2rocket_arm£¬3aam_irm£¬4irm£¬5arm£¬6laserm£¬7losm£¬8bomb£¬9cannonn
+;weapon_group_type: 0:cannonn/losm;1:cannonn/laserm;2:rocket/aam_IRM;3:cannonn/bomb;4:ZUNI/IRM;5:ZUNI/ARM;6:ROCKET_ARM/AAM_IRM;7:ROCKET_ARM/LOSM
+crosstype=6
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=true

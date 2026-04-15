@@ -1,0 +1,10 @@
+Name Advanced Combat Helmet (OCP)
+ShortName achucp
+Icon UCPPASGT
+Colour 255 255 255
+Type Helmet
+Defence 0.4
+Model NewArmor.ACHUCP
+ArmourTexture SkinACHUCP
+Description American Combat Helmet_Year: 2002_Universal Camouflage Pattern_Can Mount NVGS
+headArmor 200

@@ -1,0 +1,11 @@
+Name target_block
+ShortName target_block
+Colour 255 255 255
+TopTexture target_block
+SideTexture target_block
+BottomTexture target_block
+Material iron
+Hardness 10
+Resistance 10
+BreakableByExplosion false
+BlockType target

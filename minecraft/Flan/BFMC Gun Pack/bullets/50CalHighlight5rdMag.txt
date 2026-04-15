@@ -1,0 +1,31 @@
+Name .50Cal 5rds Highlight Mag
+ShortName 50calhighlight5rdmag
+Model BFMCpack.Shootbullet
+Texture Shootbullet
+Description Used for SR
+Colour 255 255 255
+Icon BarrettAmmoH
+FallSpeed 2
+MaxStackSize 6
+RoundsPerItem 5
+DamageVsLiving 1
+DamageVsVehicles 2
+Fuse 0
+FlakParticles 100
+FlakParticleType cloud
+FlakParticlesCrack 150
+FlakParticlesDiff 0.9
+Fire 0
+BreaksGlass True
+HitBoxSize 0.1
+HitSound bulletair
+HitSoundRange 5
+HitSoundIron hit_metal_50
+HitSoundEnable true
+EntityHitSoundEnable true
+//Penetration 20
+SmokeTrail true
+TrailParticles true
+Haslight True
+TrailParticleType flansmod.fmtracerred
+DragInAir 0.98

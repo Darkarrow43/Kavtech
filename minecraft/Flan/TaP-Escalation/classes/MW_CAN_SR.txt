@@ -1,0 +1,14 @@
+Name Sniper
+ShortName canadaSR
+AddItem L115A3
+AddItem l9a1
+AddItem g22Ammo 4
+AddItem m9Ammo 4
+AddItem claymore
+AddItem c4Remote 1
+
+Hat CG634
+Chest canadaModern
+Legs PBAWoodland
+
+SkinOverride WhiteGuyBrownStubble

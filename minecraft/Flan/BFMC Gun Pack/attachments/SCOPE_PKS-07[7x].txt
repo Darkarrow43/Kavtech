@@ -1,0 +1,22 @@
+Name PKS-07[7x]
+ShortName pks07
+Icon PKS07
+Description ¡ìa±¶ÂÊx7
+Colour 255 255 255
+AttachmentType sights
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+ZoomLevel 3.5
+FOVZoomLevel 2.0
+ZoomOverlay GUI\PKS07
+Model BFMCpack.PKS07
+ModelScale 0.12
+Texture PKS07
+
+
+   

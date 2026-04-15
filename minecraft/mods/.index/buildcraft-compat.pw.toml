@@ -1,0 +1,16 @@
+filename = 'buildcraft-compat-7.1.9.jar'
+name = 'Buildcraft Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '82e6016362618a6d3187bb3629860185458e3603'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6240758
+project-id = 233140

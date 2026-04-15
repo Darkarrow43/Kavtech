@@ -1,0 +1,39 @@
+DisplayName = AGM-114R9X Hellfire TV-Guided
+Type = TVMissile
+Power = 200
+Acceleration = 3
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 200
+;ModeNum = 2
+ModelBullet = agm114R9X
+Sound = 9K118_F
+SoundVolume = 10
+TimeFuse = 200
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+RigidityTime = 30
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+enableExhaustFlare=true
+
+canBeIntercepted=true
+
+FlakParticlesCrack = 400
+NumParticlesFlak = 20
+FlakParticlesDiff = 1.2
+
+ExplosionDamageVsLiving=0
+ExplosionDamageVsPlayer=0
+ExplosionDamageVsTank=0
+ExplosionDamageVsPlane=0
+ExplosionDamageVsHeli=0
+ExplosionDamageVsVehicle=0

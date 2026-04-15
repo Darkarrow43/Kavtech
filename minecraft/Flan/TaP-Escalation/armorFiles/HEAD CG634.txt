@@ -1,0 +1,10 @@
+Name CG634 Kevlar Helmet (CADPAT)
+ShortName CG634
+Icon IconPASGTCADPAT
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.CanadaModernHelmet
+ArmourTexture SkinCanadianElite
+Description Canadian Combat Helmet_Year: 1997_CADPAT_Can Mount NVGS
+headArmor 200

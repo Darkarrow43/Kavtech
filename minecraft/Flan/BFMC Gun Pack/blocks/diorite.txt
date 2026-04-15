@@ -1,0 +1,10 @@
+Name diorite
+ShortName diorite
+Colour 255 255 255
+TopTexture diorite
+SideTexture diorite
+BottomTexture diorite
+Material rock
+Hardness 4
+Resistance 4
+BreakableByExplosion false

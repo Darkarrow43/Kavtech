@@ -1,0 +1,71 @@
+Name VKS
+ShortName vks
+//The ammo this gun uses (shortName)
+Ammo 50cal5rdmag
+Ammo 50cal10rdmag
+Ammo 50calexplosive5rdmag
+Ammo 50calhighlight5rdmag
+Icon VKS
+Description Type Sniping Rifle_Use .50Cal Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 110
+TacticalReloadTime 90
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 6
+RandomRecoilRange 1
+DecreaseRecoil 3
+RandomRecoilYawRange 2.0
+DecreaseRecoilYaw 2.5
+RecoilDistance 0.5
+RecoilDistanceHipFire 0.5
+RecoilShakeDistance 1.5
+//Damage in half hearts
+Damage 24
+RunPosTime 18
+RunCrouchTime 10
+//The higher this value, the more the bullets spread
+Accuracy 2
+AimingSpreadConstant 0.0
+AimTimeConstant 0.79
+//BFMCpack由TV90开发，BFMC开发组所有，盗包狗死妈
+ShootDelay 7
+ShootSound vks_f
+ReloadSound m82a3_r
+ReloadSoundRange 5
+GunSoundRange 20
+EmptyClickSound emptyclick
+BulletSpeed 22
+Mode SemiAuto
+//Default Scope Settings
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model Settings
+MoveSpeedModifier 0.78
+ModelScale 0.1
+Model BFMCpack.VKS
+Texture VKS
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_2 BFMCpack/animations/AR_BP_Reload_2.json
+
+//Attachment Settings
+AllowAllAttachments true
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+//paintjob VKS camos/VKS_EMR_Forest
+CameraShakeModifier 2.0

@@ -1,0 +1,14 @@
+Name German Army Flecktarn Uniform (Flecktarn)
+ShortName germanArmyFleck
+Icon gerBWFleck
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.GermanArmyModernBody
+ArmourTexture SkinBWFlecktarn
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description German Battle Dress_Year: 1990_Flecktarn
+bodyArmor 100
+armArmor 100
+ModelScale 1.05

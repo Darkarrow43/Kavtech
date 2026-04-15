@@ -1,0 +1,155 @@
+DisplayName = F-16V BLOCK 70
+AddDisplayName = zh_CN, F-16V BLK70 “蝰蛇"
+AddDisplayName = en_US, F-16V BLOCK 70
+MaxHp = 350
+
+Autopilotrot = 0
+Category = M.F
+HUD = JET, JET_GUNNER
+ThirdPersonDist = 25
+Speed = 0.95
+MobilityPitch = 0.9
+MobilityRoll = 1
+MobilityYaw = 0.30
+ThrottleUpDown = 0.5
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.965
+MaxFuel = 960
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.0, 0.0, 0
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = -0.0089,  2.3,  6.5
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = F16, Exhaustflame_red, 0.0, 2.213, -7.709, -1, 0, 0, 0, 2
+AddExhaustFlame = radar, radar, 0.2117, 2.988, 7.06, -1, 0, 0, 0, 1
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 15
+explosionsizebycrash = 4
+
+
+BoundingBox = 0, 2.7, 6, 1.5, 2, 4, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2.7, -1, 3, 2, 10, 1.0, DEFAULT, FUSELAGE
+BoundingBox = 0, 2.3, -7.5, 1.4, 1.4, 3, 1.5, DEFAULT, ENGINE
+BoundingBox = 4, 2.2, -1.4, 5, 0.2, 4, 0.8, DEFAULT, WING
+BoundingBox = -4, 2.2, -1.4, 5, 0.2, 4, 0.8, DEFAULT, WING
+
+
+
+
+EntityWidth = 0.75
+EntityHeight = 0.75
+
+FlareType = 4
+HasChaff = true
+ChaffUseTime = 40
+ChaffWaitTime = 600
+
+RadarType = MODERN_AA
+NameOnModernAARadar = F16
+NameOnEarlyAARadar = F16
+NameOnModernASRadar = F16
+NameOnEarlyASRadar = JET
+enablerwr = true
+AirRadarRange = 1100
+GroundRadarRange = 500
+StealthFactor = 0.95
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartLG = 0.00, 1.22, 4.209,    -1,0,0,  -95
+AddPartLGRev = 0.3396,  0.9195,  3.506,    0.0045, 0.041, -2.057,  -80
+AddPartLGRev = -0.3396,  0.9195,  3.506,    -0.0045, 0.041, -2.057,  80
+
+AddPartLG = 0.3103,  1.453,  -0.5952,    0, 0, 0.0,  -90
+AddPartLGRev = 0.9100,  1.583,  0.5054,    0, 0, 1,  80
+
+AddPartLG = -0.3103,  1.453,  -0.5952,    0, 0, 0.0,  -90
+AddPartLGRev = -0.9100,  1.583,  0.5054,    0, 0, 1,  -80
+
+AddPartSteeringWheel = 5.156658,2.126369,-2.91167,-3.201802,0.015113,0.491369,15
+AddPartSteeringWheel = -5.156663,2.126373,-2.911692,3.201803,0.015111,0.49137,15
+AddPartSteeringWheel = 1.454,2.095,-7.03, 1, 0, 0.0,   -30
+AddPartSteeringWheel = -1.454,2.095,-7.03, 1, 0, 0.0,   30
+AddPartSteeringWheel = -0.4058, 2.646, 6.597, 0.0, 0.0, -1, 15
+
+AddPartSteeringWheel = 0.000853,6.649057,-8.614332,-0.0,-2.641853,1.83715,15
+
+AddPartwing = 1.52839,2.18121,-7.12309,-0.54083,0.13322,-0.0,40
+
+AddPartwing = 1.50022,2.02848,-7.1231,-0.51318,0.13395,0.0,-40
+
+AddPartwing = -1.52839,2.18121,-7.12309,0.54083,0.13322,-0.0,40
+
+AddPartwing = -1.50022,2.02848,-7.1231,0.51318,0.13395,0.0,-40
+
+AddPartThrottle = -0.0171,2.9656,-7.7257,-0.3026,-0.075,0.0,-7
+AddPartThrottle = -0.391,2.8562,-7.7257,-0.2246,-0.2162,0.0,-7
+AddPartThrottle = -0.7466,2.275,-7.7257,0.0864,0.2995,-0.0,7
+AddPartThrottle = -0.7525,2.196,-7.7257,0.075,-0.3026,0.0,-7
+AddPartThrottle = -0.6431,1.822,-7.7257,0.2162,-0.2246,0.0,-7
+AddPartThrottle = -0.3614,1.5529,-7.7257,0.2995,-0.0864,0.0,-7
+AddPartThrottle = 0.0171,1.4606,-7.7257,0.3026,0.075,0.0,-7
+AddPartThrottle = 0.3911,1.5699,-7.7257,0.2246,0.2162,0.0,-7
+AddPartThrottle = 0.6602,1.8516,-7.7257,0.0864,0.2995,0.0,-7
+AddPartThrottle = 0.7525,2.2302,-7.7257,-0.075,0.3026,0.0,-7
+AddPartThrottle = 0.6431,2.6041,-7.7257,-0.2162,0.2246,0.0,-7
+AddPartThrottle = 0.3614,2.8733,-7.7257,-0.2995,0.0864,0.0,-5
+
+AddPartThrottle = -0.1479,2.8419,-7.7484,0.2959,0.0,0.0,7
+AddPartThrottle = -0.4426,2.6837,-7.7484,0.2562,0.1479,0.0,7
+AddPartThrottle = -0.6186,2.3993,-7.7484,0.1479,0.2562,0.0,7
+AddPartThrottle = -0.6289,2.0651,-7.7484,-0.0,0.2959,0.0,7
+AddPartThrottle = -0.4707,1.7704,-7.7484,-0.1479,0.2562,0.0,7
+AddPartThrottle = -0.1863,1.5944,-7.7484,-0.2562,0.1479,0.0,7
+AddPartThrottle = -0.1479,1.5841,-7.7484,0.2959,0.0,0.0,-7
+AddPartThrottle = 0.1863,1.5944,-7.7484,0.2562,0.1479,0.0,-7
+AddPartThrottle = 0.4707,1.7704,-7.7484,0.1479,0.2562,0.0,-7
+AddPartThrottle = 0.6289,2.0651,-7.7484,-0.0,0.2959,0.0,-7
+AddPartThrottle = 0.6186,2.3993,-7.7484,-0.1479,0.2562,0.0,-7
+AddPartThrottle = 0.4426,2.6837,-7.7484,-0.2562,0.1479,0.0,-7
+
+AddPartThrottle = 0.6575, 2.525, 6.455,  1,0,0.00, 40
+
+AddPartCanopy = 0.00, 3.526, 5.684,  -1,0,0,  50
+AddPartCanopy = 0.00, 3.526, 5.684,  -1,0,0,  00
+
+;Weapons
+AddPartWeaponMissile = gps_f16v_spice1000_dual,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f16v_spice1000_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f16v_aim120d4,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f16v_aim120d4,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = f16_agm84,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = f16_agm84,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_f16_aim9m,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_f16_aim9m,   false, false, false,  -0.297,  0.518, -8.699
+
+AddWeapon = ac_f16v_m61a1,  0.63, 0.9084,  4.269,  0.0,  -0.1
+
+AddWeapon = arhaam_f16v_aim120d4,     6.232,  1.758, -7.699,  0,0.0
+AddWeapon = arhaam_f16v_aim120d4,     -6.232,  1.758, -7.699,  0,0.0
+AddWeapon = gps_f16v_spice1000_dual,     1.232,  1.758, -7.699,  0,-0
+AddWeapon = gps_f16v_spice1000_dual,     -1.232,  1.758, -7.699,  0,-0
+AddWeapon = f16_agm84,      6.232,  1.758, -7.699,  0,0.0
+AddWeapon = f16_agm84,      -6.232,  1.758, -7.699,  0,0.0
+AddWeapon = iraam_f16_aim9m,      6.232,  1.758, -7.699,  0,0.0
+AddWeapon = iraam_f16_aim9m,     -6.232,  1.758, -7.699,  0,0.0
+
+
+weapongrouptype = 13
+

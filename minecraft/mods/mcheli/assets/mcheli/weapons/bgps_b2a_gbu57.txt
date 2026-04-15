@@ -1,0 +1,54 @@
+Type = ASMissile
+Displayname = GBU-57 MOP [Bunker Buster]
+ModelBullet = gbu57
+SoundVolume = 10
+Sound = JDAM_F
+Power = 700
+Sight = MoveSight
+ModeNum = 2
+Acceleration = 0.5
+Gravity = 0
+Delay = 20
+ReloadTime = 10
+Round = 2
+Explosion = 22
+ExplosionBlock = 12
+Piercing = 15
+Flaming = false
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone 
+DisableSmoke = true
+fixmode = 1
+
+
+
+;MCHELI-R WEAPONS PARAMETERS
+
+
+
+LockTime = 1
+maxDegreeOfMissile = 45
+tickEndHoming = 100
+maxLockOnRange = 500
+maxLockOnAngle = 45
+pdHDNMaxDegree = 60
+pdHDNMaxDegreeLockOutCount = 10
+;AntiFlareCount = 2
+;IsHeatSeekerMissile = false
+;IsRadarMissile = true
+;ActiveRadar = true
+turningfactor = 0.25
+enableBVR = true
+EnableOffAxis = false
+SpeedFactor = 0.01
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 105
+SpeedDependsAircraft = true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+isGPSMissile = true
+ExplosionType = hbmNT_Bomb
+effectyield = 10
+DisableDestroyBlock = false

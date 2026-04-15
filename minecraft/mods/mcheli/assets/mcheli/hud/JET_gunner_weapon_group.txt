@@ -1,0 +1,292 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;驾驶位cross_type0_9:0 CONNON, 1 AAM_ARM_HEAVY, 2 AAM_ARM, 3 AAM_IRM, 4 AAM_SARH, 5 AGM_ARM, 6 AGM_IRM, 7 AGM_LASERM, 8 AGM_SARH, 9 AGM_TVM
+;10 Clusterbomb ,11 GPSBOMB ,12 GPSBOMB_SAP ,13 HEAVYROCKT ,14 IRBOMB, 15 ROCKET_ARM, 16 ROCKET, 17 ZUNI,18 AGM_LOSM， 19 40MM, 20 HE
+
+;weapon_group_type: 1 CONNON/AAM_IRM/AAM_SARH, 2 CONNON/AAM_SARH/AAM_ARM_HEAVY, 3 CONNON/AAM_IRM/AAM_ARM
+;4 CONNON/AAM_ARM/ROCKET_ARM, 5 CONNON/AAM_ARM/AGM_LASERM, 6 AAM_IRM/AAM_ARM, 7 CONNON/ROCKET/AGM_LASERM
+;8 CONNON/ROCKET_ARM/AGM_IRM, 9 CONNON/HEAVYROCKET/AGM_LASERM, 10 CONNON/ZUNI/AGM_IRM, 11 AGM_TVM/Clusterbomb
+;12 AGM_SARH/Clusterbomb, 13 AGMK_TVM/IRBOMB, 14 EML/AGM_ARM, 15 AGM_IRM/AGM_LOSM， 16 GPSBOMB/GPSBOMB_SAP
+
+;==================== 武器组1: CONNON/AAM_IRM/AAM_SARH ====================
+;CONNON
+If = (weapon_group_type==1)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==1)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_SARH
+If = (weapon_group_type==1)&&(cross_type==4)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组2: CONNON/AAM_SARH/AAM_ARM_HEAVY ====================
+;CONNON
+If = (weapon_group_type==2)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_HEAVY_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_SARH
+If = (weapon_group_type==2)&&(cross_type==4)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_HEAVY_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_ARM_HEAVY
+If = (weapon_group_type==2)&&(cross_type==1)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_HEAVY_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组3: CONNON/AAM_IRM/AAM_ARM ====================
+;CONNON
+If = (weapon_group_type==3)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_IRM
+If = (weapon_group_type==3)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_ARM
+If = (weapon_group_type==3)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组4: CONNON/AAM_ARM/ROCKET_ARM ====================
+;CONNON
+If = (weapon_group_type==4)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_ARM
+If = (weapon_group_type==4)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ROCKET_ARM
+If = (weapon_group_type==4)&&(cross_type==15)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组5: CONNON/AAM_ARM/AGM_LASERM ====================
+;CONNON
+If = (weapon_group_type==5)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_ARM
+If = (weapon_group_type==5)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_LASERM
+If = (weapon_group_type==5)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组6: AAM_IRM/AAM_ARM ====================
+;AAM_IRM
+If = (weapon_group_type==6)&&(cross_type==3)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AAM_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AAM_ARM
+If = (weapon_group_type==6)&&(cross_type==2)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AAM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AAM_ARM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组7: CONNON/ROCKET/AGM_LASERM ====================
+;CONNON
+If = (weapon_group_type==7)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ROCKET
+If = (weapon_group_type==7)&&(cross_type==16)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_LASERM
+If = (weapon_group_type==7)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组8: CONNON/ROCKET_ARM/AGM_IRM ====================
+;CONNON
+If = (weapon_group_type==8)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ROCKET_ARM
+If = (weapon_group_type==8)&&(cross_type==15)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_IRM
+If = (weapon_group_type==8)&&(cross_type==6)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ROCKET_ARM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组9: CONNON/HEAVYROCKET/AGM_LASERM ====================
+;CONNON
+If = (weapon_group_type==9)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HEAVYROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;HEAVYROCKET
+If = (weapon_group_type==9)&&(cross_type==13)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HEAVYROCKET_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_LASERM
+If = (weapon_group_type==9)&&(cross_type==7)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HEAVYROCKET_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LASERM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组10: CONNON/ZUNI/AGM_IRM ====================
+;CONNON
+If = (weapon_group_type==10)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ZUNI_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;ZUNI
+If = (weapon_group_type==10)&&(cross_type==17)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ZUNI_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_IRM
+If = (weapon_group_type==10)&&(cross_type==6)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_ZUNI_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_IRM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组11: AGM_TVM/Clusterbomb ====================
+;AGM_TVM
+If = (weapon_group_type==11)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_TVM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_CLUSTERBOMB_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;Clusterbomb
+If = (weapon_group_type==11)&&(cross_type==10)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_TVM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_CLUSTERBOMB_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组12: AGM_SARH/Clusterbomb ====================
+;AGM_SARH
+If = (weapon_group_type==12)&&(cross_type==8)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_SARH_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_CLUSTERBOMB_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;Clusterbomb
+If = (weapon_group_type==12)&&(cross_type==10)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_SARH_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_CLUSTERBOMB_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组13: AGM_TVM/IRBOMB ====================
+;AGM_TVM
+If = (weapon_group_type==13)&&(cross_type==9)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_TVM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_IRBOMB_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;IRBOMB
+If = (weapon_group_type==13)&&(cross_type==14)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_TVM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_IRBOMB_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组14: EML/AGM_ARM ====================
+;EML
+If = (weapon_group_type==14)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_EML_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_ARM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_ARM
+If = (weapon_group_type==14)&&(cross_type==5)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_EML_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_ARM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组15: AGM_IRM/AGM_LOSM ====================
+;AGM_IRM
+If = (weapon_group_type==15)&&(cross_type==6)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_IRM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LOSM_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;AGM_LOSM
+If = (weapon_group_type==15)&&(cross_type==18)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_AGM_IRM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_AGM_LOSM_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组16: GPSBOMB/GPSBOMB_SAP ====================
+;GPSBOMB
+If = (weapon_group_type==16)&&(cross_type==11)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_GPSBOMB_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_GPSBOMB_SAP_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;GPSBOMB_SAP
+If = (weapon_group_type==16)&&(cross_type==12)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_GPSBOMB_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_GPSBOMB_SAP_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+
+;==================== 武器组17: CONNON/40MM/HE ====================
+;CONNON
+If = (weapon_group_type==17)&&(cross_type==0)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_SELECT, (380*(width/960)), (-100*(height/500)), (80*(width/极960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_40MM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HE_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;40MM
+If = (weapon_group_type==17)&&(cross_type==19)&&(cam_zoom<2)
+DrawTexture = JET_AMMO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_40MM_SELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HE_NOTSELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif
+;HE
+If = (weapon_group_type==17)&&(cross_type==20)&&(cam_zoom<2)
+DrawTexture = JET_AM极MO_CONNON_NOTSELECT, (380*(width/960)), (-100*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_40MM_NOTSELECT, (380*(width/960)), (-60*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+DrawTexture = JET_AMMO_HE_SELECT, (380*(width/960)), (-20*(height/500)), (80*(width/960)), (40*(height/500)), 0,0,256,128,0
+endif

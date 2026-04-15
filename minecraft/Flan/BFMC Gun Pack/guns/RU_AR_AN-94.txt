@@ -1,0 +1,85 @@
+Name AN-94
+ShortName an94
+//The ammo this gun uses (shortName)
+Ammo 545x3930rdmag
+Description Type Assault Rifle_Use 5.45x39mm Ammo
+Icon AN94
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 65
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.5
+RecoilDistance 0.08
+RandomRecoilRange 0.3
+DecreaseRecoil 1
+RandomRecoilYawRange 1.0
+DecreaseRecoilYaw 3
+AimTimeConstant 0.65
+RecoilShakeDistance 0.3
+//Damage in half hearts
+Damage 7.5
+RunPosTime 4
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Accuracy 0.5
+AimingSpreadConstant 0.2
+SingleShootSpreadModifier 0.8
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound an94_f
+ReloadSound ak74m_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode Burst SemiAuto
+NumBurstRounds 2
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+BulletSpeed 32
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+
+Model BFMCpack.AN94
+ModelScale 0.125
+Texture AN94
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation an94 BFMCpack/animations/AN94.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation an94
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+//paintjob AN94 camos/AN94_Izlom
+//paintjob AN94 camos/AN94_KLMK
+//paintjob AN94 camos/AN94_EMR_Urban
+//paintjob AN94 camos/AN94_VSR-98
+//paintjob AN94 camos/AN94_Partizan
+//paintjob AN94 camos/AN94_Splinter
+
+animGunOffsetX = -2.5

@@ -1,0 +1,10 @@
+Name sandbag
+ShortName sandbag
+Colour 255 255 255
+TopTexture sandbag_top
+SideTexture sandbag_side
+BottomTexture sandbag_side
+Material sand
+Hardness 4
+Resistance 4
+BreakableByExplosion false

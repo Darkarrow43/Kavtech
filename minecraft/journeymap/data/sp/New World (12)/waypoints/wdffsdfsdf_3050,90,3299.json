@@ -1,0 +1,17 @@
+{
+  "id": "wdffsdfsdf_3050,90,3299",
+  "name": "wdffsdfsdf",
+  "icon": "waypoint-normal.png",
+  "x": 3050,
+  "y": 90,
+  "z": 3299,
+  "r": 88,
+  "g": 62,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

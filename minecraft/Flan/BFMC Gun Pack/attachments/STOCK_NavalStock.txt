@@ -1,0 +1,22 @@
+Name Naval Stock
+ShortName navalstock
+Icon SCB
+
+AttachmentType stock
+Description 装饰
+Silencer false
+
+//参数倍率
+SpreadMultiplier 1.0
+RecoilMultiplier 1
+BulletSpeedMultiplier 1.0
+DamageMultiplier 1.0
+ReloadTimeMultiplier 1
+
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay none
+
+Model DarkZone.SCB
+Texture SCB
+ModelScale 1.15

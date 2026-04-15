@@ -1,0 +1,73 @@
+Name MPX
+ShortName mpx
+//The ammo this gun uses (shortName)
+Ammo 40sw30rdmag
+Icon MPX
+Description Type Submachine Gun_Use .40 S&W Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+TacticalReloadTime 45
+Recoil 2.0
+RecoilDistance 0.03
+RandomRecoilRange 0.3
+DecreaseRecoil 1
+RandomRecoilYawRange 0.5
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.5
+//Damage in half hearts
+Damage 7
+RunPosTime 3
+RunCrouchTime 2
+//The higher this value, the more the bullets spread
+Spread 1
+AimingSpreadConstant 0.7
+AimTimeConstant 0.5
+//Time in ticks between rounds
+RoundsPerMin 850
+ShootSound mp5a4_f
+ReloadSound mp5a4_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto Burst
+NumBurstRounds 3
+OneHanded false
+//Bullet speed, default 3.0
+BulletSpeed 26
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.MPX
+ModelScale 0.13
+Texture MPX
+
+3rdModel ransya.UMP45
+3rdModelScale 0.3
+3rdTexture 3rd/UMP45
+
+UseGLTFAnimation true
+GLTFAnimation smg_reload_2 BFMCpack/animations/SMG_Reload_2.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 1
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

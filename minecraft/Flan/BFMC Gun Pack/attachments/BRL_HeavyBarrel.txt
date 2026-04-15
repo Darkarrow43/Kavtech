@@ -1,0 +1,16 @@
+Name Heavy Barrel
+ShortName heavybarrel
+Icon HeavyBarrel
+Description §a减少33%散布_§c增加20%垂直后坐力_§c降低5%开镜速度
+Silencer false
+AttachmentType barrel
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 0.67
+RecoilMultiplier 1.2
+RecoilYawMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.05
+Model svz.NoStock
+Texture none

@@ -1,0 +1,110 @@
+﻿DisplayName = B-1B Lancer
+AddDisplayName = zh_CN, B-1B枪骑兵战略轰炸机
+ItemID = 28747
+MaxHp = 1800
+Speed = 0.9
+ThrottleUpDown = 1
+CameraPosition = -2.42, 2.18, -4.97
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+EnableEjectionSeat = true
+ConcurrentGunnerMode = true
+FlareType = 2
+AutoPilotRot = 0
+Soundvolume = 10
+MaxFuel = 2000
+FuelConsumption = 1
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+InventorySize = 18
+ThirdPersonDist = 156
+Sound = b_one
+ArmorMinDamage = 25
+CanRotOnGround  = true
+camerazoom = 12
+radartype = MODERN_AS
+radartype = MODERN_AA
+enablebvr = true
+HUD = JET, JET_gunner
+hasMaintenance=true
+MaintenceUsetime=60
+MaintenceWaittime=300
+
+enablerwr = true
+HasChaff = true
+ChaffUseTime = 200
+ChaffWaitTime = 300
+
+NameOnModernAARadar = B1B
+NameOnEarlyAARadar = B1B
+NameOnModernASRadar = B1B
+NameOnEarlyASRadar = B1B
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+AddSeat       =  0.55, 6.86, 2.70
+AddGunnerSeat = -0.55,6.86, 2.70
+AddPartWing =   7.02, 4.99, -21.06,  0, 1,0, 45
+AddPartWing =  -7.02, 4.99, -21.06,  0,-1,0, 45
+
+AddPartWeaponBay = gps_b1b_gbu31,  1.7863, 4.5,-10.0,  0, -0.04, 1.0,  90
+AddPartWeaponBay = gps_b1b_gbu31, -1.7863, 4.5,-10.0,  0, -0.04, 1.0, -90
+
+AddPartWeaponBay = gps_b1b_gbu31,  1.7682, 4.3909,-10.0,  0, -0.04, 1.0,  90
+AddPartWeaponBay = gps_b1b_gbu31, -1.7682, 4.3909,-10.0,  0, -0.04, 1.0, -90
+
+AddPartWeaponBay = gps_b1b_agm158er, -1.7586, 4.1719,-30.0,  0, -0.04, 1.0,  -90
+AddPartWeaponBay = gps_b1b_agm158er, 1.7586, 4.1719,-30.0,  0, -0.04, 1.0, 90
+
+AddWeapon = dummy_bay_closed,   0.0, 0, 2.62,    0.0, 0.0, true,2
+AddWeapon = gps_b1b_gbu31,  2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -12,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31,  2,  4, -20,  0, 0, true,  2
+AddWeapon = gps_b1b_gbu31, -2,  4, -20,  0, 0, true,  2
+
+AddWeapon = gps_b1b_agm158er,   2,  4, -36,  0, 0, true,  2
+AddWeapon = gps_b1b_agm158er,  -2, 4,  -36,  0, 0, true,  2
+
+AddPartSteeringWheel =  0.0,9.19,-46.69,  -1, 0, 0.0,   20
+AddPartSteeringWheel =  0.0,9.19,-46.69,  -1, 0, 0.0,   -20
+
+AddPartLG =  0.00, 4.3054,  -0.1717,  1,0,0, -100
+AddPartLGrev = -0.82, 4.4916,   6, 0,0,1,  -75
+AddPartLGrev = 0.82, 4.4916,   6, 0,0,1,  75
+AddPartLGrev =  -0.1303, 4.1031,  -30,  0,0,1,  91
+AddPartLGrev =  0.1303, 4.1031,  -30,  0,0,1,  -91
+AddPartLG =  -3.522, 4.2808,  -25,  0,0,1, 110
+AddPartLG =  3.522, 4.2808,  -25,  0,0,1, -110
+AddPartLG =  -3.522, 4.2808,  -25,  0,0,1, 87
+AddPartLG =  3.522, 4.2808,  -25,  0,0,1, -87
+
+BoundingBox =  0.0, 6.5,  5.7,  7, 4
+BoundingBox =  0.0, 6.5,  -4.7,  8, 6
+BoundingBox =  0.0, 6.5, -15.7,  10, 6
+BoundingBox =  0.0, 6.5, -25.7,  12, 6
+BoundingBox =  0.0, 6.5, -35.7,  8, 6
+BoundingBox =  0.0, 6.5, -47.7,  8, 6
+BoundingBox =  0.0, 12.0, -52.0,  6, 4
+BoundingBox = -9.5, 4.0, -28.1,  11, 3
+BoundingBox =  9.5, 4.0, -28.1,  11, 3

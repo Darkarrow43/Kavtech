@@ -1,0 +1,14 @@
+Name US Army Army Combat Uniform (UCP)
+ShortName USAUCPBody
+Icon USAUCP
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USAOCPBody
+ArmourTexture SkinUSARMYUCP
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description American Battle Dress_Year: 2005_Universal Camouflage Pattern
+bodyArmor 100
+armArmor 100
+ModelScale 1.05

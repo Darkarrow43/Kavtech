@@ -1,0 +1,10 @@
+Name copper_block
+ShortName copper_block
+Colour 255 255 255
+TopTexture copper_block
+SideTexture copper_block
+BottomTexture copper_block
+Material iron
+Hardness 8
+Resistance 10
+BreakableByExplosion false

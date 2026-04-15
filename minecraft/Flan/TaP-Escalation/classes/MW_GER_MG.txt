@@ -1,0 +1,8 @@
+Name Machine Gunner
+ShortName bundeswehrMG
+AddItem MG3
+AddItem p8
+AddItem m18
+AddItem m240box 16
+AddItem m9Ammo 4 
+SkinOverride WhiteGuyBlondStubble

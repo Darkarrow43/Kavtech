@@ -1,0 +1,13 @@
+Name Rifleman
+ShortName mUKRSassault
+AddItem AK74tyrant
+AddItem makarov
+AddItem rgd5 2
+AddItem rdg2 1
+AddItem 5453930 6
+AddItem makarovAmmo 4
+AddItem mwMedKit 1
+SkinOverride WhiteGuyBrown
+Hat mk7Ukraine
+Chest ukrSlavaMM14
+Legs IOTVUkraine

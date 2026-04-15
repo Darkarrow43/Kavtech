@@ -1,0 +1,68 @@
+Name Illuminating Grenade
+ShortName m116a1
+Description Fuse 3s_FlashTime 4.5s
+Icon M116A1
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 4
+////Visuals
+Model mos.M116A1
+Texture M116A1
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 4
+//Syntax is SmokeEffect <ID> <Duration> <Amplifier>
+//IDs are 	1:MoveSpeed		2:MoveSlowdown		3:DigSpeed			4:DigSlowdown		5:DamageBoost	6:Heal			7:Harm		8:Jump			9:Confusion		10:Regeneration
+//			11:Resistance	12:FireResistance	13:WaterBreathing	14:Invisibility		15:Blindness	16:NightVision	17:Hunger	18:Weakness		19:Poison		20:Wither
+SmokeEffect 2 100 3
+SmokeRadius 5
+VehicleProximityTrigger 1.0
+LivingProximityTrigger 1.0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+ThrowSound m67pin
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 0
+ThrowSpeed 2.4
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.01
+Sticky false
+FlashBang true
+FlashTime 50
+FlashRange 8
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound flashgrenade
+FlashDamageEnable true
+FlashDamage 12
+FlashEffects True
+FlashEffectsID 2
+FlashEffectsDuration 100
+FlashEffectionsLevel 7
+BounceSound bounce
+Fuse 60
+DetonateWhenShot true
+Remote false
+//DespawnTime 0
+PrimeDelay 40
+////Detonation
+FireRadius 0.0
+ExplosionRadius 2.0
+ExplosionDamageVsLiving 0.5
+ExplosionDamageVsPlane 0.0
+ExplosionDamageVsVehicle 0.0
+ExplosionBreaksBlocks false
+//DropItemOnDetonate <itemID.damage>
+//DetonateSound
+////Misc
+FlareParticleCount 10

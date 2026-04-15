@@ -1,0 +1,17 @@
+Name Engineer
+ShortName mMECengineer
+AddItem g3kA4
+AddItem hipower
+AddItem superBlowTorch 1
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem m18 1
+AddItem battleRifle 6
+AddItem BHPammo 5
+
+
+
+
+
+SkinOverride MEBald

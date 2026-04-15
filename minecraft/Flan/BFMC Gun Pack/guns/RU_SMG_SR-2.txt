@@ -1,0 +1,70 @@
+Name SR-2
+ShortName sr2
+//The ammo this gun uses (shortName)
+Ammo 9x2130rdmag
+Icon SR2
+Description Type Submachine Gun_Use 9x21mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.25
+RandomRecoilRange 0.3
+DecreaseRecoil 1
+RandomRecoilYawRange 0.4
+DecreaseRecoilYaw 2
+Damage 7
+AimTimeConstant 0.5
+RecoilShakeDistance 0.3
+RecoilDistance 0.02
+RunPosTime 2
+RunCrouchTime 2
+//The higher this value, the more the bullets spread
+Spread 0.7000000000000001
+AimingSpreadConstant 0.9
+MinSpread 4
+//Time in ticks between rounds
+RoundsPerMin 900
+ShootSound type82_f
+ReloadSound pp2000_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 24
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.SR2
+ModelScale 0.16
+Texture SR2
+
+3rdModel ransya.UMP45
+3rdModelScale 0.3
+3rdTexture 3rd/UMP45
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+//UseRightArmGLTFAnimation true
+GLTFAnimation t82smg BFMCpack/animations/T82SMG.json
+TacticalReloadGLTFAnimation t82smg
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWSingleFire flanMWBurstFire flanMWAutoFire ospreysilencergeneric
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowGadgetAttachments true
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 0

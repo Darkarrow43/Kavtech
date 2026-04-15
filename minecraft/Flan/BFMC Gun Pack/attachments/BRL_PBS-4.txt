@@ -1,0 +1,18 @@
+Name PBS-4 Suppressor
+ShortName pbs4
+Icon PBS
+Description §a降低10%散布_§a降低10%垂直后坐力_§a消音_§c降低15%子弹速度
+AttachmentType barrel
+Silencer true
+DisableMuzzleFlash true
+MeleeDamageMultiplier 1.0
+SpreadMultiplier 0.9
+RecoilMultiplier 0.9
+BulletSpeedMultiplier 0.85
+ReloadTimeMultiplier 1.0
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+ZoomOverlay None
+Model DarkZone.762SDN6
+Texture 762SDN6
+ModelScale 1.0

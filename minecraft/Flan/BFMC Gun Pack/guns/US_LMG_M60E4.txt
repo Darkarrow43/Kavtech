@@ -1,0 +1,65 @@
+Name M60-E4
+ShortName m60e4
+//The ammo this gun uses (shortName)
+Ammo 762x51100rdbox
+Ammo 762x51100rdapbox
+Icon M60
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23839
+Description Type Light Machine Gun_Use 7.62x51mm Bullet Box
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+TacticalReloadTime 120
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 3
+RecoilDistance 0.2
+RandomRecoilRange 0.5
+DecreaseRecoil 1.2
+RandomRecoilYawRange 1.1
+DecreaseRecoilYaw 3
+RecoilShakeDistance 0.6
+AimTimeConstant 0.7
+CanHipFireWhileSprinting False
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 8
+RunPosTime 15
+RunCrouchTime 5
+//The higher this value, the more the bullets spread
+Accuracy 1
+AimingSpreadConstant 0.1
+SingleShootSpreadModifier 0.5
+//Time in ticks between rounds
+RoundsPerMin 500
+ShootSound m60e4_f
+ReloadSound m60e4_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 32
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model BFMCpack.M60E4
+ModelScale 0.39
+Texture M60E4
+MoveSpeedModifier 0.9
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight flanMWSingleFire flanMWBurstFire flanMWAutoFire
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3

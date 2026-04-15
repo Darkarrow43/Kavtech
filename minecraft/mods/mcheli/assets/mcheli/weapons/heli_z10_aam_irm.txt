@@ -1,0 +1,67 @@
+DisplayName = TY-90 IRM AAM
+Type = AAMissile
+ModelBullet = TY90
+Power = 250
+Acceleration = 0.5
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 45
+Group = MainGun
+Round = 4
+HeatCount = 500
+MaxHeatCount = 800
+LockTime = 25
+TimeFuse = 170
+ProximityFuseDist = 3
+DamageFactor = heli, 1.2
+Sound = AA11_F
+SoundVolume = 10
+Gravity = 0.004
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+
+LockMinHeight = 3
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+
+enableBVR=true
+predictTargetPos=true
+LockMinHeight = 3
+turningFactor = 0.2
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+PDHDNMaxDegree = 90
+MaxDegreeOfMissile = 40
+maxLockOnAngle=5
+MaxLockOnRange = 300
+AntiFlareCount=30
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+SpeedFactor = 0.075
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 60
+SpeedDependsAircraft = true
+EnableOffAxis = false
+canBeIntercepted=false
+canBeIntercepted=false
+canBeIntercepted=true
+
+
+;¼ÝÊ»Î»cross_type0_9:0rocket£¬1zuni£¬2rocket_arm£¬3aam_irm£¬4irm£¬5arm£¬6laserm£¬7losm£¬8bomb£¬9cannonn
+;weapon_group_type: 0:cannonn/losm;1:cannonn/laserm;2:rocket/aam_IRM;3:cannonn/bomb;4:ZUNI/IRM;5:ZUNI/ARM;6:ROCKET_ARM/AAM_IRM;7:ROCKET_ARM/LOSM
+crosstype=3
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=0.1
+ExplosionDamageVsTank=0.1
+ExplosionDamageVsPlane=0.1
+ExplosionDamageVsHeli=0.1
+ExplosionDamageVsVehicle=0.1
+ExplosionDamageVsShip=0.1
+enableExhaustFlare=true

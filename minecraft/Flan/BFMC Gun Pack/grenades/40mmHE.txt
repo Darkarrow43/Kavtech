@@ -1,0 +1,69 @@
+////Name and icon
+Name 40mm HE
+ShortName 40mmhe
+Icon 40mmHE
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 3
+////Visuals
+Model mw.RoundGrenade
+Texture glhe
+TrailParticles true
+TrailParticleType cloud
+ExplodeParticles 10
+FlakParticles 30
+Damage 10
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+CanThrow False
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact true
+Bounciness 0.2
+HitEntityDamage 20
+ThrowSpeed 5
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.2
+Sticky false
+////Detonation conditions
+VehicleProximityTrigger 3.0
+LivingProximityTrigger 1.0
+ExplosionDamageVsLiving 0.8
+ExplosionDamageVsPlayer 0.8
+ExplosionDamageVsVehicle 2.0
+Fuse 200
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 10
+////Detonation
+FireRadius 0.0
+ExplosionRadius 2.5
+ExplosionPower 1.25
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+DetonateSound 40mm_grenade
+////Misc
+MeleeDamage
+HitSound granade5
+HitSoundRange 500
+HitSoundEnable true
+EntityHitSoundEnable true
+FlashBang true
+FlashTime 1
+FlashRange 1
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound flash
+DebrisParticleCount 10
+CanBeDestructByAPS true
+
+MaxSupplyClips 5

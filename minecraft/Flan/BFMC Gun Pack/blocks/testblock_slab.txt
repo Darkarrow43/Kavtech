@@ -1,0 +1,9 @@
+Name TestBlock_slab
+ShortName testblock_slab
+//Icon Adrenaline
+Colour 255 255 255
+Texture test
+Material iron
+Hardness 10
+Resistance 10
+BlockType slab

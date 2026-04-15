@@ -1,0 +1,16 @@
+Name Straight Pull Bolt
+ShortName bolt
+Icon bolt
+Description §a取消狙击枪自动收镜_§c降低10%射速
+AttachmentType grip
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+RecoilYawMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+RoundsPerMinMultiplier 0.9
+IsDisableCancelAiming true
+Model svz.NoStock
+Texture none

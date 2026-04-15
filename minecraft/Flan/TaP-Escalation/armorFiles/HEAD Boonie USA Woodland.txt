@@ -1,0 +1,10 @@
+Name Boonie Hat (US Woodland)
+ShortName boonieHatUSWood
+Icon IconBoonieM81
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BoonieHat
+ArmourTexture SkinBoonieWoodland
+Description Wide Brim Hat Commonly By The Military
+headArmor 10

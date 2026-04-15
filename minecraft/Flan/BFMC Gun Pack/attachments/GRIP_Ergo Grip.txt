@@ -1,0 +1,16 @@
+Name Ergo Grip
+ShortName ergogrip
+Description §a增加10%开镜速度_§c增加10%跑射延迟
+Icon Ergogrip
+AttachmentType grip
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 0.9
+RunPosTimeMultiplier 1.1
+Model BFMCpack.ErgoGrip
+ModelScale 0.18
+Texture ErgoGrip

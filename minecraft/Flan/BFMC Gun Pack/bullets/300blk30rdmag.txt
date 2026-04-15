@@ -1,0 +1,30 @@
+Name .300BLK 30rds Mag
+ShortName 300blk30rdmag
+Model Bullet
+Colour 255 255 255
+Icon 300blk30rdmag
+Description Used for SMG
+FallSpeed 1
+MaxStackSize 10
+RoundsPerItem 30
+Damage 1
+DamageVsVehicles 0.5
+Explosion 0
+ExplodeOnImpact False
+Fuse 0
+FlakParticles 6
+FlakParticleType cloud
+Fire 0
+BreaksGlass True
+HitBoxSize 0.1
+HitSound grassimpact
+HitSoundRange 5
+HitSoundEnable true
+EntityHitSoundEnable true
+//Penetration 3.0
+DragInAir 0.995
+SmokeTrail False
+
+ShootHeadMultiplier 1.3
+ShootArmMultiplier 0.8
+ShootLegMultiplier 0.8

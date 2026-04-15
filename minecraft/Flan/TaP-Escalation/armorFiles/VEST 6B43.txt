@@ -1,0 +1,15 @@
+Name 6B45 Body Armor - EMR Summer
+ShortName 6b45
+Icon Icon6B45
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.6B43Normal
+ArmourTexture Skin6b43
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 400
+backArmor 400
+Durability 50
+ModelScale 1.05
+Description Russian Body Armour_Year: 2011_EMR Summer

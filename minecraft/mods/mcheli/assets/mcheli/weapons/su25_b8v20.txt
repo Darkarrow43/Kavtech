@@ -1,0 +1,19 @@
+DisplayName = S-8KO 80mm Rocket
+Type = Rocket
+Power = 42
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 2
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 2
+ReloadTime = 10
+Round = 120
+ModeNum = 2
+Sound = missile_9_snd
+
+MaxAmmo = 40
+SuppliedNum = 10
+Item =  1, iron_ingot
+Item =  1, gunpowder

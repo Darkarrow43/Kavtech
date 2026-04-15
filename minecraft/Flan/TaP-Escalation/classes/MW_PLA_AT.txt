@@ -1,0 +1,10 @@
+Name Anti-Tank
+ShortName mPLAengineer
+AddItem qbzb
+AddItem pf98
+AddItem QSZ92
+AddItem m18 1
+AddItem DBP87 6
+AddItem pf98heat 1
+AddItem QSZAmmo 4
+SkinOverride Asian3

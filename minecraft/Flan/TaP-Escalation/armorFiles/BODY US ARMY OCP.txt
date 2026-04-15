@@ -1,0 +1,14 @@
+Name US Army Army Combat Uniform (OCP)
+ShortName USAOCPBody
+Icon USAOCP
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USAOCPBody
+ArmourTexture SkinUSARMYOCP
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description American Battle Dress_Year: 2015_Operational Camouflage Pattern
+bodyArmor 100
+armArmor 100
+ModelScale 1.05

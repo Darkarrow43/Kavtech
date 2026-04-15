@@ -1,0 +1,13 @@
+Name Anti-Tank
+ShortName mUKRSengineer
+AddItem AK74tyrant
+AddItem rpg7
+AddItem makarov
+AddItem 5453930 6
+AddItem rpgAmmoAnimals 2
+AddItem makarovAmmo 4
+AddItem rdg2 1
+SkinOverride WhiteGuyRU
+Hat achNaked
+Chest ukrSlavaMM14
+Legs IOTVUkraine

@@ -1,0 +1,124 @@
+DisplayName = SU-57
+AddDisplayName = zh_CN,SU-57 近卫
+AddDisplayName = en_US,SU-57
+MaxHp = 400
+
+Category = M.A
+ItemID = 28705
+HUD = JET, JET_GUNNER
+ThirdPersonDist = 30
+Speed = 0.9
+MobilityPitch = 0.87
+MobilityRoll = 1
+MobilityYaw = 0.30
+ThrottleUpDown = 0.48
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.965
+MaxFuel = 860
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.00, 1.2, -0.7212
+EnableGunnerMode = true
+AutoPilotRot = 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.00,  1.781, 3.453
+
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = Exhaustflame, Exhaustflame_BLUE, 1.55, 1.871, -12, -1, 0, 0, 0, 1
+AddExhaustFlame = Exhaustflame, Exhaustflame_BLUE, -1.55, 1.871, -12, -1, 0, 0, 0, 1
+
+AddPartWeaponBay = arhaam_su57_r77 / gps_su57_kh36e1, -0.5850, 1.363,-2.916,   0.027, -0.031, 1.000, -85
+AddPartWeaponBay = arhaam_su57_r77 / gps_su57_kh36e1,  0.5850, 1.363,-2.916,  -0.027, -0.031, 1.000,  85
+AddPartWeaponBay = arhaam_su57_r77 / gps_su57_kh36e1, -0.5850, 1.468,-8.867,   0.027, -0.031, 1.000, -85
+AddPartWeaponBay = arhaam_su57_r77 / gps_su57_kh36e1,  0.5850, 1.468,-8.867,  -0.027, -0.031, 1.000,  85
+
+ArmorMinDamage = 12
+DamageFactor = 0.0
+engineShutdownThreshold = 10
+explosionsizebycrash = 5
+
+
+BoundingBox = 0.0, 2.2, 4, 2.0, 2, 3, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0.0, 1.8, -2.5, 5, 2.2, 10, 1, DEFAULT, FUSELAGE
+BoundingBox = 0.0, 1.8, -10, 5, 1.5, 5, 1.5, DEFAULT, ENGINE
+BoundingBox = 4, 1.8, -7, 6, 0.5, 5, 0.8, DEFAULT, WING
+BoundingBox = -4, 1.8, -7, 6, 0.5, 5, 0.8, DEFAULT, WING
+
+
+
+
+
+
+
+EntityWidth = 0.85
+EntityHeight = 0.85
+
+FlareType = 5
+HasChaff = true
+ChaffUseTime = 40
+ChaffWaitTime = 600
+hasecmJammer = true
+ecmJammerType = 1
+ecmJammerUseTime = 200
+ecmJammerWaitTime = 1200
+
+RadarType = MODERN_AA
+NameOnModernAARadar = SU57
+NameOnEarlyAARadar = JET
+NameOnModernASRadar = JET
+NameOnEarlyASRadar = JET
+enablerwr = true
+
+AirRadarRange = 1400
+GroundRadarRange = 750
+StealthFactor = 0.65
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartwing = 0.00,  0.9411,-6.735,  1,0, 0, 40
+
+AddPartSteeringWheel = 3.316, 1.883,-10.9, 1, 0, 0.0,   -8
+AddPartSteeringWheel = -3.316, 1.883,-10.9,  -1, 0, 0.0,   -8
+AddPartSteeringWheel = 2.825, 2.328,-9.146, 0, 1, 0.0,   -15
+AddPartSteeringWheel = -2.825, 2.328,-9.146,  0, 1, 0.0,   -15
+AddPartSteeringWheel = -0,2.107,3.903, 0, 0, 1,   -10
+
+AddPartThrottle = 0.4669, 2.105, 3.596,  1,0,0.00, 40
+
+AddPartLG = 0.000, 1.646,1.223,   0.00, 0.000, 0.00, 90
+
+AddPartLGRev = -0.3126, 1.237, 2.278,    0.05, -0.075, 1.00, -89
+AddPartLGRev = 0.3126, 1.237, 2.278,   -0.05, -0.075, 1.00,  89
+AddPartLGRev = -0.1416, 1.278, 0.4976,    0.05, -0.075, 1.00, -89
+AddPartLGRev = 0.1416, 1.278, 0.4976,   -0.05, -0.075, 1.00,  89
+
+AddPartLG = -2.21, 1.874,-4.942,   0.00, 0.000, 0.00, 90
+
+AddPartLGRev = -2.571, 1.649, -5.796,   0.05, 0.075, 1.00,  -50
+
+AddPartLG = 2.21, 1.874,-4.942,   0.00, 0.000, 0.00, 90
+AddPartLGRev = 2.571, 1.649, -5.796,   -0.05, 0.075, 1.00,  50
+
+;Weapons
+AddPartWeaponMissile = gps_su57_kh36e1,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = gps_su57_kh36e1,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = arhaam_su57_r77,  false, false, false,  -5.0, 0,  0
+
+AddWeapon = ac_su57_gsh30,  -0.8,  2.5,  0.8,  0.0,  0.0
+AddWeapon = gps_su57_kh36e1,-0.7484, 1, 1.632,   0.0, 0.0
+AddWeapon = gps_su57_kh36e1,0.7484, 1.0, 1.632,   0.0, 0.0
+
+AddWeapon = arhaam_su57_r77 ,-0.0, 1.0, -3.82,   1.0, 0.0
+
+weapongrouptype = 20

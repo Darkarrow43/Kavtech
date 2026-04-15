@@ -1,0 +1,66 @@
+Name SKS
+ShortName sks
+Ammo 762x3930rdmag
+Icon SKS
+Description Type Designated Marksman Rifle_Use 7.62x39mm Ammo
+Colour 255 255 255
+ReloadTime 60
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 800
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.005
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.005
+
+Damage 8
+RunPosTime 6
+RunCrouchTime 4
+Accuracy 0.5
+AimingSpreadConstant 0.25
+AimTimeConstant 0.68
+ShootDelay 2
+ShootSound sks_f
+ReloadSound akm_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model BFMCpack.SKS
+ModelScale 0.1
+Texture SKS
+BulletSpeed 28
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_1 BFMCpack/animations/AR_Reload_1.json
+
+AllowAllAttachments true
+AllowAttachments
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash
+
+animGunOffsetX = -2

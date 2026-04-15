@@ -1,0 +1,20 @@
+Name Prisma[3.4x]
+ShortName prisma
+Icon Prisma
+Description ¡ìa±¶ÂÊx3.4
+AttachmentType sights
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+
+ZoomLevel 2
+FOVZoomLevel 1.7
+ZoomOverlay Prisma
+
+Model BFMCpack.Prisma
+Texture Prisma
+ModelScale 0.12

@@ -1,0 +1,59 @@
+Name PzF 3-IT
+ShortName pzf3it
+//The ammo this gun uses (shortName)
+Ammo pzf3itammo
+Icon pzf3it
+Description Type ATW_Use PzF 3-IT Rocket
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 5
+RecoilDistance 0.05
+RecoilDistanceHipFire 0.5
+RecoilShakeDistance 1.0
+//Damage in half hearts
+Damage 1.0
+//The higher this value, the more the bullets spread
+Accuracy 1.25
+AimingSpreadConstant 0
+RunPosTime 18
+RunCrouchTime 6
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound pzf3_f
+ReloadSound rpg_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 3.25
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope PzF3
+ZoomLevel 1.0
+FOVZoomLevel 2.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+Model BFMCpack.Panzerfaust3
+Texture Panzerfaust3
+ModelScale 0.14
+
+UseGLTFAnimation true
+GLTFAnimation rpg7v2 BFMCpack/animations/RPG7V2.json
+UseLeftArmGLTFAnimation true
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope
+AllowBarrelAttachments false
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+//Modifiers
+MoveSpeedModifier 0.75
+KnockbackModifier 0.8

@@ -1,0 +1,13 @@
+Name Engineer
+ShortName cwUSEng
+AddItem m16a2
+AddItem m9
+AddItem c4 2
+AddItem Mine 2
+AddItem c4Remote 1
+AddItem m18
+AddItem superBlowTorch 1
+AddItem 5564530 7
+AddItem m9Ammo 4
+
+SkinOverride WhiteGuyBrown

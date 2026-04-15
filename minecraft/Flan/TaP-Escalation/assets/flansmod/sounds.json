@@ -1,0 +1,2541 @@
+{
+	"128cmPak44_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:128cmPak44_Shoot" ]
+	},
+
+	"14_5mmshoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:14_5mmshoot" ]
+	},
+
+	"155shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:155shoot" ]
+	},
+
+	"270gmcIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:270gmcIdle" ]
+	},
+
+	"270gmcLoop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:270gmcLoop" ]
+	},
+
+	"CruiserEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:CruiserEngine" ]
+	},
+
+	"270gmcPlace": {
+		"category" : "player",
+		"sounds" : [ "flansmod:270gmcPlace" ]
+	},
+	
+	"ModernEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ModernEngine" ]
+	},
+	
+	"EngineStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart" ]
+	},
+
+	"270gmcStartup": {
+		"category" : "player",
+		"sounds" : [ "flansmod:270gmcStartup" ]
+	},
+
+	"30CalShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:30CalShoot" ]
+	},
+
+	"35mmShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:35mmShoot" ]
+	},
+
+	"4745_Plane_MustangEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4745_Plane_MustangEngine" ]
+	},
+
+	"4745_Plane_MustangStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4745_Plane_MustangStart" ]
+	},
+
+	"4747_Plane_SpitfireEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4747_Plane_SpitfireEngine" ]
+	},
+
+	"4747_Plane_SpitfireStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4747_Plane_SpitfireStart" ]
+	},
+
+	"4749_Plane_Yak9Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4749_Plane_Yak9Engine" ]
+	},
+
+	"4749_Plane_Yak9Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4749_Plane_Yak9Start" ]
+	},
+
+	"4845_AMTANKS_M551Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4845_AMTANKS_M551Start" ]
+	},
+
+	"5000_AAGun_40mm_BoforsFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:5000_AAGun_40mm_BoforsFire" ]
+	},
+
+	"50CalHit": {
+		"category" : "player",
+		"sounds" : [ "flansmod:50CalHit" ]
+	},
+
+	"545Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:545Shoot" ]
+	},
+
+	"556Echo": {
+		"category" : "player",
+		"sounds" : [ "flansmod:556Echo" ]
+	},
+
+	"556Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:556Shoot" ]
+	},
+
+	"6Pounder": {
+		"category" : "player",
+		"sounds" : [ "flansmod:6Pounder" ]
+	},
+
+	"75mmShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:75mmShoot" ]
+	},
+
+	"76mmZis3fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:76mmZis3fire" ]
+	},
+
+	"7mmFar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7mmFar" ]
+	},
+
+	"81mmMortar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:81mmMortar" ]
+	},
+
+	"81mm_M1_fire2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:81mm_M1_fire2" ]
+	},
+
+	"81mm_M1_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:81mm_M1_reload" ]
+	},
+
+	"85mmShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:85mmShoot" ]
+	},
+
+	"8gaugePump": {
+		"category" : "player",
+		"sounds" : [ "flansmod:8gaugePump" ]
+	},
+
+	"90mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:90mm" ]
+	},
+
+	"A-10": {
+		"category" : "player",
+		"sounds" : [ "flansmod:A-10" ]
+	},
+
+	"a10": {
+		"category" : "player",
+		"sounds" : [ "flansmod:a10" ]
+	},
+
+	"a10hellFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:a10hellFire" ]
+	},
+
+	"a10idle2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:a10idle2" ]
+	},
+
+	"a10shot2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:a10shot2" ]
+	},
+
+	"AACannon": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AACannon" ]
+	},
+
+	"ACRShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ACRShoot" ]
+	},
+
+	"AK74Distant": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK74Distant" ]
+	},
+
+	"AK74Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK74Reload" ]
+	},
+
+	"AKMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKMShoot" ]
+	},
+
+	"AKMShootDistant": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKMShootDistant" ]
+	},
+
+	"AKreload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKreload" ]
+	},
+
+	"AllahuAckbar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AllahuAckbar" ]
+	},
+
+	"AS-VALReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AS-VALReload" ]
+	},
+
+	"AS-VALShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AS-VALShoot" ]
+	},
+
+	"AT4Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AT4Shoot" ]
+	},
+
+	"ATGMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATGMShoot" ]
+	},
+
+	"ATGMShoot2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATGMShoot2" ]
+	},
+
+	"ATGun_movement": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATGun_movement" ]
+	},
+
+	"ATReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATReload" ]
+	},
+
+	"Auto-5_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Auto-5_reload" ]
+	},
+
+	"AutoCannonFar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AutoCannonFar" ]
+	},
+
+	"AutoCannonImpact": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AutoCannonImpact" ]
+	},
+
+	"AWMReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AWMReload" ]
+	},
+
+	"AWMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AWMShoot" ]
+	},
+
+	"AW_90mmFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AW_90mmFire" ]
+	},
+
+	"B1_EngineSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:B1_EngineSound" ]
+	},
+
+	"B1_IdleSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:B1_IdleSound" ]
+	},
+
+	"B1_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:B1_PlaceSound" ]
+	},
+
+	"BARReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BARReload" ]
+	},
+
+	"BarrettReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BarrettReload" ]
+	},
+
+	"BarrettShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BarrettShoot" ]
+	},
+
+	"BARShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BARShoot" ]
+	},
+
+	"BF109_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BF109_PlaceSound" ]
+	},
+
+	"BF3Tank50Cal": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BF3Tank50Cal" ]
+	},
+
+	"BHPShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BHPShoot" ]
+	},
+
+	"BM21fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BM21fire" ]
+	},
+
+	"BMPDrive": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMPDrive" ]
+	},
+
+	"BMP_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMP_engine" ]
+	},
+
+	"BMP_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMP_idle" ]
+	},
+
+	"bomb": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bomb" ]
+	},
+
+	"BombDrop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BombDrop" ]
+	},
+
+	"bounceMG": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bounceMG" ]
+	},
+
+	"bounceShell": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bounceShell" ]
+	},
+
+	"bounceShell2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bounceShell2" ]
+	},
+
+	"BoysRifleShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BoysRifleShoot" ]
+	},
+
+	"BRDM2Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BRDM2Engine" ]
+	},
+
+	"BRDM2Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BRDM2Idle" ]
+	},
+
+	"BrenReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BrenReload" ]
+	},
+
+	"BrenShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BrenShoot" ]
+	},
+
+	"BritSevenMM": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BritSevenMM" ]
+	},
+
+	"BTR80Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BTR80Engine" ]
+	},
+
+	"BTR80Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BTR80Idle" ]
+	},
+
+	"BTR80Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BTR80Shoot" ]
+	},
+
+	"BTR80Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BTR80Start" ]
+	},
+
+	"BulletHitConcrete": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BulletHitConcrete" ]
+	},
+
+	"BulletHitConcrete2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BulletHitConcrete2" ]
+	},
+
+	"BulletHitDirt": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BulletHitDirt" ]
+	},
+
+	"Camel_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Camel_PlaceSound" ]
+	},
+
+	"CarlGustafShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:CarlGustafShoot" ]
+	},
+
+	"CenturionIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:CenturionIdle" ]
+	},
+
+	"CenturionRun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:CenturionRun" ]
+	},
+
+	"ChallengerIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ChallengerIdle" ]
+	},
+
+	"ChallengerRun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ChallengerRun" ]
+	},
+
+	"Chally2Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Chally2Shoot" ]
+	},
+
+	"ChristmasLaser": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ChristmasLaser" ]
+	},
+
+	"ColtReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ColtReload" ]
+	},
+
+	"ColtShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ColtShoot" ]
+	},
+
+	"DesertEagleShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DesertEagleShoot" ]
+	},
+
+	"DP28Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DP28Reload" ]
+	},
+
+	"DP28Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DP28Shoot" ]
+	},
+
+	"DragunovShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DragunovShoot" ]
+	},
+
+	"DSHKShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DSHKShoot" ]
+	},
+
+	"DTShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:DTShoot" ]
+	},
+
+	"elephantAttack": {
+		"category" : "player",
+		"sounds" : [ "flansmod:elephantAttack" ]
+	},
+
+	"elephantRage": {
+		"category" : "player",
+		"sounds" : [ "flansmod:elephantRage" ]
+	},
+
+	"EngineIdle_Car_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_Car_Idle" ]
+	},
+
+	"EngineIdle_IFV_BMPD": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_IFV_BMPD" ]
+	},
+
+	"EngineIdle_IFV_Bradley": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_IFV_Bradley" ]
+	},
+
+	"EngineIdle_IFV_Marder": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_IFV_Marder" ]
+	},
+
+	"EngineIdle_IFV_Stryker": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_IFV_Stryker" ]
+	},
+
+	"EngineIdle_Jet_SU25": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_Jet_SU25" ]
+	},
+
+	"EngineIdle_Tnk_Turbine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineIdle_Tnk_Turbine" ]
+	},
+
+	"EngineStart_Heli_Generic": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_Heli_Generic" ]
+	},
+
+	"EngineStart_IFV_BMPD": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_IFV_BMPD" ]
+	},
+
+	"EngineStart_IFV_Bradley": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_IFV_Bradley" ]
+	},
+
+	"EngineStart_IFV_Marder": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_IFV_Marder" ]
+	},
+
+	"EngineStart_IFV_Stryker": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_IFV_Stryker" ]
+	},
+
+	"EngineStart_Jet_MiG29": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_Jet_MiG29" ]
+	},
+
+	"EngineStart_Tnk_Turbine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_Tnk_Turbine" ]
+	},
+
+	"EngineStart_Tnk_Turbine2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EngineStart_Tnk_Turbine2" ]
+	},
+
+	"Engine_Car_Tigr": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Car_Tigr" ]
+	},
+
+	"Engine_Hel_Apache": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Apache" ]
+	},
+
+	"Engine_Hel_CobraHuey": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_CobraHuey" ]
+	},
+
+	"Engine_Hel_Gazelle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Gazelle" ]
+	},
+
+	"Engine_Hel_Havoc": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Havoc" ]
+	},
+
+	"Engine_Hel_HindHip": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_HindHip" ]
+	},
+
+	"Engine_Hel_Kamov": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Kamov" ]
+	},
+
+	"Engine_Hel_LilBird": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_LilBird" ]
+	},
+
+	"Engine_Hel_ViperVenom": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_ViperVenom" ]
+	},
+
+	"Engine_Hel_Z10W": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Z10W" ]
+	},
+
+	"Engine_Hel_Z9": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Hel_Z9" ]
+	},
+
+	"Engine_HT_IS": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_HT_IS" ]
+	},
+
+	"Engine_HT_PzV": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_HT_PzV" ]
+	},
+
+	"Engine_HT_PzVI": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_HT_PzVI" ]
+	},
+
+	"Engine_HT_PzVIKT": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_HT_PzVIKT" ]
+	},
+
+	"Engine_Idle_F15": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Idle_F15" ]
+	},
+
+	"Engine_Idle_F16": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Idle_F16" ]
+	},
+
+	"Engine_Idle_Flanker": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Idle_Flanker" ]
+	},
+
+	"Engine_IFV_BMPD": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_IFV_BMPD" ]
+	},
+
+	"Engine_IFV_Bradley": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_IFV_Bradley" ]
+	},
+
+	"Engine_IFV_Marder": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_IFV_Marder" ]
+	},
+
+	"Engine_IFV_Stryker": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_IFV_Stryker" ]
+	},
+
+	"Engine_JEP_Humvee": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_JEP_Humvee" ]
+	},
+
+	"Engine_Jet_AC130": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_AC130" ]
+	},
+
+	"Engine_Jet_B1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_B1" ]
+	},
+
+	"Engine_Jet_F15": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_F15" ]
+	},
+
+	"Engine_Jet_F16": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_F16" ]
+	},
+
+	"Engine_Jet_Flanker": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_Flanker" ]
+	},
+
+	"Engine_Jet_MiG29": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_MiG29" ]
+	},
+
+	"Engine_Jet_SU25": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Jet_SU25" ]
+	},
+
+	"Engine_LT_ArmoredCar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_ArmoredCar" ]
+	},
+
+	"Engine_LT_BT": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_BT" ]
+	},
+
+	"Engine_LT_LVT": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_LVT" ]
+	},
+
+	"Engine_LT_M5": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_M5" ]
+	},
+
+	"Engine_LT_PzII": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_PzII" ]
+	},
+
+	"Engine_LT_Truck": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_LT_Truck" ]
+	},
+
+	"Engine_MT_ChiNu": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_ChiNu" ]
+	},
+
+	"Engine_MT_Comet": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_Comet" ]
+	},
+
+	"Engine_MT_M26": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_M26" ]
+	},
+
+	"Engine_MT_M4": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_M4" ]
+	},
+
+	"Engine_MT_M4A3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_M4A3" ]
+	},
+
+	"Engine_MT_PzIII": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_PzIII" ]
+	},
+
+	"Engine_MT_PzIV": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_PzIV" ]
+	},
+
+	"Engine_MT_T34": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_MT_T34" ]
+	},
+
+	"Engine_TD_M18": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_TD_M18" ]
+	},
+
+	"Engine_Tnk_Turbine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_Tnk_Turbine" ]
+	},
+
+	"Engine_TR_Halftrack": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine_TR_Halftrack" ]
+	},
+
+	"EryxReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EryxReload" ]
+	},
+
+	"EryxShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:EryxShoot" ]
+	},
+
+	"explcls1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls1" ]
+	},
+
+	"explcls2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls2" ]
+	},
+
+	"explcls3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls3" ]
+	},
+
+	"explcls4": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls4" ]
+	},
+
+	"explcls5": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls5" ]
+	},
+
+	"explcls6": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls6" ]
+	},
+
+	"explcls7": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls7" ]
+	},
+
+	"explcls8": {
+		"category" : "player",
+		"sounds" : [ "flansmod:explcls8" ]
+	},
+
+	"FALReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FALReload" ]
+	},
+
+	"FAMASFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FAMASFire" ]
+	},
+
+	"FAMASReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FAMASReload" ]
+	},
+
+	"FBBerylReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FBBerylReload" ]
+	},
+
+	"FBBerylShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FBBerylShoot" ]
+	},
+
+	"FighterEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FighterEngine" ]
+	},
+
+	"FighterStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FighterStart" ]
+	},
+
+	"Flare": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Flare" ]
+	},
+
+	"FlareAC130": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FlareAC130" ]
+	},
+
+	"FNFALShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FNFALShoot" ]
+	},
+
+	"FV107Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FV107Engine" ]
+	},
+
+	"FV107Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:FV107Idle" ]
+	},
+
+	"G36Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G36Reload" ]
+	},
+
+	"G36Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G36Shoot" ]
+	},
+
+	"G3A3Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G3A3Reload" ]
+	},
+
+	"G3Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G3Reload" ]
+	},
+
+	"g3_shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:g3_shoot" ]
+	},
+
+	"G43Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G43Shoot" ]
+	},
+
+	"GalilShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GalilShoot" ]
+	},
+
+	"Glock17Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Glock17Shoot" ]
+	},
+
+	"goreDeath": {
+		"category" : "player",
+		"sounds" : [ "flansmod:goreDeath" ]
+	},
+
+	"GreaseGunReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GreaseGunReload" ]
+	},
+
+	"GreaseGunShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GreaseGunShoot" ]
+	},
+
+	"GrenadeThrowModern": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GrenadeThrowModern" ]
+	},
+
+	"GrenadeThrowRDG": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GrenadeThrowRDG" ]
+	},
+
+	"GSH23Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GSH23Shoot" ]
+	},
+
+	"GSHShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GSHShoot" ]
+	},
+
+	"HarrierIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HarrierIdle" ]
+	},
+
+	"HarrierRun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HarrierRun" ]
+	},
+
+	"Hispano": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Hispano" ]
+	},
+
+	"HK417Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HK417Shoot" ]
+	},
+
+	"horn": {
+		"category" : "player",
+		"sounds" : [ "flansmod:horn" ]
+	},
+
+	"horseGallop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:horseGallop" ]
+	},
+
+	"horseTrot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:horseTrot" ]
+	},
+
+	"Hydra": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Hydra" ]
+	},
+
+	"INSASshoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:INSASshoot" ]
+	},
+
+	"JetEngine2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:JetEngine2" ]
+	},
+
+	"JetShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:JetShoot" ]
+	},
+
+	"KamazEngineIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KamazEngineIdle" ]
+	},
+
+	"KamazEngineRun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KamazEngineRun" ]
+	},
+
+	"KamazEngineStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KamazEngineStart" ]
+	},
+
+	"Kar98KReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Kar98KReload" ]
+	},
+
+	"Kar98kShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Kar98kShoot" ]
+	},
+
+	"KordShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KordShoot" ]
+	},
+
+	"kubel_EngineSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:kubel_EngineSound" ]
+	},
+
+	"KYUMARUShiki_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KYUMARUShiki_engine" ]
+	},
+
+	"KYUMARUShiki_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:KYUMARUShiki_idle" ]
+	},
+
+	"L85Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:L85Reload" ]
+	},
+
+	"l85_shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:l85_shoot" ]
+	},
+
+	"LancasterProp": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LancasterProp" ]
+	},
+
+	"Lancaster_PropSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lancaster_PropSound" ]
+	},
+
+	"Lancaster_StartSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lancaster_StartSound" ]
+	},
+
+	"laserpistol": {
+		"category" : "player",
+		"sounds" : [ "flansmod:laserpistol" ]
+	},
+
+	"LeeEnfieldShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeeEnfieldShoot" ]
+	},
+
+	"Leo1_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Leo1_engine" ]
+	},
+
+	"Leo1_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Leo1_idle" ]
+	},
+
+	"LeoDieselEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeoDieselEngine" ]
+	},
+
+	"LeoDieselEngineStronk": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeoDieselEngineStronk" ]
+	},
+
+	"LeoDieselIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeoDieselIdle" ]
+	},
+
+	"LeoDieselPlace": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeoDieselPlace" ]
+	},
+
+	"LeoDieselStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:LeoDieselStart" ]
+	},
+
+	"Lock": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lock" ]
+	},
+
+	"Lockon_AA": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lockon_AA" ]
+	},
+
+	"Lockon_AA2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lockon_AA2" ]
+	},
+
+	"Lockon_AA3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lockon_AA3" ]
+	},
+
+	"Lockon_ATGM": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lockon_ATGM" ]
+	},
+
+	"Lockon_Warning": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lockon_Warning" ]
+	},
+
+	"M1014Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1014Reload" ]
+	},
+
+	"M1014Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1014Shoot" ]
+	},
+
+	"M110Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M110Shoot" ]
+	},
+
+	"M14Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M14Reload" ]
+	},
+
+	"M14Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M14Shoot" ]
+	},
+
+	"M16Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M16Reload" ]
+	},
+
+	"M16Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M16Shoot" ]
+	},
+
+	"M1CarbineReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1CarbineReload" ]
+	},
+
+	"M1CarbineShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1CarbineShoot" ]
+	},
+
+	"M1GarandPing": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1GarandPing" ]
+	},
+
+	"M1GarandReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1GarandReload" ]
+	},
+
+	"M1GarandShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1GarandShoot" ]
+	},
+
+	"M240Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M240Shoot" ]
+	},
+
+	"M249Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M249Reload" ]
+	},
+
+	"M249Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M249Shoot" ]
+	},
+
+	"M2HBShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M2HBShoot" ]
+	},
+
+	"M3Browning": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M3Browning" ]
+	},
+
+	"M40SniperShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M40SniperShoot" ]
+	},
+
+	"M47Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M47Shoot" ]
+	},
+
+	"M48_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M48_engine" ]
+	},
+
+	"M48_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M48_idle" ]
+	},
+
+	"M4CarbineShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M4CarbineShoot" ]
+	},
+
+	"M60Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M60Shoot" ]
+	},
+
+	"M79Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M79Reload" ]
+	},
+
+	"M79Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M79Shoot" ]
+	},
+
+	"M9Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M9Shoot" ]
+	},
+
+	"MakarovShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MakarovShoot" ]
+	},
+
+	"MAS36Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAS36Shoot" ]
+	},
+
+	"MAS38Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAS38Reload" ]
+	},
+
+	"MAS38Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAS38Shoot" ]
+	},
+
+	"MAS38ShootFAR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAS38ShootFAR" ]
+	},
+
+	"MAT49Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAT49Reload" ]
+	},
+
+	"MAT49Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MAT49Shoot" ]
+	},
+
+	"MG08Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG08Shoot" ]
+	},
+
+	"Mg34Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mg34Reload" ]
+	},
+
+	"Mg34Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mg34Shoot" ]
+	},
+
+	"MG3Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG3Reload" ]
+	},
+
+	"MG3Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG3Shoot" ]
+	},
+
+	"MG42Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG42Fire" ]
+	},
+
+	"MGFireFar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MGFireFar" ]
+	},
+
+	"Mig15_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig15_engine" ]
+	},
+
+	"Mig15_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig15_idle" ]
+	},
+
+	"MiG17Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MiG17Fire" ]
+	},
+
+	"Mig21Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig21Engine" ]
+	},
+
+	"Mig23_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig23_idle" ]
+	},
+
+	"MiniBerylShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MiniBerylShoot" ]
+	},
+
+	"Minigun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Minigun" ]
+	},
+
+	"MinigunCooldown": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MinigunCooldown" ]
+	},
+
+	"MinigunWarmup": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MinigunWarmup" ]
+	},
+
+	"minorHit": {
+		"category" : "player",
+		"sounds" : [ "flansmod:minorHit" ]
+	},
+
+	"MissileShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MissileShoot" ]
+	},
+
+	"MosinNagantShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MosinNagantShoot" ]
+	},
+
+	"MotorboatGo": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MotorboatGo" ]
+	},
+
+	"MotorboatIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MotorboatIdle" ]
+	},
+
+	"MP34Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MP34Reload" ]
+	},
+
+	"Mp40Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mp40Reload" ]
+	},
+
+	"Mp40Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mp40Shoot" ]
+	},
+
+	"MP443Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MP443Shoot" ]
+	},
+
+	"MP5Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MP5Reload" ]
+	},
+
+	"MP5Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MP5Shoot" ]
+	},
+
+	"MTLBEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MTLBEngine" ]
+	},
+	
+	"MTLBStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MTLBStart" ]
+	},
+
+	"MTLBIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MTLBIdle" ]
+	},
+
+	"musketReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:musketReload" ]
+	},
+
+	"musketShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:musketShoot" ]
+	},
+
+	"NegevShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:NegevShoot" ]
+	},
+
+	"NR23_Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:NR23_Fire" ]
+	},
+
+	"NS37": {
+		"category" : "player",
+		"sounds" : [ "flansmod:NS37" ]
+	},
+
+	"Panzerfaust3Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Panzerfaust3Shoot" ]
+	},
+
+	"PanzerIV_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerIV_idle" ]
+	},
+
+	"Passby": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Passby" ]
+	},
+
+	"peaceShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:peaceShoot" ]
+	},
+
+	"penetratingBrutal": {
+		"category" : "player",
+		"sounds" : [ "flansmod:penetratingBrutal" ]
+	},
+
+	"penetratingBrutal2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:penetratingBrutal2" ]
+	},
+
+	"penetratingShell": {
+		"category" : "player",
+		"sounds" : [ "flansmod:penetratingShell" ]
+	},
+
+	"PG_Minigun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PG_Minigun" ]
+	},
+
+	"PG_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PG_reload" ]
+	},
+
+	"PistolFar": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PistolFar" ]
+	},
+
+	"PKMReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PKMReload" ]
+	},
+
+	"PKMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PKMShoot" ]
+	},
+
+	"PKTShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PKTShoot" ]
+	},
+
+	"PlaneA": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PlaneA" ]
+	},
+
+	"PlaneB": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PlaneB" ]
+	},
+
+	"PlaneBomb_reload1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PlaneBomb_reload1" ]
+	},
+
+	"PlaneMGShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PlaneMGShoot" ]
+	},
+
+	"PM1910Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PM1910Shoot" ]
+	},
+
+	"PMReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PMReload" ]
+	},
+
+	"PP19Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PP19Reload" ]
+	},
+
+	"PP19Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PP19Shoot" ]
+	},
+
+	"PPSh41Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PPSh41Reload" ]
+	},
+
+	"PPSh41Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PPSh41Shoot" ]
+	},
+
+	"propSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:propSound" ]
+	},
+
+	"propStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:propStart" ]
+	},
+
+	"PTRDReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PTRDReload" ]
+	},
+
+	"PTRDShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PTRDShoot" ]
+	},
+
+	"QBU88Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:QBU88Reload" ]
+	},
+
+	"QBU88Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:QBU88Shoot" ]
+	},
+
+	"QBZ95Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:QBZ95Reload" ]
+	},
+
+	"QBZ95Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:QBZ95Shoot" ]
+	},
+
+	"R870Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:R870Reload" ]
+	},
+
+	"R870Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:R870Shoot" ]
+	},
+
+	"release_bow": {
+		"category" : "player",
+		"sounds" : [ "flansmod:release_bow" ]
+	},
+
+	"reoM35Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:reoM35Idle" ]
+	},
+
+	"reoM35Loop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:reoM35Loop" ]
+	},
+
+	"reoM35Place": {
+		"category" : "player",
+		"sounds" : [ "flansmod:reoM35Place" ]
+	},
+
+	"reoM35Startup": {
+		"category" : "player",
+		"sounds" : [ "flansmod:reoM35Startup" ]
+	},
+
+	"RocketFire1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RocketFire1" ]
+	},
+
+	"RocketFire2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RocketFire2" ]
+	},
+
+	"RocketPassby": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RocketPassby" ]
+	},
+
+	"RocketShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RocketShoot" ]
+	},
+
+	"RPDShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RPDShoot" ]
+	},
+
+	"rpd_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:rpd_reload" ]
+	},
+
+	"RPG29Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RPG29Shoot" ]
+	},
+
+	"rpg7_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:rpg7_reload" ]
+	},
+
+	"rpg7_shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:rpg7_shoot" ]
+	},
+
+	"RPKReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RPKReload" ]
+	},
+
+	"S5RocketShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:S5RocketShoot" ]
+	},
+
+	"SabreCannon": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SabreCannon" ]
+	},
+
+	"Saiga12Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Saiga12Reload" ]
+	},
+
+	"Saiga12Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Saiga12Shoot" ]
+	},
+
+	"Sherman_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Sherman_PlaceSound" ]
+	},
+
+	"ShipMissile": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ShipMissile" ]
+	},
+
+	"ShootKordInterior": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ShootKordInterior" ]
+	},
+
+	"ShootM72LAW": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ShootM72LAW" ]
+	},
+
+	"ShootRPG26": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ShootRPG26" ]
+	},
+
+	"Shoot_100mmUSSR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_100mmUSSR" ]
+	},
+
+	"Shoot_105mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_105mm" ]
+	},
+
+	"Shoot_122mmUSSR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_122mmUSSR" ]
+	},
+
+	"Shoot_152mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_152mm" ]
+	},
+
+	"Shoot_20mmAADE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_20mmAADE" ]
+	},
+
+	"Shoot_20mmPzII": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_20mmPzII" ]
+	},
+
+	"Shoot_37mDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_37mDE" ]
+	},
+
+	"Shoot_37mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_37mm" ]
+	},
+
+	"Shoot_37mUS": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_37mUS" ]
+	},
+
+	"Shoot_40mmGrenade": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_40mmGrenade" ]
+	},
+
+	"Shoot_45mmUSSR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_45mmUSSR" ]
+	},
+
+	"Shoot_47mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_47mm" ]
+	},
+
+	"Shoot_50mmDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_50mmDE" ]
+	},
+
+	"Shoot_57mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_57mm" ]
+	},
+
+	"Shoot_57mmUK": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_57mmUK" ]
+	},
+
+	"Shoot_75mmDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_75mmDE" ]
+	},
+
+	"Shoot_75mmJP": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_75mmJP" ]
+	},
+
+	"Shoot_75mmLongDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_75mmLongDE" ]
+	},
+
+	"Shoot_75mmLongJP": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_75mmLongJP" ]
+	},
+
+	"Shoot_75mmUS": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_75mmUS" ]
+	},
+
+	"Shoot_76mmUK": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_76mmUK" ]
+	},
+
+	"Shoot_76mmUS": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_76mmUS" ]
+	},
+
+	"Shoot_76mmUSSR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_76mmUSSR" ]
+	},
+
+	"Shoot_85mmUSSR": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_85mmUSSR" ]
+	},
+
+	"Shoot_88FlakDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_88FlakDE" ]
+	},
+
+	"Shoot_88mmDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_88mmDE" ]
+	},
+
+	"Shoot_88mmLongDE": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_88mmLongDE" ]
+	},
+
+	"Shoot_90mmUS": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_90mmUS" ]
+	},
+
+	"Shoot_Gun_105mmM102": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_105mmM102" ]
+	},
+
+	"Shoot_Gun_40mmBofors": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_40mmBofors" ]
+	},
+
+	"Shoot_Gun_Javelin": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_Javelin" ]
+	},
+
+	"Shoot_Gun_KORD": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_KORD" ]
+	},
+
+	"Shoot_Gun_L37": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_L37" ]
+	},
+
+	"Shoot_Gun_L94": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_L94" ]
+	},
+
+	"Shoot_Gun_M240": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_M240" ]
+	},
+
+	"Shoot_Gun_M2HB": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_M2HB" ]
+	},
+
+	"Shoot_Gun_PKT": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_PKT" ]
+	},
+
+	"Shoot_Gun_YakB": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Gun_YakB" ]
+	},
+
+	"Shoot_Hellfire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Hellfire" ]
+	},
+
+	"Shoot_IFV_2A42": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_IFV_2A42" ]
+	},
+
+	"Shoot_IFV_2A72": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_IFV_2A72" ]
+	},
+
+	"Shoot_IFV_M230": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_IFV_M230" ]
+	},
+
+	"Shoot_IFV_M242": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_IFV_M242" ]
+	},
+
+	"Shoot_IFV_Rh202": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_IFV_Rh202" ]
+	},
+
+	"Shoot_Kornet": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Kornet" ]
+	},
+
+	"Shoot_MLRS_M142": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_MLRS_M142" ]
+	},
+
+	"Shoot_Tnk_105mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_105mm" ]
+	},
+
+	"Shoot_Tnk_105mmMan": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_105mmMan" ]
+	},
+
+	"Shoot_Tnk_120mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_120mm" ]
+	},
+
+	"Shoot_Tnk_120mmMan": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_120mmMan" ]
+	},
+
+	"Shoot_Tnk_125mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_125mm" ]
+	},
+
+	"Shoot_Tnk_125mmMan": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot_Tnk_125mmMan" ]
+	},
+
+	"ShotgunDistant": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ShotgunDistant" ]
+	},
+
+	"SiegeLaunch": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SiegeLaunch" ]
+	},
+
+	"SiegePlace": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SiegePlace" ]
+	},
+
+	"SiegeReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SiegeReload" ]
+	},
+
+	"SingleShotReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SingleShotReload" ]
+	},
+
+	"SKSReloadsvz": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SKSReloadsvz" ]
+	},
+
+	"SKSShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SKSShoot" ]
+	},
+
+	"SmokeDeploy": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SmokeDeploy" ]
+	},
+
+	"SovietTank_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SovietTank_engine" ]
+	},
+
+	"SovietTank_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SovietTank_idle" ]
+	},
+
+	"spaceShip": {
+		"category" : "player",
+		"sounds" : [ "flansmod:spaceShip" ]
+	},
+
+	"SPG9Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SPG9Shoot" ]
+	},
+
+	"Spitfire_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Spitfire_PlaceSound" ]
+	},
+
+	"SpringfieldShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SpringfieldShoot" ]
+	},
+
+	"SR25Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SR25Reload" ]
+	},
+
+	"StalinsOrgan": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StalinsOrgan" ]
+	},
+
+	"StenReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StenReload" ]
+	},
+
+	"StenShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StenShoot" ]
+	},
+
+	"SterlingShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SterlingShoot" ]
+	},
+
+	"Stg44Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Stg44Reload" ]
+	},
+
+	"Stg44Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Stg44Shoot" ]
+	},
+
+	"StingerShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StingerShoot" ]
+	},
+
+	"SV98DistantShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SV98DistantShoot" ]
+	},
+
+	"SV98Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SV98Shoot" ]
+	},
+
+	"SVDreload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SVDreload" ]
+	},
+
+	"sword_hit_heavy": {
+		"category" : "player",
+		"sounds" : [ "flansmod:sword_hit_heavy" ]
+	},
+
+	"T-34_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T-34_PlaceSound" ]
+	},
+
+	"T62Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T62Engine" ]
+	},
+
+	"T62Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T62Idle" ]
+	},
+
+	"T62Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T62Shoot" ]
+	},
+
+	"T62Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T62Start" ]
+	},
+
+	"T64_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T64_engine" ]
+	},
+
+	"T64_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T64_idle" ]
+	},
+
+	"T72Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T72Engine" ]
+	},
+
+	"T72Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T72Idle" ]
+	},
+
+	"T80Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T80Engine" ]
+	},
+
+	"T80Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T80Start" ]
+	},
+
+	"T90AEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T90AEngine" ]
+	},
+
+	"T90AEngineRun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T90AEngineRun" ]
+	},
+
+	"TankIdle1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TankIdle1" ]
+	},
+
+	"TankIdle2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TankIdle2" ]
+	},
+
+	"TankIdle3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TankIdle3" ]
+	},
+
+	"Tank_LightEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tank_LightEngine" ]
+	},
+
+	"Tank_LightEngine_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tank_LightEngine_Idle" ]
+	},
+
+	"TAR21Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TAR21Reload" ]
+	},
+
+	"TAR21Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TAR21Shoot" ]
+	},
+
+	"ThompsonM1A1Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ThompsonM1A1Reload" ]
+	},
+
+	"ThompsonM1A1Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ThompsonM1A1Shoot" ]
+	},
+
+	"TigrStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TigrStart" ]
+	},
+
+	"TrenchWhistleSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TrenchWhistleSound" ]
+	},
+
+	"TT33Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TT33Shoot" ]
+	},
+
+	"Tu95eng": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tu95eng" ]
+	},
+
+	"Tu95idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tu95idle" ]
+	},
+
+	"TurretElectric1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TurretElectric1" ]
+	},
+
+	"TurretElectric2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TurretElectric2" ]
+	},
+
+	"TurretElectric3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TurretElectric3" ]
+	},
+
+	"TurretTraverse1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TurretTraverse1" ]
+	},
+
+	"TurretTraverse2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TurretTraverse2" ]
+	},
+
+	"Type38Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Type38Shoot" ]
+	},
+
+	"Type99Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Type99Shoot" ]
+	},
+
+	"UMP45Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:UMP45Shoot" ]
+	},
+
+	"Ural4320Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ural4320Idle" ]
+	},
+
+	"Ural4320Run": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ural4320Run" ]
+	},
+
+	"Ural4320Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ural4320Start" ]
+	},
+
+	"USAtwelveMM": {
+		"category" : "player",
+		"sounds" : [ "flansmod:USAtwelveMM" ]
+	},
+
+	"uziShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:uziShoot" ]
+	},
+
+	"WarriorEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WarriorEngine" ]
+	},
+
+	"WarriorIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WarriorIdle" ]
+	},
+
+	"WarriorReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WarriorReload" ]
+	},
+
+	"WarriorStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WarriorStart" ]
+	},
+
+	"warthunder30mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:warthunder30mm" ]
+	},
+
+	"willyIdle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:willyIdle" ]
+	},
+
+	"willyPlace": {
+		"category" : "player",
+		"sounds" : [ "flansmod:willyPlace" ]
+	},
+
+	"willyStart": {
+		"category" : "player",
+		"sounds" : [ "flansmod:willyStart" ]
+	},
+
+	"WoT_115-152mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_115-152mm" ]
+	},
+
+	"WoT_20-45mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_20-45mm" ]
+	},
+
+	"WoT_85-107mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_85-107mm" ]
+	},
+
+	"YakShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:YakShoot" ]
+	},
+
+	"Yak_37mmShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Yak_37mmShoot" ]
+	},
+
+	"ZSU23Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU23Fire" ]
+	},
+
+	"ZSU23_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU23_engine" ]
+	},
+
+	"ZU23Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZU23Shoot" ]
+	}
+}

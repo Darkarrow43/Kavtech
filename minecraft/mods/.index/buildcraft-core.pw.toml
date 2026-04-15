@@ -1,0 +1,16 @@
+filename = 'buildcraft-7.1.27-core.jar'
+name = 'BuildCraft|Core'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f29d98541d76b456b0c65d6eec41c9b04e26cbde'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6240747
+project-id = 231305

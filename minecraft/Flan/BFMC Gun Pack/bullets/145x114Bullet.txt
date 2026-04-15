@@ -1,0 +1,48 @@
+Name 14.5x114mm Bullet[AP]
+ShortName atbullet
+Model cvts.MGBullet
+Texture Yellow
+//Colour of icon and model
+Colour 255 255 255
+Icon atbullet
+Description Used for SR
+//How affected by gravity the bullet is
+FallSpeed 5
+//The maximum stack size
+MaxStackSize 10
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 1
+//The damage multiplier caused by the bullet on hitting an entity
+Damage 1
+DamageVsVehicles 2.5
+DamageVsPlane 1
+//Size of explosion caused
+Explosion 0
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact False
+Fuse 0
+FlakParticles 120
+FlakParticlesCrack 180
+FlakParticlesDiff 1.0
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.1
+HitSound bulletair
+HitSoundIron hit_metal_50
+HitSoundRange 6
+HitSoundEnable true
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+//Penetration 6
+SmokeTrail True
+TrailParticles true
+TrailParticleType flansmod.fmsmoke
+HasLight True
+DragInAir 0.99
+ShootHeadMultiplier 2
+ShootArmMultiplier 0.8
+ShootLegMultiplier 0.8
+
+MaxSupplyClips 30

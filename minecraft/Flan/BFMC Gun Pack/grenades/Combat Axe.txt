@@ -1,0 +1,46 @@
+////Name and icon
+Name Combat Axe
+ShortName combataxe
+Icon CombatAxe
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe 
+StackSize 1
+////Visuals
+Model BFMCpack.CombatAxe
+Texture CombatAxe
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+ThrowSound MeleeSound
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.4
+HitEntityDamage 40
+ThrowSpeed 6.5
+FallSpeed 2.5
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1.2
+DropItemOnDetonate combataxe
+VehicleProximityTrigger 2.0
+LivingProximityTrigger 1.5
+Fuse 120
+Remote false
+DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionDamageVsLiving 1.0
+ExplosionDamageVsPlane 1.0
+ExplosionDamageVsVehicle 1.0
+ExplosionBreaksBlocks false
+MeleeDamage 10

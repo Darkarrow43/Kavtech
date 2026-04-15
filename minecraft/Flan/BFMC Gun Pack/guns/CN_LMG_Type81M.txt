@@ -1,0 +1,71 @@
+Name TYPE-81M LMG
+ShortName type81m
+//The ammo this gun uses (shortName)
+Ammo 762x3940rdmag
+Icon Type81M
+Description Type Light Machine Gun_Use 7.62x39mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 75
+TacticalReloadTime 65
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 3
+RecoilDistance 0.1
+RandomRecoilRange 0.8
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.8
+DecreaseRecoilYaw 2
+AimTimeConstant 0.66
+RecoilShakeDistance 0.8
+RunPosTime 7
+RunCrouchTime 4
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 1
+//Damage in half hearts
+Damage 8
+//The higher this value, the more the bullets spread
+Accuracy 1
+AimingSpreadConstant 0.15
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound akm_f
+ReloadSound rpk_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 31
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+MoveSpeedModifier 0.9
+
+Model BFMCpack.Type81M
+ModelScale 1.15
+Texture Type81M
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation ar_reload_0 BFMCpack/animations/AR_Reload_0.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3

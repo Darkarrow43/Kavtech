@@ -1,0 +1,58 @@
+Name L115
+ShortName l115
+Ammo 338magnum5rdmag
+Ammo 338magnum7rdmag
+Icon L115
+Colour 255 255 255
+Description Type Sniping Rifle_Use .338Magnum Ammo
+ReloadTime 80
+TacticalReloadTime 70
+Recoil 2.2
+RandomRecoilRange 0.5
+DecreaseRecoil 0.5
+RandomRecoilYawRange 2.5
+DecreaseRecoilYaw 2
+Damage 20
+
+AimTimeConstant 0.68
+RunPosTime 12.5
+RunCrouchTime 6
+
+Spread 3
+AimingSpreadConstant 0.0
+ShootDelay 40
+
+
+ShootSound l115_f
+ActionSound bolt_sniper
+ReloadSound awm_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 25
+
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+Deployable False
+DeployedModel None
+
+Texture L115
+Model BFMCpack.L115
+ModelScale 1.0
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGadgetAttachments true
+AllowGripAttachments true
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 0.88
+CasingModel MT.NATO
+CasingTexture effects/NATO
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash3
+
+CancelAimingAfterShoot true

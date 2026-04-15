@@ -1,0 +1,7 @@
+Name Machine Gunner
+ShortName mPLAsupport
+AddItem qjy
+AddItem QSZ92
+AddItem m18 1
+AddItem qjyAmmo 16
+AddItem QSZAmmo 4

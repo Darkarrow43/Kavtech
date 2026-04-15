@@ -1,0 +1,16 @@
+Name BCM Grip
+ShortName stubby
+Icon stubbyTD
+Description §a降低20%水平后坐力_§a降低20%垂直后坐力_§c增加50%散布
+AttachmentType grip
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.5
+RecoilYawMultiplier 0.8
+RecoilMultiplier 0.8
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+Model mpack.stubby
+Texture Skin_Attachment_Stubby
+ModelScale 0.07

@@ -1,0 +1,35 @@
+Name 7.62x25mm 8rds Mag
+ShortName 762x258rdmag
+Model Bullet
+Colour 255 255 255
+Icon 762x258rdmag
+Description Used for HG
+FallSpeed 5
+MaxStackSize 12
+RoundsPerItem 8
+Damage 1
+DamageVsVehicles 1
+Explosion 0
+ExplodeOnImpact False
+Fuse 0
+FlakParticles 5
+FlakParticleType cloud
+Fire 0
+BreaksGlass True
+HitBoxSize 0.1
+HitSound grassimpact
+HitSoundRange 5
+HitSoundEnable true
+EntityHitSoundEnable true
+//Penetrates False
+SmokeTrail False
+
+
+ShootHeadMultiplier 2.0
+
+ShootArmMultiplier 0.8
+
+ShootLegMultiplier 0.8
+
+EnableBulletDecay True
+BulletDecay Segmented 10 0.9 20 0.8 30 0.7

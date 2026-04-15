@@ -1,0 +1,8 @@
+Name elevator_door
+ShortName elevator_door
+Colour 255 255 255
+Texture door_elevator
+Material iron
+Hardness 10
+Resistance 10
+BlockType door

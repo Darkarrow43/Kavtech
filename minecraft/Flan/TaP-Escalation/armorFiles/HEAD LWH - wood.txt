@@ -1,0 +1,10 @@
+Name Lightweight Marine Helmet - MARPAT Woodland
+ShortName LWHwood
+Icon IconPASGT
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.USMCLWH
+ArmourTexture SkinUSMCModernWoodland
+Description American Combat Helmet_Year: 2003_MARPAT Desert_Can Mount NVGS
+headArmor 200

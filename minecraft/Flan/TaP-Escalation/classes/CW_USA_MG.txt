@@ -1,0 +1,11 @@
+Name Machine Gunner
+ShortName cwUSMG
+AddItem m60
+
+AddItem m18
+AddItem m9
+AddItem c4 2
+AddItem m240box 16
+AddItem m9Ammo 4
+AddItem c4Remote 1
+SkinOverride WhiteGuyBrownStubble

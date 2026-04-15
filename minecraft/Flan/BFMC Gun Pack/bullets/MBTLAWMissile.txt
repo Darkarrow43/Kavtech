@@ -1,0 +1,53 @@
+Name MBT LAW Missile
+ShortName mbtlawammo
+Model evp2.9K34Missile
+Texture SA7
+Colour 255 255 255
+Icon MBTLAWAMMO
+Description Only Used for MBT LAW
+FallSpeed 0
+MaxStackSize 4
+RoundsPerItem 1
+DamageVsPlayer 350
+DamageVsLiving 350
+DamageVsVehicles 350
+DamageVsPlanes 100
+Explosion 3
+ExplosionPower 3
+ExplosionDamageVsLiving 0.9
+ExplosionDamageVsPlayer 0.9
+ExplosionDamageVsPlane 1.0
+ExplosionDamageVsVehicle 1.0
+ExplodeOnImpact True
+Fuse 200
+FlakParticles 600
+Fire 0
+BreaksGlass True
+HitBoxSize 0.1
+HitSound flakx
+HitSoundRange 500
+HitSoundEnable true
+EntityHitSoundEnable true
+//Penetrates False
+LockOnToVehicles True
+LockOnToPlayers false
+LockOnToLivings false
+LockOnToPlanes false
+MaxLockOnAngle 10.0
+SmokeTrail True
+TrailParticles true
+TrailParticleType cloud
+FlareParticleCount 5
+DebrisParticleCount 5
+MaxRange 400
+DragInAir 1.0
+TurningForce 0.5
+//TickStartHoming 40
+//IsDoTopAttack true
+GuidedTurnRadius 5
+GuidedPhaseTurnSpeed 2
+GuidedPhaseSpeed 2
+CanBeDestructByAPS true
+
+PenetratingBlockMaxNum 0
+MaxSupplyClips 5

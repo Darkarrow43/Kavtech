@@ -1,0 +1,12 @@
+Name Altyn
+ShortName altyn
+Icon altyn
+Colour 255 255 255
+Type Helmet
+Defence 0.4
+Model NewArmor.Altyn
+ArmourTexture SkinAtlyn
+MoveSpeedModifier 0.5
+Description Juggernaut_Soviet Titanium Helmet_Year: 1984_Olive Drab
+headArmor 300
+faceArmor 150

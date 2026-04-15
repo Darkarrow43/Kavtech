@@ -1,0 +1,17 @@
+Name French Armed Forces (Desert)
+ShortName franceModernD
+//TextColour can be one of Black, Blue, Green, Aqua, Red, Purple, Orange, LGrey, Grey, LBlue, LGreen, LAqua, Red, Pink, Yellow, White
+//This is used for player names and such
+TextColour LGreen
+//TeamColour is a more specific colour for banners, flags and spawn points. It is specified by Red, Green and Blue, each ranging from 0 to 255
+TeamColour 225 255 255
+//Specify the armour this team should spawn with
+Hat spectraFranceDesert
+Chest franceModernD
+Legs smbFelin
+AddClass franceRifleman
+AddClass franceATD
+AddClass franceSRD
+AddClass franceMG
+AddClass franceSG
+AddClass franceENG

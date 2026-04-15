@@ -1,0 +1,70 @@
+Name M1014
+ShortName m1014
+Description Type Shotgun_Use 12 Gauge Bullet
+Ammo 12gaugebuckshot
+Ammo 12gaugebirdshot
+Ammo 12gaugeheavy
+Ammo 12gaugeslug
+Ammo 12gaugeincendiary
+Ammo 12gaugefrag
+Icon M1014
+Colour 255 255 255
+ReloadTime 125
+Recoil 7
+RandomRecoilRange 1
+RandomRecoilYawRange 1.5
+DecreaseRecoil 2.5
+DecreaseRecoilYaw 2
+RecoilAngle -15
+RecoilDistance 0.05
+RecoilDistanceHipFire 0.35
+RecoilShakeDistance 0.7
+NumBullets 1
+NumAmmoSlots 8
+Damage 0.9
+RunPosTime 7.5
+RunCrouchTime 4
+MoveSpeedModifier 1.00
+LoadIntoGun 8
+MeleeDamage 0
+Accuracy 1
+MinAccuracy 14
+AimingSpreadConstant 0.8
+AimTimeConstant 0.68
+ShootDelay 5
+DistortSound False
+ShootSound striker_f
+//ReloadSound m4super90_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 23
+AllowNumBulletsByBulletType True
+AllowSpreadByBullet True
+Scope None
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+
+Texture M4Super90
+Model BFMCpack.M1014
+ModelScale 1.15
+
+3rdModel ransya.M870
+3rdModelScale 0.3
+3rdTexture 3rd/M870
+
+AllowAllAttachments true
+AllowAttachments
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 0
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash2
+UseCircleCrosshair true
+CanAIUse false

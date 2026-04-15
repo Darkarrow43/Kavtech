@@ -1,0 +1,23 @@
+Name Rifle Scope VZ[8x-14x]
+ShortName variablezoomus
+Icon RifleScopeVZ
+Description ¡ìa±¶ÂÊx8/x14
+Colour 255 255 255
+AttachmentType sights
+Silencer false
+MeleeDamageMultiplier 1.0
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilMultiplier 1.0
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+ZoomLevel 4
+FOVZoomLevel 2.0
+ZoomLevel2 7
+ZoomOverlay GUI\RifleScope
+Model BFMCpack.RifleScope
+Texture RifleScope
+ModelScale 1.0
+
+
+   

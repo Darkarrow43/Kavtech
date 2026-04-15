@@ -1,0 +1,66 @@
+DisplayName = UGM-109
+Type = ATMissile
+Power = 100
+Acceleration = 0.1
+Explosion = 15
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 100
+LockTime = 10
+ModeNum = 2
+Round =1
+reloadtime =100
+ModelBullet = BGM109
+Sound = missile_m28_snd
+RidableOnly = false
+Accuracy = 2
+
+
+
+DisableDestroyBlock=true
+NukeEffectOnly=true
+ExplosionType=hbmNT_Bomb
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = vehicle , 1.1
+DamageFactor = tank, 1.1
+
+ActiveRadar = true
+
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 115
+MaxLockOnAngle = 180
+LockMinHeight = 10
+EnableOffAxis = false
+MaxDegreeOfMissile = 35
+
+
+MaxAmmo = 20
+SuppliedNum = 2
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+
+ExplosionDamageVsLiving=1.5
+ExplosionDamageVsPlayer=1.5
+canBeIntercepted=true
+RidableOnly = true
+enableChunkLoader = true
+
+crosstype=8
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 0.5
+DamageFactor = ship, 1.1
+ExplosionDamageVsShip=5
+enableExhaustFlare=false
+turningFactor = 0.2
+disablesmoke=true

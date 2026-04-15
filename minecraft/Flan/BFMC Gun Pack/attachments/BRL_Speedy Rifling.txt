@@ -1,0 +1,19 @@
+Name Speedy Rifling
+ShortName speedyrifling
+Icon speedyrifling
+Description §a增加15%子弹速度_§c增加20%垂直后坐力
+Silencer false
+
+AttachmentType barrel
+MeleeDamageMultiplier 1.0
+MovementSpeedMultiplier 1.0
+RecoilMultiplier 1.2
+SpreadMultiplier 1.00
+ReloadTimeMultiplier 1.0
+BulletSpeedMultiplier 1.15
+ZoomLevel 1.0
+
+FOVZoomLevel 1.0
+ZoomOverlay None
+
+Model None

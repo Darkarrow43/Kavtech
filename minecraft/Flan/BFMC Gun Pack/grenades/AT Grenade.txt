@@ -1,0 +1,65 @@
+////Name and icon
+Name AT Grenade
+ShortName atgrenade
+Icon ATgrenade
+Description Fuse 5s
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 4
+////Visuals
+Model BFMCpack.ATGrenade
+Texture ATGrenade
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 300
+ExplodeParticleType large_smoke
+SmokeTime 10
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 15
+ThrowSound grenade
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.6
+HitEntityDamage 5
+ThrowSpeed 2.0
+FallSpeed 1.0
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.1
+Sticky false
+BounceSound bounce
+////Detonation conditions
+VehicleProximityTrigger 2.0
+LivingProximityTrigger -1.0
+Fuse 100
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 5.5
+ExplosionPower 0.85
+ExplosionDamageVsLiving 1
+ExplosionDamageVsPlayer 1
+ExplosionDamageVsVehicle 3
+ExplosionDamageVsPlane 3
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+DetonateSound hand_grenade
+////Misc
+MeleeDamage 2
+DebrisParticleCount 10
+FlashBang true
+FlashTime 1
+FlashRange 1
+FlashSoundEnable true
+FlashSoundRange 10
+FlashSound flash
+CanBeDestructByAPS true
+DistortSound false
+TeamThrowSound true

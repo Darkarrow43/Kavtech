@@ -1,0 +1,12 @@
+Name Specialist
+ShortName bundeswehrSG
+AddItem g36k
+AddItem r870
+AddItem p8
+AddItem claymore 2
+AddItem c4Remote 
+AddItem m18
+AddItem mpp12gauge 32
+AddItem 5564530 6
+AddItem m9Ammo 4
+SkinOverride WhiteGuyBrownStubble

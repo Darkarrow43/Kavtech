@@ -1,0 +1,57 @@
+////Name and icon
+Name 40mm PoisonGas
+ShortName 40mmpoisongas
+Icon 40mmPoisonGas
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 3
+////Visuals
+Model mw.RoundGrenade
+Texture gl5
+TrailParticles false
+//ExplodeParticles 3
+//ExplodeParticleType effect
+SmokeTime 130
+SmokeParticles spell
+//Syntax is SmokeEffect <ID> <Duration> <Amplifier>
+//IDs are 	1:MoveSpeed		2:MoveSlowdown		3:DigSpeed			4:DigSlowdown		5:DamageBoost	6:Heal			7:Harm		8:Jump			9:Confusion		10:Regeneration
+//			11:Resistance	12:FireResistance	13:WaterBreathing	14:Invisibility		15:Blindness	16:NightVision	17:Hunger	18:Weakness		19:Poison		20:Wither
+SmokeEffect 20 60 3
+SmokeEffect 17 60 2
+SmokeRadius 5
+SpinWhenThrown true
+////Throwing
+CanThrow false
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.6
+HitEntityDamage 20
+ThrowSpeed 5
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+////Detonation conditions
+VehicleProximityTrigger 1.0
+LivingProximityTrigger 2.0
+Fuse 65
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+DamageToTriggerer 5.0
+CanBeDestructByAPS true
+
+MaxSupplyClips 5

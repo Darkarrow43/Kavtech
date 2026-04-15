@@ -1,0 +1,68 @@
+Name AK-12U
+ShortName ak12u
+Description Type Carbine Rifle_Use 5.45x39mm Ammo
+//The ammo this gun uses (shortName)
+Ammo 545x3930rdmag
+Icon AK12U
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.0
+RecoilDistance 0.025
+RandomRecoilRange 0.2
+RandomRecoilYawRange 0.5
+DecreaseRecoil 1.0
+DecreaseRecoilYaw 1.25
+RecoilShakeDistance 0.3
+AimTimeConstant 0.6
+RunPosTime 3.5
+RunCrouchTime 3
+Damage 6.5
+MoveSpeedModifier 1.0
+Accuracy 0.5
+AimingSpreadConstant 0.5
+ShootDelay 2
+ShootSound ak74u_f
+ReloadSound ak74u_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+BulletSpeed 30
+
+Model BFMCpack.AK12U
+ModelScale 0.12
+Texture AK12U
+
+3rdModel ransya.AKS74U
+3rdModelScale 0.3
+3rdTexture 3rd/AKS74U
+
+UseGLTFAnimation true
+GLTFAnimation ak12 BFMCpack/animations/AK12.json
+UseLeftArmGLTFAnimation true
+RenderExtraAmmo true
+TacticalReloadGLTFAnimation ak12
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+Scope None
+ZoomLevel 1.00
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

@@ -1,0 +1,57 @@
+Name TYPE-56 SPIKE
+ShortName type56
+//The ammo this gun uses (shortName)
+Icon Type56
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 0
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 0
+//Damage in half hearts
+Damage 0
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 0
+//ShootSound DesertEagleShoot
+//ReloadSound lugerReload
+Mode SemiAuto
+Scope None
+FOVZoomLevel 1.0
+Deployable False
+DeployedModel None
+MeleeDamage 40
+//Model settings
+Model BFMCpack.Type56
+Texture Type56
+ModelScale 1.0
+//Modifiers
+MoveSpeedModifier 1.1
+KnockbackModifier 0.8
+//Custom melee animation and hits
+AddNode 0 0 0 0 0 -20
+AddNode 0 0 0 0 0 -40
+AddNode 0 0 0 0 0 -60
+AddNode 0 0 0 0 0 -80
+AddNode 0 0 0 0 0 -90
+AddNode 2 0 0 0 0 -90
+AddNode 5 0 0 0 -5 -90
+AddNode 10 0 0 0 -10 -90
+AddNode 5 0 0 0 -5 -90
+AddNode 2 0 0 0 -2 -90
+AddNode 0 0 0 0 0 -80
+AddNode 0 0 0 0 0 -60
+AddNode 0 0 0 0 0 -40
+AddNode 0 0 0 0 0 -20
+AddNode 0 0 0 0 0 0
+MeleeDamagePoint 0 25 0
+MeleeDamagePoint 0 18 0
+MeleeDamagePoint 0 13 0
+MeleeDamagePoint 0 6 0
+MeleeTime 15
+UseCustomMelee True
+HideCrosshair true
+CanAIUse false

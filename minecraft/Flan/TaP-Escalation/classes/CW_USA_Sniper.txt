@@ -1,0 +1,15 @@
+Name Sniper
+ShortName cwUSSniper
+AddItem m21
+AddItem m9
+
+AddItem m18
+AddItem battleRifle 6
+AddItem m9Ammo 4
+AddItem claymore
+AddItem c4Remote 1
+
+Hat boonieHatUSWood
+Chest us80s
+Legs pasgtvest
+SkinOverride WhiteGuyBlondStubble

@@ -1,0 +1,54 @@
+Name M40A5
+ShortName m40a5
+Model BFMCpack.M40A5
+ModelScale 0.05
+Texture M40A5
+Ammo 762x515rdmag
+Ammo 762x5110rdmag
+Ammo 762x51highlight5rdmag
+Ammo 762x51flash5rdmag
+Icon M40A5
+Colour 255 255 255
+Description Type Sniping Rifle_Use 7.62x51mm Ammo
+ReloadTime 70
+TacticalReloadTime 60
+Recoil 2
+RandomRecoilRange 0.5
+DecreaseRecoil 0.1
+RandomRecoilYawRange 1.5
+DecreaseRecoilYaw 2
+Damage 14
+RunPosTime 9.5
+RunCrouchTime 4
+Accuracy 1
+AimTimeConstant 0.62
+AimingSpreadConstant 0.0
+ShootDelay 24
+ShootSound m40a5_f
+ActionSound bolt_sniper
+ReloadSound awm_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+BulletSpeed 20
+Scope GUI\RifleScope
+ZoomLevel 2.0
+FOVZoomLevel 4.0
+
+UseGLTFAnimation true
+GLTFAnimation sr_reload_1 BFMCpack/animations/SR_Reload_1.json
+
+Deployable False
+DeployedModel None
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CancelAimingAfterShoot true

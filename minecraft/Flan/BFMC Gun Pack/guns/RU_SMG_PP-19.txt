@@ -1,0 +1,71 @@
+Name PP-19
+ShortName pp19
+//The ammo this gun uses (shortName)
+Ammo 9x1950rddrum
+Icon PP19
+Description Type Submachine Gun_Use 9x19mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+TacticalReloadTime 45
+Recoil 2
+RandomRecoilRange 0.1
+RandomRecoilYawRange 0.4
+DecreaseRecoil 1
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.3
+//Damage in half hearts
+Damage 6
+//The higher this value, the more the bullets spread
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0.75
+RunPosTime 3.5
+RunCrouchTime 3
+//Time in ticks between rounds
+RoundsPerMin 680
+ShootSound pp19_f
+ReloadSound pp19_r
+ReloadSoundRange 5
+GunSoundRange 100
+AimTimeConstant 0.53
+EmptyClickSound emptyclick
+Mode FullAuto SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 28
+MoveSpeedModifier 1.0
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.PP19
+ModelScale 1.2
+Texture PP19
+
+3rdModel ransya.AK74
+3rdModelScale 0.3
+3rdTexture 3rd/AK74M
+
+UseGLTFAnimation true
+GLTFAnimation smg_reload_3 BFMCpack/animations/SMG_Reload_3.json
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments true
+AllowGripAttachments false
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+MoveSpeedModifier 1
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

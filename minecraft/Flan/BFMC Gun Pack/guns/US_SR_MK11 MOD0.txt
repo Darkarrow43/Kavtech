@@ -1,0 +1,74 @@
+Name MK11 MOD0
+ShortName mk11mod0
+//The ammo this gun uses (shortName)
+Ammo 762x5120rdmag
+Icon MK11MOD0
+Description Type Designated Marksman Rifle_Use 7.62x51mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+TacticalReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1000
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.009
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+//Damage in half hearts
+Damage 10.5
+RunPosTime 6.5
+RunCrouchTime 4
+//The higher this value, the more the bullets spread
+Accuracy 0.5
+AimingSpreadConstant 0.1
+AimTimeConstant 0.65
+//Time in ticks between rounds
+RoundsPerMin 270
+ShootSound mk11mod0_f
+ReloadSound mk20_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//Model settings
+Model BFMCpack.MK11MOD0
+ModelScale 1.15
+Texture MK11MOD0
+
+3rdModel ransya.M21
+3rdTexture 3rd/M21
+3rdModelScale 0.3
+
+BulletSpeed 26
+
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments false
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

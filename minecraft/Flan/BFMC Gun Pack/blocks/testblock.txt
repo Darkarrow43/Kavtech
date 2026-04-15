@@ -1,0 +1,10 @@
+Name TestBlock
+ShortName testblock
+//Icon Adrenaline
+Colour 255 255 255
+TopTexture test
+SideTexture test
+BottomTexture test
+Material iron
+Hardness 10
+Resistance 10

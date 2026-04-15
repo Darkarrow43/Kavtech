@@ -1,0 +1,15 @@
+Name Modified Choke
+ShortName modifiedchoke
+Icon ModifiedChoke
+Description §a减少20%散布_§c增加25%水平后坐力_§c增加25%垂直后坐力_§c增加15%跑射延迟_§f适配霰弹枪
+Silencer false
+AttachmentType barrel
+MeleeDamageMultiplier 1.0
+RecoilMultiplier 1.25
+RecoilYawMultiplier 1.25
+DamageMultiplier 1.0
+SpreadMultiplier 0.8
+ReloadTimeMultiplier 1.0
+RunPosTimeMultiplier 1.15
+Model svz.NoStock
+Texture none

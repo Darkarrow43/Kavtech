@@ -1,0 +1,70 @@
+Name QBU-88
+
+ShortName qbu88
+Icon QBU-88
+Ammo 58x4210rdmag
+Description Type Designated Marksman Rifle_Use 5.8x42mm Ammo
+Colour 255 255 255
+
+ReloadTime 55
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 800
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.009
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+Damage 10
+Spread 1
+RunPosTime 6
+RunCrouchTime 4
+AimingSpreadConstant 0.08
+AimTimeConstant 0.65
+RecoilOnCamera 0.05
+ShootDelay 3
+ShootSound qbu88_f
+ReloadSound qbu88_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+
+
+BulletSpeed 30
+Scope None
+Deployable False
+
+DeployedModel None
+
+Model BFMCpack.QBU88
+Texture QBU88
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+ModelScale 0.13
+
+3rdModel ransya.M21
+3rdTexture 3rd/M21
+3rdModelScale 0.3
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_2 BFMCpack/animations/AR_BP_Reload_2.json
+
+AllowAllAttachments true
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+AllowGadgetAttachments true
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

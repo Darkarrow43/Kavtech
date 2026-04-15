@@ -1,0 +1,13 @@
+Name Sniper
+ShortName bundeswehrSR
+AddItem G22
+AddItem p8
+AddItem g22Ammo 4
+AddItem m9Ammo 4
+AddItem claymore
+AddItem c4Remote 1
+Hat boonieHatFlecktarn
+Chest germanArmyFleck
+Legs idzVest
+Shoes eyePro
+SkinOverride WhiteGuyBrownStubble

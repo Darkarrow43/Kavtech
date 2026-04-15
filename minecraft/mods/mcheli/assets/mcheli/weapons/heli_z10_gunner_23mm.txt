@@ -1,0 +1,49 @@
+DisplayName = Type 23-L 23mm Cannon
+Type = MachineGun2
+Power = 9
+Acceleration = 20.0
+ModelBullet = 30mm
+Explosion = 1
+Flaming = false
+Sight = None
+Delay = 1
+ReloadTime = 45
+HeatCount = 6
+MaxHeatCount = 100
+Round = 20
+SoundVolume = 10
+SoundPitch = 1.0
+Sound = GSH_30_SND
+DamageFactor = tank, 2.5
+DamageFactor = plane, 3
+DamageFactor = heli, 3.5
+Accuracy = 2.5
+;ModeNum = 2
+Gravity = -0.01
+CameraRotationSpeedPitch = 0.4
+AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84
+AddMuzzleFlash      =   2.0,      0.30,        2,  150,254,219,184
+AddMuzzleFlashSmoke   = 2.2,  2,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke   = 3.2,  1,   3.0,  3.0,  5,  180,220,217,214
+
+MaxAmmo = 80
+SuppliedNum = 40
+Item =  2, iron_ingot
+Item =  2, gunpowder
+canBeIntercepted=false
+canBeIntercepted=false
+
+;≈⁄ ÷Œªcross_type0_9 :0 TVM£¨1 MISSILESTRIKE£¨2 rocket_arm£¨3 CannonSTRIKE£¨4 irm£¨5 arm£¨6 laserm£¨7 losm£¨8 SARH£¨9 cannonn
+;weapon_group_type: 0:SARH/MISSILESTRIKE;1:Cannon/SARH;2:Cannon/IRM;3:LASERM/CannonSTRIKE
+;4:Cannon/TVM;5:Cannon/TVM;6:Cannon/TVM;7:Cannon/TVM
+crosstype=9
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = ship, 2.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=true

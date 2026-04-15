@@ -1,0 +1,10 @@
+Name Rifleman
+ShortName mPLAassault
+AddItem qbz
+AddItem QSZ92
+AddItem m67 
+AddItem m18 1
+AddItem DBP87 5
+AddItem QSZAmmo 4
+AddItem mwMedKit 1
+SkinOverride Asian3

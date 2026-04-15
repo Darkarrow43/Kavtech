@@ -1,0 +1,13 @@
+Name Sniper
+ShortName mPLAreconM
+AddItem QBU88
+AddItem QSZ92
+AddItem m18 1
+AddItem QBUammo 6
+AddItem QSZAmmo 4
+AddItem claymore
+AddItem c4Remote 1
+SkinOverride Asian2
+Hat boonieHat07M
+Chest chinaModernBodyMarine
+Legs type06Vest

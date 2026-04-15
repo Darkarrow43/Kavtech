@@ -1,0 +1,44 @@
+Name DS-3 Decoy
+ShortName ds3decoy
+Icon DS3
+Colour 255 255 255
+StackSize 3
+Model BFMCpack.DS3Decoy
+Texture DS3Decoy
+TrailParticles false
+ExplodeParticles 0
+SmokeTime 5
+SmokeParticles magicCrit
+SmokeEffect 9 120 5
+SmokeRadius 1
+SpinWhenThrown true
+ThrowDelay 20
+ThrowSound Radio_Beacon_Deploy
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 20
+ThrowSpeed 1.5
+FallSpeed 1
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 0.1
+Sticky false
+VehicleProximityTrigger 2.0
+LivingProximityTrigger -2.0
+Fuse 600
+DetonateWhenShot true
+DetonateSound none
+Remote false
+//DespawnTime 170
+PrimeDelay 20
+FireRadius 0.0
+ExplosionRadius 1.8
+ExplosionDamageVsLiving 3
+ExplosionDamageVsPlayer 3
+ExplosionBreaksBlocks false
+MeleeDamage 2
+
+IsDecoy true
+DecoySound DS3
+DecoySoundRange 40
+DecoySoundDelay 80

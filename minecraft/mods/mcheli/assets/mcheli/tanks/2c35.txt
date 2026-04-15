@@ -1,0 +1,85 @@
+DisplayName = 2C35 "Coalition-SV"
+AddDisplayName = ru_Ru, 2С35 «Коалиция-СВ»
+MaxHp = 350
+Speed = 0.63
+Sound = msta_engine
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -30
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 1
+CameraPosition = 0.00,  4.5, 0.5, true
+EnableNightVision = true
+CameraRotationSpeed = 50
+FlareType = 10
+MaxFuel         = 1200
+FuelConsumption = 2.7
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+FlareType = 10
+ThirdPersonDist = 8
+
+SubmergedDamageHeight = 4
+
+AddTexture = CoalitsiaSV_1
+AddTexture = CoalitsiaSV_2
+AddTexture = CoalitsiaSV_3
+AddTexture = CoalitsiaSV_4
+AddTexture = CoalitsiaSV_5
+
+
+
+HUD = mlrs, mbt_gnr2
+
+MotionFactor = 0.925
+ArmorMinDamage = 14
+ArmorMaxDamage = 600
+ArmorDamageFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+WeightType = Tank
+
+SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
+
+AddSeat = 0.40,  0.73,  -0.41, true
+
+
+
+AddCrawlerTrack = true, 0.3, 2.0, -0.30/-1.44, -0.30/3.34, 0.25/4.0, 0.69/4.2, 0.95/3.85, 0.94/3.1, 0.94/-2.3, 0.94/-3.7, 0.94/-3.9, 0.53/-4.3, 0.11/-3.7, -0.30/-3.2, -0.30/-1.2  
+AddCrawlerTrack = true, 0.3, 2.0, -0.30/-1.44, -0.30/3.34, 0.25/4.0, 0.69/4.2, 0.95/3.85, 0.94/3.1, 0.94/-2.3, 0.94/-3.7, 0.94/-3.9, 0.53/-4.3, 0.11/-3.7, -0.30/-3.2, -0.30/-1.2 
+
+
+AddTrackRoller = 1.7970, 0.5623, -3.7515
+AddTrackRoller = 1.8025, 0.6278, 3.8025
+AddTrackRoller = -1.9753, 0.1646, -2.9486
+AddTrackRoller = -1.9753, 0.1646, -1.9074
+AddTrackRoller = -1.9753, 0.1646, -0.8257
+AddTrackRoller = -1.9753, 0.1646, 0.4309
+AddTrackRoller = -1.9753, 0.1646, 1.6265
+AddTrackRoller = -1.8403,  0.6278, 3.8025
+AddTrackRoller = -1.9753, 0.1646, 2.7234
+AddTrackRoller = 1.9753, 0.1646, 2.57
+AddTrackRoller = 1.9753, 0.1646, 1.39
+AddTrackRoller = 1.9753, 0.1646, 0.13
+AddTrackRoller = 1.9753, 0.1646, -0.95
+AddTrackRoller = 1.9753, 0.1646, -1.95
+AddTrackRoller = 1.9753, 0.1646, -2.94
+AddTrackRoller = -1.80, 0.5623, -3.75
+
+
+AddPartWeapon = c_2c35_of45 / 3-O-23, false, true, false,  0.0, 0.0, 0.0, 0
+AddPartWeaponChild = false, true, -0.04, 2.7, 0.9, 0.0
+AddPartWeaponChild = false, true, -0.04, 2.7, 0.9, 0.7
+AddTurretWeapon = c_2c35_of45, -0.03, 2.8, 1.7,  0.0, 0.0, true,1, 0,-360,360, -67, 5
+AddTurretWeapon = 3-O-23, -0.03, 2.8, 1.7,  0.0, 0.0, true,1, 0,-360,360, -67, 5
+
+BoundingBox =  0.0, 1, 3, 5, 2, 2.5, 0.7, DEFAULT, FRONT
+BoundingBox =  0.0, 1, -1.5, 5, 2, 6.5, 1, DEFAULT, CHASSIS
+BoundingBox =  0.0, 3, -1.5, 4.5, 2, 6, 1.2, DEFAULT, TURRET

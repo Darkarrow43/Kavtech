@@ -1,0 +1,70 @@
+Name Compact 45
+ShortName compact45
+//The ammo this gun uses (shortName)
+Ammo 45acp8rdmag
+Icon Compact45
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 40
+TacticalReloadTime 30
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+RandomRecoilRange 0.1
+DecreaseRecoil 1.0
+RandomRecoilYawRange 0.2
+DecreaseRecoilYaw 2
+RecoilShakeDistance 0.5
+NumBullets 1
+//Damage in half hearts
+Damage 7.5
+RunPosTime 2
+RunCrouchTime 2
+AimTimeConstant 0.45
+//The higher this value, the more the bullets spread
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0.5
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound compact45_f
+ReloadSound mk23_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+//Bullet speed, default 3.0
+BulletSpeed 20
+ZoomLevel 1.0
+FOVZoomLevel 1.2
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+//3D Model Settings
+ModelScale 0.05
+Model BFMCpack.Compact45
+Texture Compact45
+
+3rdModel ransya.G17
+3rdModelScale 0.2
+3rdTexture 3rd/G17
+
+UseGLTFAnimation true
+GLTFAnimation hg_reload_1 BFMCpack/animations/HG_Reload_1.json
+
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG svzSilencer
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 5
+MoveSpeedModifier 1.1
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

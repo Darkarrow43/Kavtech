@@ -1,0 +1,78 @@
+Name P90
+ShortName p90
+//The ammo this gun uses (shortName)
+Ammo 57x2850rdmag
+Icon P90
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+Description Type Submachine Gun_Use 5.7x28mm Ammo
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 90
+TacticalReloadTime 75
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+RecoilAngle 0
+RecoilDistance 0.05
+RandomRecoilRange 0.2
+RandomRecoilYawRange 0.4
+RecoilShakeDistance 0.5
+DecreaseRecoil 1
+DecreaseRecoilYaw 2
+Damage 5
+//The higher this value, the more the bullets spread
+Spread 0.5
+AimingSpreadConstant 0.95
+MinSpread 3.5
+
+RunPosTime 3.5
+RunCrouchTime 2
+AimingSpreadConstant 0.75
+AimTimeConstant 0.53
+
+//Time in ticks between rounds
+RoundsPerMin 1200
+ShootSound p90_f
+ReloadSound p90_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+OneHanded false
+Mode FullAuto SemiAuto Burst
+//Bullet speed, default 3.0
+BulletSpeed 26
+AimTimeConstant 0.62
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+
+Model BFMCpack.P90
+ModelScale 0.2
+Texture P90
+
+3rdModel ransya.MP7
+3rdModelScale 0.3
+3rdTexture 3rd/MP7
+
+UseGLTFAnimation true
+UseLeftArmGLTFAnimation true
+UseRightArmGLTFAnimation false
+GLTFAnimation p90 BFMCpack/animations/P90.json
+TacticalReloadGLTFAnimation p90
+
+AllowAllAttachments true
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowStockAttachments True
+AllowGripAttachments False
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments False
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

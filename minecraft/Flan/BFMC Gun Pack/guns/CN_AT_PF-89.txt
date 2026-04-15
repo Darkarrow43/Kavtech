@@ -1,0 +1,53 @@
+Name PF-89
+ShortName pf89
+//The ammo this gun uses (shortName)
+Ammo pf89rocket
+Icon PF89
+Description Type ATW_Use PF-89 Rocket
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 85
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 4
+RecoilAngle -10
+RecoilDistanceHipFire 0.5
+RunPosTime 12
+RunCrouchTime 4
+//Damage in half hearts
+Damage 1.0
+//The higher this value, the more the bullets spread
+Accuracy 0.30000000000000004
+AimingSpreadConstant 0
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound pf89_f
+ReloadSound mbtlaw_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 6.5
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope PF-89
+ZoomLevel 3
+FOVZoomLevel 1.0
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model BFMCpack.PF89
+ModelScale 0.2
+Texture PF89
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope
+AllowBarrelAttachments false
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+//Modifiers
+MoveSpeedModifier 0.75

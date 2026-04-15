@@ -1,0 +1,69 @@
+Name SVU-A
+ShortName svu
+//The ammo this gun uses (shortName)
+Ammo 762x5410rdmag
+Icon SVU
+Description Type Designated Marksman Rifle_Use 7.62x54mm Ammo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 70
+TacticalReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1000
+RandomRecoilRange 0.4
+DecreaseRecoil 1.5
+RandomRecoilYawRange 0.5
+//DecreaseRecoilYaw 3
+RecoilShakeDistance 0.8
+
+//后座回复
+CounterRecoilForce 0.009
+CounterRecoilForceSneaking 0.002
+RecoilSprintingMultiplier 1.0
+CounterRecoilForceSprinting 0.01
+
+Damage 10
+RunPosTime 7
+RunCrouchTime 5
+Accuracy 0.75
+SingleShootSpreadModifier 0.3
+AimingSpreadConstant 0.5
+AimTimeConstant 0.63
+ShootDelay 3
+ShootSound svu_f
+ReloadSound sks_r
+ReloadSoundRange 5
+GunSoundRange 100
+EmptyClickSound emptyclick
+Mode SemiAuto FullAuto
+BulletSpeed 26
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model Settings
+Texture SVUA
+//模型
+Model BFMCpack.SVUA
+ModelScale 1.0
+
+UseGLTFAnimation true
+GLTFAnimation ar_bp_reload_2 BFMCpack/animations/AR_BP_Reload_2.json
+
+//Attachment Settings
+AllowAllAttachments True
+AllowBarrelAttachments True
+AllowScopeAttachments True
+AllowGripAttachments True
+AllowGadgetAttachments True
+AllowSlideAttachments False
+AllowPumpAttachments True
+AllowAccessoryAttachments True
+NumGenericAttachmentSlots 3
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+FlashModel rainfire.GenericFlash
+FlashTexture effects/SkinGenericFlash

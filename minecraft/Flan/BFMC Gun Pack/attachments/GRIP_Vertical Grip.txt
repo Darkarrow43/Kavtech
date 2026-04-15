@@ -1,0 +1,20 @@
+Name Vertical Grip
+ShortName verticalgrip
+Icon foregripTD
+Description §a降低25%垂直后坐力_§c增加15%水平后坐力_§c增加10%跑射延迟_§a降低5%开镜速度
+AttachmentType grip
+Silencer false
+MeleeDamageMultiplier 1.0
+MovementSpeedMultiplier 0.95
+DamageMultiplier 1.0
+SpreadMultiplier 1.0
+RecoilYawMultiplier 1.15
+RecoilDistanceMultiplier 1.0
+RecoilMultiplier 0.85
+BulletSpeedMultiplier 1.0
+ReloadTimeMultiplier 1.0
+AimingTimeMultiplier 1.05
+RunPosTimeMultiplier 1.1
+Model BFMCpack.VerticalGrip
+Texture VerticalGrip
+ModelScale 0.1
