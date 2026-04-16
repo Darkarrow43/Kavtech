@@ -3,7 +3,7 @@ _version = 4
 [server]
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 64
 	#
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value.
@@ -12,7 +12,7 @@ _version = 4
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 1024
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
@@ -24,7 +24,7 @@ _version = 4
 	serverKey = ""
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 4096
+	maxGenerationRequestDistance = 1024
 	#
 	# When enabled, Distant Horizons will attempt to download missing LODs from the server.
 	# 
@@ -119,7 +119,7 @@ _version = 4
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 8
+		numberOfThreads = 3
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -139,11 +139,11 @@ _version = 4
 		#
 		# If enabled, the mod will log information about the renderer setup, cleanup, and any issues it may encounter. 
 		# This can be useful for debugging.
-		logRendererEventToFile = "INFO"
+		logRendererEventToFile = "WARN"
 		#
 		# If enabled, the mod will log information about the world generation process. 
 		# This can be useful for debugging.
-		logWorldGenEventToFile = "INFO"
+		logWorldGenEventToFile = "WARN"
 		#
 		# If enabled, the mod will log information about the renderer OpenGL process. 
 		# This can be useful for debugging.
@@ -154,15 +154,15 @@ _version = 4
 		#
 		# If enabled, the mod will log information about the world generation process. 
 		# This can be useful for debugging.
-		logWorldGenChunkLoadEventToFile = "INFO"
+		logWorldGenChunkLoadEventToFile = "WARN"
 		#
 		# If enabled, the mod will log information about the renderer OpenGL process. 
 		# This can be useful for debugging.
-		logRendererGLEventToFile = "INFO"
+		logRendererGLEventToFile = "WARN"
 		#
 		# If enabled, the mod will log information about network operations. 
 		# This can be useful for debugging.
-		logNetworkEventToFile = "INFO"
+		logNetworkEventToFile = "WARN"
 		#
 		# If enabled, config changes sent by the server will be logged.
 		logConnectionConfigChangesToFile = "WARN"
@@ -270,7 +270,7 @@ _version = 4
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 		#
 		# The center X chunk position that the world gen max radius is centered around.
 		generationCenterChunkX = 0
@@ -314,7 +314,7 @@ _version = 4
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
@@ -674,7 +674,7 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 128
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 

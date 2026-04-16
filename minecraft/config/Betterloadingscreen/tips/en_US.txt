@@ -5,7 +5,5 @@
 #The line below, including the "#" are 77 chars
 #Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
 #
-Dylan likes to eat big macs
-Dylan is big man
-Dylan likes to frolic in the fields
 Jesse waz here
+Dylan waz here
